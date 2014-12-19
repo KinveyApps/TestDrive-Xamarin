@@ -37,8 +37,8 @@ namespace AndroidTestDrive
 	{
 		int count = 1;
 
-		private string appKey = "kid_eV220fVYa9";
-		private string appSecret = "98b40ad7a65d4655859f2e7b1432e0a1";
+		private string appKey = "MY_APP_KEY";
+		private string appSecret = "MY_APP_SECRET";
 
 		private static string COLLECTION = "myCollection";
 		private static string STABLE_ID = "testdriver";
