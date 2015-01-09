@@ -124,6 +124,7 @@ class MonoPackageManager_Resources {
 		"System.Xml.XDocument.dll",
 		"System.Xml.XmlSerializer.dll",
 		"Microsoft.Threading.Tasks.dll",
+		"SQLite.Net.Async.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

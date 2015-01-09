@@ -55,3 +55,4 @@
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XDocument.dll
 /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/System.Xml.XmlSerializer.dll
 /Users/edward/code/klibs/Kinvey-Xamarin/Android-TestDrive/bin/Debug/Microsoft.Threading.Tasks.dll
+/Users/edward/code/klibs/Kinvey-Xamarin/Android-TestDrive/bin/Debug/SQLite.Net.Async.dll
