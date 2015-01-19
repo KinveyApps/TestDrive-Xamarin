@@ -87,30 +87,30 @@ namespace AndroidTestDrive
 
 			Button save = FindViewById<Button> (Resource.Id.saveButton);
 			save.Click += delegate {
-				new Thread (() =>
-					saveAndToast ()
-				).Start ();
+				//new Thread (() =>
+				saveAndToast ();
+				//).Start ();
 			};
 
 			Button load = FindViewById<Button> (Resource.Id.loadButton);
 			load.Click += delegate {
-				new Thread(() =>
-					loadAndToast()	
-				).Start();
+				//new Thread(() =>
+				loadAndToast()	;
+				//).Start();
 			};
 
 			Button loadCache = FindViewById<Button> (Resource.Id.loadWithCacheButton);
 			loadCache.Click += delegate {
-				new Thread(() =>
-					loadFromCacheAndToast()	
-				).Start();
+				//new Thread(() =>
+				loadFromCacheAndToast()	;
+				//).Start();
 			};
 
 			Button loadQuery = FindViewById<Button> (Resource.Id.loadWithQuery);
 			loadQuery.Click += delegate {
-				new Thread(() => 
-					loadFromQuery()
-				).Start();
+				//new Thread(() => 
+				loadFromQuery();
+				//).Start();
 			};
 
 
@@ -132,6 +132,7 @@ namespace AndroidTestDrive
 			entityCollection.setOffline(new SQLiteOfflineStore(), OfflinePolicy.LOCAL_FIRST);
 
 			MyEntity entity = await entityCollection.SaveAsync (ent);
+
 			Toast.MakeText (this, "saved: " + entity.Name, ToastLength.Short).Show ();
 		}
 
