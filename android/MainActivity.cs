@@ -29,6 +29,7 @@ using System.Linq;
 using LinqExtender;
 using System.Text;
 using KinveyUtils;
+using KinveyXamarinAndroid;
 
 namespace AndroidTestDrive
 {
@@ -61,6 +62,8 @@ namespace AndroidTestDrive
 				.build();
 
 			Logger.Log ("---------------------------------------------logger");
+
+			kinveyClient.Push ();
 
 			kinveyClient.Ping (new KinveyDelegate<PingResponse>{
 				onSuccess = (response) => {
@@ -155,7 +158,7 @@ namespace AndroidTestDrive
 		}
 
 
-		private void loadFromQuery(){
+		private async void loadFromQuery(){
 
 			AsyncAppData<MyEntity> query = kinveyClient.AppData<MyEntity>(COLLECTION, typeof(MyEntity));
 
@@ -164,8 +167,7 @@ namespace AndroidTestDrive
 			             where cust.Name == "James Dean"
 			             select cust;
 
-
-
+			
 			Task.Run (() => {
 				foreach (MyEntity e in query1){
 					Console.WriteLine("got -> " + e.Name);
