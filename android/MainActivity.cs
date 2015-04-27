@@ -30,18 +30,33 @@ using LinqExtender;
 using System.Text;
 using KinveyUtils;
 using KinveyXamarinAndroid;
+using Newtonsoft.Json.Linq;
 
 namespace AndroidTestDrive
 {
-	[Activity (Label = "Android-TestDrive", MainLauncher = true)]
+//	[Activity (Label = "Android-TestDrive", MainLauncher = true)]
+//	[IntentFilter (new[]{Intent.ActionView},
+//		Categories=new[]{Intent.CategoryDefault, Intent.CategoryBrowsable},
+//		DataScheme="kinveyauthdemo"
+//		)]
+
+//	<intent-filter>
+//	<action android:name="android.intent.action.VIEW" />
+//		<category android:name="android.intent.category.DEFAULT" />
+//		<category android:name="android.intent.category.BROWSABLE" />
+//		<data android:scheme="myredirecturi" />  <!-- This is the scheme which must be changed -->
+//		</intent-filter>
 	public class MainActivity : Activity
 	{
 		int count = 1;
 
-		private string appKey = "kid_eV220fVYa9";
-		private string appSecret = "98b40ad7a65d4655859f2e7b1432e0a1";
+		//private string appKey = "kid_PeYFqjBcBJ";
+		//private string appSecret = "3fee066a01784e2ab32a255151ff761b";
 
-		private static string COLLECTION = "myCollection";
+		private string appKey = "kid_WyYCSd34p";
+		private string appSecret = "22a381bca79c407cb0efc6585aaed53e";
+
+		private static string COLLECTION = "entityCollection";
 		private static string STABLE_ID = "testdriver";
 
 		Client kinveyClient;
@@ -57,18 +72,72 @@ namespace AndroidTestDrive
 
 			kinveyClient = new Client.Builder(appKey, appSecret)
 				.setFilePath(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal))
-				.setOfflinePlatform(new SQLitePlatformAndroid())
+				//.setOfflinePlatform(new SQLitePlatformAndroid())
 				.setLogger(delegate(string msg) { Console.WriteLine(msg);})
+				//.setBaseURL("https://v3yk1n-kcs.kinvey.com")
+				.SetProjectId("517053089453")
 				.build();
+
+			//kinveyClient.SetClientAppVersion (1, 2, 3);
+			//kinveyClient.SetCustomRequestProperty ("region", "FR");
+
+//			JObject headers = new JObject ();
+//			headers ["hello"] = "hey";
+//			kinveyClient.SetCustomRequestProperties(headers);
+//
+//			var h = kinveyClient.GetCustomRequestProperties ();
+//			h["what"] = 1;
+//	
 
 			Logger.Log ("---------------------------------------------logger");
 
-			kinveyClient.Push ();
 
-			kinveyClient.Ping (new KinveyDelegate<PingResponse>{
-				onSuccess = (response) => {
+
+
+
+//			kinveyClient.Ping (new KinveyDelegate<PingResponse>{
+//				onSuccess = (response) => {
+//					RunOnUiThread (() => {
+//						Toast.MakeText(this, "Ping successful!", ToastLength.Short).Show();
+//					});
+//				},
+//				onError = (error) => {
+//					RunOnUiThread (() => {
+//						Toast.MakeText(this, "something went wrong: " + error.Message, ToastLength.Short).Show();
+//					});
+//				}
+//			});
+
+			//User user = await kinveyClient.User ().LoginAsync ();
+
+
+
+//
+			kinveyClient.User().LoginWithAuthorizationCodeLoginPage("kinveyAuthDemo://", new KinveyMICDelegate<User>{
+
+				onSuccess = (user) => {
 					RunOnUiThread (() => {
-						Toast.MakeText(this, "Ping successful!", ToastLength.Short).Show();
+						Toast.MakeText(this, "logged in as: " + user.Id, ToastLength.Short).Show();
+					});
+				},
+				onError = (error) => {
+					RunOnUiThread (() => {
+						Toast.MakeText(this, "something went wrong: " + error.Message, ToastLength.Short).Show();
+					});
+				},
+				OnReadyToRender = (url) => {
+					var uri = Android.Net.Uri.Parse (url);
+					var intent = new Intent (Intent.ActionView, uri); 
+					StartActivity (intent);  
+				}
+			});
+
+//
+		kinveyClient.User().LoginWithAuthorizationCodeAPI("mjs", "demo", "kinveyAuthDemo://", new KinveyDelegate<User>{
+
+				onSuccess = (user) => {
+					RunOnUiThread (() => {
+						Toast.MakeText(this, "logged in as: " + user.Id, ToastLength.Short).Show();
 					});
 				},
 				onError = (error) => {
@@ -76,10 +145,14 @@ namespace AndroidTestDrive
 						Toast.MakeText(this, "something went wrong: " + error.Message, ToastLength.Short).Show();
 					});
 				}
-			});
 
-			User user = await kinveyClient.User ().LoginAsync ();
-			Toast.MakeText(this, "logged in as: " + user.Id, ToastLength.Short).Show();
+			});
+//
+
+//			Toast.MakeText(this, "logged in as: " + user.Id, ToastLength.Short).Show();
+
+			//kinveyClient.Push ().Initialize(this.ApplicationContext);
+
 
 			// Get our button from the layout resource,
 			// and attach an event to it
@@ -115,14 +188,7 @@ namespace AndroidTestDrive
 				loadFromQuery();
 				//).Start();
 			};
-
-
-
-
-
 		}
-
-
 
 		private async void saveAndToast(){
 		
@@ -132,16 +198,22 @@ namespace AndroidTestDrive
 			ent.Email = "test@tester.com";
 			ent.Name = "James Dean";
 			ent.ID = STABLE_ID;
-			entityCollection.setOffline(new SQLiteOfflineStore(), OfflinePolicy.LOCAL_FIRST);
+			//entityCollection.setOffline(new SQLiteOfflineStore(), OfflinePolicy.LOCAL_FIRST);
+			try{
+				MyEntity entity = await entityCollection.SaveAsync (ent);
+				Toast.MakeText (this, "saved: " + entity.Name, ToastLength.Short).Show ();
+			}catch(Exception e){
+				Toast.MakeText (this, "something went wrong; " + e.Message, ToastLength.Short).Show ();
+			}
 
-			MyEntity entity = await entityCollection.SaveAsync (ent);
 
-			Toast.MakeText (this, "saved: " + entity.Name, ToastLength.Short).Show ();
 		}
 
 		private async void loadAndToast(){
 			AsyncAppData<MyEntity> entityCollection = kinveyClient.AppData<MyEntity>(COLLECTION, typeof(MyEntity));
-			entityCollection.setOffline(new SQLiteOfflineStore(), OfflinePolicy.LOCAL_FIRST);
+			//entityCollection.setOffline(new SQLiteOfflineStore(), OfflinePolicy.LOCAL_FIRST);
+
+
 
 			MyEntity res = await entityCollection.GetEntityAsync (STABLE_ID);
 			Toast.MakeText(this, "got: " + res.Name, ToastLength.Short).Show();
@@ -162,7 +234,7 @@ namespace AndroidTestDrive
 
 			AsyncAppData<MyEntity> query = kinveyClient.AppData<MyEntity>(COLLECTION, typeof(MyEntity));
 
-			query.setOffline (new SQLiteOfflineStore(), OfflinePolicy.LOCAL_FIRST);
+		//	query.setOffline (new SQLiteOfflineStore(), OfflinePolicy.LOCAL_FIRST);
 			var query1 = from cust in query
 			             where cust.Name == "James Dean"
 			             select cust;
@@ -176,6 +248,12 @@ namespace AndroidTestDrive
 			});
 
 		}
+
+		protected override void OnNewIntent(Intent intent){
+			base.OnNewIntent (intent);
+			kinveyClient.User ().OnOAuthCallbackRecieved (intent);
+		}
+
 
 
 	}

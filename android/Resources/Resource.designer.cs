@@ -28,7 +28,1250 @@ namespace AndroidTestDrive
 		{
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::AndroidTestDrive.Resource.String.ApplicationName;
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::AndroidTestDrive.Resource.String.Hello;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_fade_in = global::AndroidTestDrive.Resource.Animation.abc_fade_in;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_fade_out = global::AndroidTestDrive.Resource.Animation.abc_fade_out;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_grow_fade_in_from_bottom = global::AndroidTestDrive.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::AndroidTestDrive.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_slide_in_bottom = global::AndroidTestDrive.Resource.Animation.abc_slide_in_bottom;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_slide_in_top = global::AndroidTestDrive.Resource.Animation.abc_slide_in_top;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_slide_out_bottom = global::AndroidTestDrive.Resource.Animation.abc_slide_out_bottom;
+			global::KinveyXamarinAndroid.Resource.Animation.abc_slide_out_top = global::AndroidTestDrive.Resource.Animation.abc_slide_out_top;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarDivider = global::AndroidTestDrive.Resource.Attribute.actionBarDivider;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarItemBackground = global::AndroidTestDrive.Resource.Attribute.actionBarItemBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarPopupTheme = global::AndroidTestDrive.Resource.Attribute.actionBarPopupTheme;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarSize = global::AndroidTestDrive.Resource.Attribute.actionBarSize;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarSplitStyle = global::AndroidTestDrive.Resource.Attribute.actionBarSplitStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarStyle = global::AndroidTestDrive.Resource.Attribute.actionBarStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarTabBarStyle = global::AndroidTestDrive.Resource.Attribute.actionBarTabBarStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarTabStyle = global::AndroidTestDrive.Resource.Attribute.actionBarTabStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarTabTextStyle = global::AndroidTestDrive.Resource.Attribute.actionBarTabTextStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarTheme = global::AndroidTestDrive.Resource.Attribute.actionBarTheme;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionBarWidgetTheme = global::AndroidTestDrive.Resource.Attribute.actionBarWidgetTheme;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionButtonStyle = global::AndroidTestDrive.Resource.Attribute.actionButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionDropDownStyle = global::AndroidTestDrive.Resource.Attribute.actionDropDownStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionLayout = global::AndroidTestDrive.Resource.Attribute.actionLayout;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionMenuTextAppearance = global::AndroidTestDrive.Resource.Attribute.actionMenuTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionMenuTextColor = global::AndroidTestDrive.Resource.Attribute.actionMenuTextColor;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeBackground = global::AndroidTestDrive.Resource.Attribute.actionModeBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeCloseButtonStyle = global::AndroidTestDrive.Resource.Attribute.actionModeCloseButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeCloseDrawable = global::AndroidTestDrive.Resource.Attribute.actionModeCloseDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeCopyDrawable = global::AndroidTestDrive.Resource.Attribute.actionModeCopyDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeCutDrawable = global::AndroidTestDrive.Resource.Attribute.actionModeCutDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeFindDrawable = global::AndroidTestDrive.Resource.Attribute.actionModeFindDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModePasteDrawable = global::AndroidTestDrive.Resource.Attribute.actionModePasteDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModePopupWindowStyle = global::AndroidTestDrive.Resource.Attribute.actionModePopupWindowStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeSelectAllDrawable = global::AndroidTestDrive.Resource.Attribute.actionModeSelectAllDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeShareDrawable = global::AndroidTestDrive.Resource.Attribute.actionModeShareDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeSplitBackground = global::AndroidTestDrive.Resource.Attribute.actionModeSplitBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeStyle = global::AndroidTestDrive.Resource.Attribute.actionModeStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionModeWebSearchDrawable = global::AndroidTestDrive.Resource.Attribute.actionModeWebSearchDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionOverflowButtonStyle = global::AndroidTestDrive.Resource.Attribute.actionOverflowButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionOverflowMenuStyle = global::AndroidTestDrive.Resource.Attribute.actionOverflowMenuStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionProviderClass = global::AndroidTestDrive.Resource.Attribute.actionProviderClass;
+			global::KinveyXamarinAndroid.Resource.Attribute.actionViewClass = global::AndroidTestDrive.Resource.Attribute.actionViewClass;
+			global::KinveyXamarinAndroid.Resource.Attribute.activityChooserViewStyle = global::AndroidTestDrive.Resource.Attribute.activityChooserViewStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.adSize = global::AndroidTestDrive.Resource.Attribute.adSize;
+			global::KinveyXamarinAndroid.Resource.Attribute.adSizes = global::AndroidTestDrive.Resource.Attribute.adSizes;
+			global::KinveyXamarinAndroid.Resource.Attribute.adUnitId = global::AndroidTestDrive.Resource.Attribute.adUnitId;
+			global::KinveyXamarinAndroid.Resource.Attribute.appTheme = global::AndroidTestDrive.Resource.Attribute.appTheme;
+			global::KinveyXamarinAndroid.Resource.Attribute.background = global::AndroidTestDrive.Resource.Attribute.background;
+			global::KinveyXamarinAndroid.Resource.Attribute.backgroundSplit = global::AndroidTestDrive.Resource.Attribute.backgroundSplit;
+			global::KinveyXamarinAndroid.Resource.Attribute.backgroundStacked = global::AndroidTestDrive.Resource.Attribute.backgroundStacked;
+			global::KinveyXamarinAndroid.Resource.Attribute.barSize = global::AndroidTestDrive.Resource.Attribute.barSize;
+			global::KinveyXamarinAndroid.Resource.Attribute.buttonBarButtonStyle = global::AndroidTestDrive.Resource.Attribute.buttonBarButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.buttonBarStyle = global::AndroidTestDrive.Resource.Attribute.buttonBarStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.buyButtonAppearance = global::AndroidTestDrive.Resource.Attribute.buyButtonAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.buyButtonHeight = global::AndroidTestDrive.Resource.Attribute.buyButtonHeight;
+			global::KinveyXamarinAndroid.Resource.Attribute.buyButtonText = global::AndroidTestDrive.Resource.Attribute.buyButtonText;
+			global::KinveyXamarinAndroid.Resource.Attribute.buyButtonWidth = global::AndroidTestDrive.Resource.Attribute.buyButtonWidth;
+			global::KinveyXamarinAndroid.Resource.Attribute.cameraBearing = global::AndroidTestDrive.Resource.Attribute.cameraBearing;
+			global::KinveyXamarinAndroid.Resource.Attribute.cameraTargetLat = global::AndroidTestDrive.Resource.Attribute.cameraTargetLat;
+			global::KinveyXamarinAndroid.Resource.Attribute.cameraTargetLng = global::AndroidTestDrive.Resource.Attribute.cameraTargetLng;
+			global::KinveyXamarinAndroid.Resource.Attribute.cameraTilt = global::AndroidTestDrive.Resource.Attribute.cameraTilt;
+			global::KinveyXamarinAndroid.Resource.Attribute.cameraZoom = global::AndroidTestDrive.Resource.Attribute.cameraZoom;
+			global::KinveyXamarinAndroid.Resource.Attribute.circleCrop = global::AndroidTestDrive.Resource.Attribute.circleCrop;
+			global::KinveyXamarinAndroid.Resource.Attribute.closeIcon = global::AndroidTestDrive.Resource.Attribute.closeIcon;
+			global::KinveyXamarinAndroid.Resource.Attribute.closeItemLayout = global::AndroidTestDrive.Resource.Attribute.closeItemLayout;
+			global::KinveyXamarinAndroid.Resource.Attribute.collapseContentDescription = global::AndroidTestDrive.Resource.Attribute.collapseContentDescription;
+			global::KinveyXamarinAndroid.Resource.Attribute.collapseIcon = global::AndroidTestDrive.Resource.Attribute.collapseIcon;
+			global::KinveyXamarinAndroid.Resource.Attribute.color = global::AndroidTestDrive.Resource.Attribute.color;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorAccent = global::AndroidTestDrive.Resource.Attribute.colorAccent;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorButtonNormal = global::AndroidTestDrive.Resource.Attribute.colorButtonNormal;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorControlActivated = global::AndroidTestDrive.Resource.Attribute.colorControlActivated;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorControlHighlight = global::AndroidTestDrive.Resource.Attribute.colorControlHighlight;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorControlNormal = global::AndroidTestDrive.Resource.Attribute.colorControlNormal;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorPrimary = global::AndroidTestDrive.Resource.Attribute.colorPrimary;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorPrimaryDark = global::AndroidTestDrive.Resource.Attribute.colorPrimaryDark;
+			global::KinveyXamarinAndroid.Resource.Attribute.colorSwitchThumbNormal = global::AndroidTestDrive.Resource.Attribute.colorSwitchThumbNormal;
+			global::KinveyXamarinAndroid.Resource.Attribute.commitIcon = global::AndroidTestDrive.Resource.Attribute.commitIcon;
+			global::KinveyXamarinAndroid.Resource.Attribute.contentInsetEnd = global::AndroidTestDrive.Resource.Attribute.contentInsetEnd;
+			global::KinveyXamarinAndroid.Resource.Attribute.contentInsetLeft = global::AndroidTestDrive.Resource.Attribute.contentInsetLeft;
+			global::KinveyXamarinAndroid.Resource.Attribute.contentInsetRight = global::AndroidTestDrive.Resource.Attribute.contentInsetRight;
+			global::KinveyXamarinAndroid.Resource.Attribute.contentInsetStart = global::AndroidTestDrive.Resource.Attribute.contentInsetStart;
+			global::KinveyXamarinAndroid.Resource.Attribute.customNavigationLayout = global::AndroidTestDrive.Resource.Attribute.customNavigationLayout;
+			global::KinveyXamarinAndroid.Resource.Attribute.disableChildrenWhenDisabled = global::AndroidTestDrive.Resource.Attribute.disableChildrenWhenDisabled;
+			global::KinveyXamarinAndroid.Resource.Attribute.displayOptions = global::AndroidTestDrive.Resource.Attribute.displayOptions;
+			global::KinveyXamarinAndroid.Resource.Attribute.divider = global::AndroidTestDrive.Resource.Attribute.divider;
+			global::KinveyXamarinAndroid.Resource.Attribute.dividerHorizontal = global::AndroidTestDrive.Resource.Attribute.dividerHorizontal;
+			global::KinveyXamarinAndroid.Resource.Attribute.dividerPadding = global::AndroidTestDrive.Resource.Attribute.dividerPadding;
+			global::KinveyXamarinAndroid.Resource.Attribute.dividerVertical = global::AndroidTestDrive.Resource.Attribute.dividerVertical;
+			global::KinveyXamarinAndroid.Resource.Attribute.drawableSize = global::AndroidTestDrive.Resource.Attribute.drawableSize;
+			global::KinveyXamarinAndroid.Resource.Attribute.drawerArrowStyle = global::AndroidTestDrive.Resource.Attribute.drawerArrowStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.dropDownListViewStyle = global::AndroidTestDrive.Resource.Attribute.dropDownListViewStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.dropdownListPreferredItemHeight = global::AndroidTestDrive.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::KinveyXamarinAndroid.Resource.Attribute.editTextBackground = global::AndroidTestDrive.Resource.Attribute.editTextBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.editTextColor = global::AndroidTestDrive.Resource.Attribute.editTextColor;
+			global::KinveyXamarinAndroid.Resource.Attribute.elevation = global::AndroidTestDrive.Resource.Attribute.elevation;
+			global::KinveyXamarinAndroid.Resource.Attribute.environment = global::AndroidTestDrive.Resource.Attribute.environment;
+			global::KinveyXamarinAndroid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::AndroidTestDrive.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.externalRouteEnabledDrawable = global::AndroidTestDrive.Resource.Attribute.externalRouteEnabledDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.fragmentMode = global::AndroidTestDrive.Resource.Attribute.fragmentMode;
+			global::KinveyXamarinAndroid.Resource.Attribute.fragmentStyle = global::AndroidTestDrive.Resource.Attribute.fragmentStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.gapBetweenBars = global::AndroidTestDrive.Resource.Attribute.gapBetweenBars;
+			global::KinveyXamarinAndroid.Resource.Attribute.goIcon = global::AndroidTestDrive.Resource.Attribute.goIcon;
+			global::KinveyXamarinAndroid.Resource.Attribute.height = global::AndroidTestDrive.Resource.Attribute.height;
+			global::KinveyXamarinAndroid.Resource.Attribute.hideOnContentScroll = global::AndroidTestDrive.Resource.Attribute.hideOnContentScroll;
+			global::KinveyXamarinAndroid.Resource.Attribute.homeAsUpIndicator = global::AndroidTestDrive.Resource.Attribute.homeAsUpIndicator;
+			global::KinveyXamarinAndroid.Resource.Attribute.homeLayout = global::AndroidTestDrive.Resource.Attribute.homeLayout;
+			global::KinveyXamarinAndroid.Resource.Attribute.icon = global::AndroidTestDrive.Resource.Attribute.icon;
+			global::KinveyXamarinAndroid.Resource.Attribute.iconifiedByDefault = global::AndroidTestDrive.Resource.Attribute.iconifiedByDefault;
+			global::KinveyXamarinAndroid.Resource.Attribute.imageAspectRatio = global::AndroidTestDrive.Resource.Attribute.imageAspectRatio;
+			global::KinveyXamarinAndroid.Resource.Attribute.imageAspectRatioAdjust = global::AndroidTestDrive.Resource.Attribute.imageAspectRatioAdjust;
+			global::KinveyXamarinAndroid.Resource.Attribute.indeterminateProgressStyle = global::AndroidTestDrive.Resource.Attribute.indeterminateProgressStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.initialActivityCount = global::AndroidTestDrive.Resource.Attribute.initialActivityCount;
+			global::KinveyXamarinAndroid.Resource.Attribute.isLightTheme = global::AndroidTestDrive.Resource.Attribute.isLightTheme;
+			global::KinveyXamarinAndroid.Resource.Attribute.itemPadding = global::AndroidTestDrive.Resource.Attribute.itemPadding;
+			global::KinveyXamarinAndroid.Resource.Attribute.layout = global::AndroidTestDrive.Resource.Attribute.layout;
+			global::KinveyXamarinAndroid.Resource.Attribute.listChoiceBackgroundIndicator = global::AndroidTestDrive.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::KinveyXamarinAndroid.Resource.Attribute.listPopupWindowStyle = global::AndroidTestDrive.Resource.Attribute.listPopupWindowStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.listPreferredItemHeight = global::AndroidTestDrive.Resource.Attribute.listPreferredItemHeight;
+			global::KinveyXamarinAndroid.Resource.Attribute.listPreferredItemHeightLarge = global::AndroidTestDrive.Resource.Attribute.listPreferredItemHeightLarge;
+			global::KinveyXamarinAndroid.Resource.Attribute.listPreferredItemHeightSmall = global::AndroidTestDrive.Resource.Attribute.listPreferredItemHeightSmall;
+			global::KinveyXamarinAndroid.Resource.Attribute.listPreferredItemPaddingLeft = global::AndroidTestDrive.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::KinveyXamarinAndroid.Resource.Attribute.listPreferredItemPaddingRight = global::AndroidTestDrive.Resource.Attribute.listPreferredItemPaddingRight;
+			global::KinveyXamarinAndroid.Resource.Attribute.liteMode = global::AndroidTestDrive.Resource.Attribute.liteMode;
+			global::KinveyXamarinAndroid.Resource.Attribute.logo = global::AndroidTestDrive.Resource.Attribute.logo;
+			global::KinveyXamarinAndroid.Resource.Attribute.mapType = global::AndroidTestDrive.Resource.Attribute.mapType;
+			global::KinveyXamarinAndroid.Resource.Attribute.maskedWalletDetailsBackground = global::AndroidTestDrive.Resource.Attribute.maskedWalletDetailsBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.maskedWalletDetailsButtonBackground = global::AndroidTestDrive.Resource.Attribute.maskedWalletDetailsButtonBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.maskedWalletDetailsButtonTextAppearance = global::AndroidTestDrive.Resource.Attribute.maskedWalletDetailsButtonTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.maskedWalletDetailsHeaderTextAppearance = global::AndroidTestDrive.Resource.Attribute.maskedWalletDetailsHeaderTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.maskedWalletDetailsLogoImageType = global::AndroidTestDrive.Resource.Attribute.maskedWalletDetailsLogoImageType;
+			global::KinveyXamarinAndroid.Resource.Attribute.maskedWalletDetailsLogoTextColor = global::AndroidTestDrive.Resource.Attribute.maskedWalletDetailsLogoTextColor;
+			global::KinveyXamarinAndroid.Resource.Attribute.maskedWalletDetailsTextAppearance = global::AndroidTestDrive.Resource.Attribute.maskedWalletDetailsTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.maxButtonHeight = global::AndroidTestDrive.Resource.Attribute.maxButtonHeight;
+			global::KinveyXamarinAndroid.Resource.Attribute.measureWithLargestChild = global::AndroidTestDrive.Resource.Attribute.measureWithLargestChild;
+			global::KinveyXamarinAndroid.Resource.Attribute.mediaRouteButtonStyle = global::AndroidTestDrive.Resource.Attribute.mediaRouteButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.mediaRouteConnectingDrawable = global::AndroidTestDrive.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.mediaRouteOffDrawable = global::AndroidTestDrive.Resource.Attribute.mediaRouteOffDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.mediaRouteOnDrawable = global::AndroidTestDrive.Resource.Attribute.mediaRouteOnDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.mediaRoutePauseDrawable = global::AndroidTestDrive.Resource.Attribute.mediaRoutePauseDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.mediaRoutePlayDrawable = global::AndroidTestDrive.Resource.Attribute.mediaRoutePlayDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.mediaRouteSettingsDrawable = global::AndroidTestDrive.Resource.Attribute.mediaRouteSettingsDrawable;
+			global::KinveyXamarinAndroid.Resource.Attribute.middleBarArrowSize = global::AndroidTestDrive.Resource.Attribute.middleBarArrowSize;
+			global::KinveyXamarinAndroid.Resource.Attribute.navigationContentDescription = global::AndroidTestDrive.Resource.Attribute.navigationContentDescription;
+			global::KinveyXamarinAndroid.Resource.Attribute.navigationIcon = global::AndroidTestDrive.Resource.Attribute.navigationIcon;
+			global::KinveyXamarinAndroid.Resource.Attribute.navigationMode = global::AndroidTestDrive.Resource.Attribute.navigationMode;
+			global::KinveyXamarinAndroid.Resource.Attribute.overlapAnchor = global::AndroidTestDrive.Resource.Attribute.overlapAnchor;
+			global::KinveyXamarinAndroid.Resource.Attribute.paddingEnd = global::AndroidTestDrive.Resource.Attribute.paddingEnd;
+			global::KinveyXamarinAndroid.Resource.Attribute.paddingStart = global::AndroidTestDrive.Resource.Attribute.paddingStart;
+			global::KinveyXamarinAndroid.Resource.Attribute.panelBackground = global::AndroidTestDrive.Resource.Attribute.panelBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.panelMenuListTheme = global::AndroidTestDrive.Resource.Attribute.panelMenuListTheme;
+			global::KinveyXamarinAndroid.Resource.Attribute.panelMenuListWidth = global::AndroidTestDrive.Resource.Attribute.panelMenuListWidth;
+			global::KinveyXamarinAndroid.Resource.Attribute.popupMenuStyle = global::AndroidTestDrive.Resource.Attribute.popupMenuStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.popupPromptView = global::AndroidTestDrive.Resource.Attribute.popupPromptView;
+			global::KinveyXamarinAndroid.Resource.Attribute.popupTheme = global::AndroidTestDrive.Resource.Attribute.popupTheme;
+			global::KinveyXamarinAndroid.Resource.Attribute.popupWindowStyle = global::AndroidTestDrive.Resource.Attribute.popupWindowStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.preserveIconSpacing = global::AndroidTestDrive.Resource.Attribute.preserveIconSpacing;
+			global::KinveyXamarinAndroid.Resource.Attribute.progressBarPadding = global::AndroidTestDrive.Resource.Attribute.progressBarPadding;
+			global::KinveyXamarinAndroid.Resource.Attribute.progressBarStyle = global::AndroidTestDrive.Resource.Attribute.progressBarStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.prompt = global::AndroidTestDrive.Resource.Attribute.prompt;
+			global::KinveyXamarinAndroid.Resource.Attribute.queryBackground = global::AndroidTestDrive.Resource.Attribute.queryBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.queryHint = global::AndroidTestDrive.Resource.Attribute.queryHint;
+			global::KinveyXamarinAndroid.Resource.Attribute.searchIcon = global::AndroidTestDrive.Resource.Attribute.searchIcon;
+			global::KinveyXamarinAndroid.Resource.Attribute.searchViewStyle = global::AndroidTestDrive.Resource.Attribute.searchViewStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.selectableItemBackground = global::AndroidTestDrive.Resource.Attribute.selectableItemBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.selectableItemBackgroundBorderless = global::AndroidTestDrive.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::KinveyXamarinAndroid.Resource.Attribute.showAsAction = global::AndroidTestDrive.Resource.Attribute.showAsAction;
+			global::KinveyXamarinAndroid.Resource.Attribute.showDividers = global::AndroidTestDrive.Resource.Attribute.showDividers;
+			global::KinveyXamarinAndroid.Resource.Attribute.showText = global::AndroidTestDrive.Resource.Attribute.showText;
+			global::KinveyXamarinAndroid.Resource.Attribute.spinBars = global::AndroidTestDrive.Resource.Attribute.spinBars;
+			global::KinveyXamarinAndroid.Resource.Attribute.spinnerDropDownItemStyle = global::AndroidTestDrive.Resource.Attribute.spinnerDropDownItemStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.spinnerMode = global::AndroidTestDrive.Resource.Attribute.spinnerMode;
+			global::KinveyXamarinAndroid.Resource.Attribute.spinnerStyle = global::AndroidTestDrive.Resource.Attribute.spinnerStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.splitTrack = global::AndroidTestDrive.Resource.Attribute.splitTrack;
+			global::KinveyXamarinAndroid.Resource.Attribute.state_above_anchor = global::AndroidTestDrive.Resource.Attribute.state_above_anchor;
+			global::KinveyXamarinAndroid.Resource.Attribute.submitBackground = global::AndroidTestDrive.Resource.Attribute.submitBackground;
+			global::KinveyXamarinAndroid.Resource.Attribute.subtitle = global::AndroidTestDrive.Resource.Attribute.subtitle;
+			global::KinveyXamarinAndroid.Resource.Attribute.subtitleTextAppearance = global::AndroidTestDrive.Resource.Attribute.subtitleTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.subtitleTextStyle = global::AndroidTestDrive.Resource.Attribute.subtitleTextStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.suggestionRowLayout = global::AndroidTestDrive.Resource.Attribute.suggestionRowLayout;
+			global::KinveyXamarinAndroid.Resource.Attribute.switchMinWidth = global::AndroidTestDrive.Resource.Attribute.switchMinWidth;
+			global::KinveyXamarinAndroid.Resource.Attribute.switchPadding = global::AndroidTestDrive.Resource.Attribute.switchPadding;
+			global::KinveyXamarinAndroid.Resource.Attribute.switchStyle = global::AndroidTestDrive.Resource.Attribute.switchStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.switchTextAppearance = global::AndroidTestDrive.Resource.Attribute.switchTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.textAllCaps = global::AndroidTestDrive.Resource.Attribute.textAllCaps;
+			global::KinveyXamarinAndroid.Resource.Attribute.textAppearanceLargePopupMenu = global::AndroidTestDrive.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::KinveyXamarinAndroid.Resource.Attribute.textAppearanceListItem = global::AndroidTestDrive.Resource.Attribute.textAppearanceListItem;
+			global::KinveyXamarinAndroid.Resource.Attribute.textAppearanceListItemSmall = global::AndroidTestDrive.Resource.Attribute.textAppearanceListItemSmall;
+			global::KinveyXamarinAndroid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::AndroidTestDrive.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::KinveyXamarinAndroid.Resource.Attribute.textAppearanceSearchResultTitle = global::AndroidTestDrive.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::KinveyXamarinAndroid.Resource.Attribute.textAppearanceSmallPopupMenu = global::AndroidTestDrive.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::KinveyXamarinAndroid.Resource.Attribute.textColorSearchUrl = global::AndroidTestDrive.Resource.Attribute.textColorSearchUrl;
+			global::KinveyXamarinAndroid.Resource.Attribute.theme = global::AndroidTestDrive.Resource.Attribute.theme;
+			global::KinveyXamarinAndroid.Resource.Attribute.thickness = global::AndroidTestDrive.Resource.Attribute.thickness;
+			global::KinveyXamarinAndroid.Resource.Attribute.thumbTextPadding = global::AndroidTestDrive.Resource.Attribute.thumbTextPadding;
+			global::KinveyXamarinAndroid.Resource.Attribute.title = global::AndroidTestDrive.Resource.Attribute.title;
+			global::KinveyXamarinAndroid.Resource.Attribute.titleMarginBottom = global::AndroidTestDrive.Resource.Attribute.titleMarginBottom;
+			global::KinveyXamarinAndroid.Resource.Attribute.titleMarginEnd = global::AndroidTestDrive.Resource.Attribute.titleMarginEnd;
+			global::KinveyXamarinAndroid.Resource.Attribute.titleMarginStart = global::AndroidTestDrive.Resource.Attribute.titleMarginStart;
+			global::KinveyXamarinAndroid.Resource.Attribute.titleMarginTop = global::AndroidTestDrive.Resource.Attribute.titleMarginTop;
+			global::KinveyXamarinAndroid.Resource.Attribute.titleMargins = global::AndroidTestDrive.Resource.Attribute.titleMargins;
+			global::KinveyXamarinAndroid.Resource.Attribute.titleTextAppearance = global::AndroidTestDrive.Resource.Attribute.titleTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Attribute.titleTextStyle = global::AndroidTestDrive.Resource.Attribute.titleTextStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.toolbarNavigationButtonStyle = global::AndroidTestDrive.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.toolbarStyle = global::AndroidTestDrive.Resource.Attribute.toolbarStyle;
+			global::KinveyXamarinAndroid.Resource.Attribute.topBottomBarArrowSize = global::AndroidTestDrive.Resource.Attribute.topBottomBarArrowSize;
+			global::KinveyXamarinAndroid.Resource.Attribute.track = global::AndroidTestDrive.Resource.Attribute.track;
+			global::KinveyXamarinAndroid.Resource.Attribute.uiCompass = global::AndroidTestDrive.Resource.Attribute.uiCompass;
+			global::KinveyXamarinAndroid.Resource.Attribute.uiMapToolbar = global::AndroidTestDrive.Resource.Attribute.uiMapToolbar;
+			global::KinveyXamarinAndroid.Resource.Attribute.uiRotateGestures = global::AndroidTestDrive.Resource.Attribute.uiRotateGestures;
+			global::KinveyXamarinAndroid.Resource.Attribute.uiScrollGestures = global::AndroidTestDrive.Resource.Attribute.uiScrollGestures;
+			global::KinveyXamarinAndroid.Resource.Attribute.uiTiltGestures = global::AndroidTestDrive.Resource.Attribute.uiTiltGestures;
+			global::KinveyXamarinAndroid.Resource.Attribute.uiZoomControls = global::AndroidTestDrive.Resource.Attribute.uiZoomControls;
+			global::KinveyXamarinAndroid.Resource.Attribute.uiZoomGestures = global::AndroidTestDrive.Resource.Attribute.uiZoomGestures;
+			global::KinveyXamarinAndroid.Resource.Attribute.useViewLifecycle = global::AndroidTestDrive.Resource.Attribute.useViewLifecycle;
+			global::KinveyXamarinAndroid.Resource.Attribute.voiceIcon = global::AndroidTestDrive.Resource.Attribute.voiceIcon;
+			global::KinveyXamarinAndroid.Resource.Attribute.windowActionBar = global::AndroidTestDrive.Resource.Attribute.windowActionBar;
+			global::KinveyXamarinAndroid.Resource.Attribute.windowActionBarOverlay = global::AndroidTestDrive.Resource.Attribute.windowActionBarOverlay;
+			global::KinveyXamarinAndroid.Resource.Attribute.windowActionModeOverlay = global::AndroidTestDrive.Resource.Attribute.windowActionModeOverlay;
+			global::KinveyXamarinAndroid.Resource.Attribute.windowFixedHeightMajor = global::AndroidTestDrive.Resource.Attribute.windowFixedHeightMajor;
+			global::KinveyXamarinAndroid.Resource.Attribute.windowFixedHeightMinor = global::AndroidTestDrive.Resource.Attribute.windowFixedHeightMinor;
+			global::KinveyXamarinAndroid.Resource.Attribute.windowFixedWidthMajor = global::AndroidTestDrive.Resource.Attribute.windowFixedWidthMajor;
+			global::KinveyXamarinAndroid.Resource.Attribute.windowFixedWidthMinor = global::AndroidTestDrive.Resource.Attribute.windowFixedWidthMinor;
+			global::KinveyXamarinAndroid.Resource.Attribute.zOrderOnTop = global::AndroidTestDrive.Resource.Attribute.zOrderOnTop;
+			global::KinveyXamarinAndroid.Resource.Boolean.abc_action_bar_embed_tabs = global::AndroidTestDrive.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::KinveyXamarinAndroid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::AndroidTestDrive.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::KinveyXamarinAndroid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::AndroidTestDrive.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::KinveyXamarinAndroid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::AndroidTestDrive.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::KinveyXamarinAndroid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::AndroidTestDrive.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::KinveyXamarinAndroid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::AndroidTestDrive.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::KinveyXamarinAndroid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::AndroidTestDrive.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.abc_background_cache_hint_selector_material_light = global::AndroidTestDrive.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.abc_input_method_navigation_guard = global::AndroidTestDrive.Resource.Color.abc_input_method_navigation_guard;
+			global::KinveyXamarinAndroid.Resource.Color.abc_primary_text_disable_only_material_dark = global::AndroidTestDrive.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.abc_primary_text_disable_only_material_light = global::AndroidTestDrive.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.abc_primary_text_material_dark = global::AndroidTestDrive.Resource.Color.abc_primary_text_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.abc_primary_text_material_light = global::AndroidTestDrive.Resource.Color.abc_primary_text_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.abc_search_url_text = global::AndroidTestDrive.Resource.Color.abc_search_url_text;
+			global::KinveyXamarinAndroid.Resource.Color.abc_search_url_text_normal = global::AndroidTestDrive.Resource.Color.abc_search_url_text_normal;
+			global::KinveyXamarinAndroid.Resource.Color.abc_search_url_text_pressed = global::AndroidTestDrive.Resource.Color.abc_search_url_text_pressed;
+			global::KinveyXamarinAndroid.Resource.Color.abc_search_url_text_selected = global::AndroidTestDrive.Resource.Color.abc_search_url_text_selected;
+			global::KinveyXamarinAndroid.Resource.Color.abc_secondary_text_material_dark = global::AndroidTestDrive.Resource.Color.abc_secondary_text_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.abc_secondary_text_material_light = global::AndroidTestDrive.Resource.Color.abc_secondary_text_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.accent_material_dark = global::AndroidTestDrive.Resource.Color.accent_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.accent_material_light = global::AndroidTestDrive.Resource.Color.accent_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.background_floating_material_dark = global::AndroidTestDrive.Resource.Color.background_floating_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.background_floating_material_light = global::AndroidTestDrive.Resource.Color.background_floating_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.background_material_dark = global::AndroidTestDrive.Resource.Color.background_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.background_material_light = global::AndroidTestDrive.Resource.Color.background_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.bright_foreground_disabled_material_dark = global::AndroidTestDrive.Resource.Color.bright_foreground_disabled_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.bright_foreground_disabled_material_light = global::AndroidTestDrive.Resource.Color.bright_foreground_disabled_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.bright_foreground_inverse_material_dark = global::AndroidTestDrive.Resource.Color.bright_foreground_inverse_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.bright_foreground_inverse_material_light = global::AndroidTestDrive.Resource.Color.bright_foreground_inverse_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.bright_foreground_material_dark = global::AndroidTestDrive.Resource.Color.bright_foreground_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.bright_foreground_material_light = global::AndroidTestDrive.Resource.Color.bright_foreground_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.button_material_dark = global::AndroidTestDrive.Resource.Color.button_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.button_material_light = global::AndroidTestDrive.Resource.Color.button_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.common_action_bar_splitter = global::AndroidTestDrive.Resource.Color.common_action_bar_splitter;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_dark_text_default = global::AndroidTestDrive.Resource.Color.common_signin_btn_dark_text_default;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_dark_text_disabled = global::AndroidTestDrive.Resource.Color.common_signin_btn_dark_text_disabled;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_dark_text_focused = global::AndroidTestDrive.Resource.Color.common_signin_btn_dark_text_focused;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_dark_text_pressed = global::AndroidTestDrive.Resource.Color.common_signin_btn_dark_text_pressed;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_default_background = global::AndroidTestDrive.Resource.Color.common_signin_btn_default_background;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_light_text_default = global::AndroidTestDrive.Resource.Color.common_signin_btn_light_text_default;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_light_text_disabled = global::AndroidTestDrive.Resource.Color.common_signin_btn_light_text_disabled;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_light_text_focused = global::AndroidTestDrive.Resource.Color.common_signin_btn_light_text_focused;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_light_text_pressed = global::AndroidTestDrive.Resource.Color.common_signin_btn_light_text_pressed;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_text_dark = global::AndroidTestDrive.Resource.Color.common_signin_btn_text_dark;
+			global::KinveyXamarinAndroid.Resource.Color.common_signin_btn_text_light = global::AndroidTestDrive.Resource.Color.common_signin_btn_text_light;
+			global::KinveyXamarinAndroid.Resource.Color.dim_foreground_disabled_material_dark = global::AndroidTestDrive.Resource.Color.dim_foreground_disabled_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.dim_foreground_disabled_material_light = global::AndroidTestDrive.Resource.Color.dim_foreground_disabled_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.dim_foreground_material_dark = global::AndroidTestDrive.Resource.Color.dim_foreground_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.dim_foreground_material_light = global::AndroidTestDrive.Resource.Color.dim_foreground_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.highlighted_text_material_dark = global::AndroidTestDrive.Resource.Color.highlighted_text_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.highlighted_text_material_light = global::AndroidTestDrive.Resource.Color.highlighted_text_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.hint_foreground_material_dark = global::AndroidTestDrive.Resource.Color.hint_foreground_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.hint_foreground_material_light = global::AndroidTestDrive.Resource.Color.hint_foreground_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.link_text_material_dark = global::AndroidTestDrive.Resource.Color.link_text_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.link_text_material_light = global::AndroidTestDrive.Resource.Color.link_text_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.material_blue_grey_800 = global::AndroidTestDrive.Resource.Color.material_blue_grey_800;
+			global::KinveyXamarinAndroid.Resource.Color.material_blue_grey_900 = global::AndroidTestDrive.Resource.Color.material_blue_grey_900;
+			global::KinveyXamarinAndroid.Resource.Color.material_blue_grey_950 = global::AndroidTestDrive.Resource.Color.material_blue_grey_950;
+			global::KinveyXamarinAndroid.Resource.Color.material_deep_teal_200 = global::AndroidTestDrive.Resource.Color.material_deep_teal_200;
+			global::KinveyXamarinAndroid.Resource.Color.material_deep_teal_500 = global::AndroidTestDrive.Resource.Color.material_deep_teal_500;
+			global::KinveyXamarinAndroid.Resource.Color.primary_dark_material_dark = global::AndroidTestDrive.Resource.Color.primary_dark_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.primary_dark_material_light = global::AndroidTestDrive.Resource.Color.primary_dark_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.primary_material_dark = global::AndroidTestDrive.Resource.Color.primary_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.primary_material_light = global::AndroidTestDrive.Resource.Color.primary_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.primary_text_default_material_dark = global::AndroidTestDrive.Resource.Color.primary_text_default_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.primary_text_default_material_light = global::AndroidTestDrive.Resource.Color.primary_text_default_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.primary_text_disabled_material_dark = global::AndroidTestDrive.Resource.Color.primary_text_disabled_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.primary_text_disabled_material_light = global::AndroidTestDrive.Resource.Color.primary_text_disabled_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.ripple_material_dark = global::AndroidTestDrive.Resource.Color.ripple_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.ripple_material_light = global::AndroidTestDrive.Resource.Color.ripple_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.secondary_text_default_material_dark = global::AndroidTestDrive.Resource.Color.secondary_text_default_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.secondary_text_default_material_light = global::AndroidTestDrive.Resource.Color.secondary_text_default_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.secondary_text_disabled_material_dark = global::AndroidTestDrive.Resource.Color.secondary_text_disabled_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.secondary_text_disabled_material_light = global::AndroidTestDrive.Resource.Color.secondary_text_disabled_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.switch_thumb_normal_material_dark = global::AndroidTestDrive.Resource.Color.switch_thumb_normal_material_dark;
+			global::KinveyXamarinAndroid.Resource.Color.switch_thumb_normal_material_light = global::AndroidTestDrive.Resource.Color.switch_thumb_normal_material_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_bright_foreground_disabled_holo_light = global::AndroidTestDrive.Resource.Color.wallet_bright_foreground_disabled_holo_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_bright_foreground_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_bright_foreground_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_bright_foreground_holo_light = global::AndroidTestDrive.Resource.Color.wallet_bright_foreground_holo_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_dim_foreground_disabled_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_dim_foreground_disabled_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_dim_foreground_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_dim_foreground_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_dim_foreground_inverse_disabled_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_dim_foreground_inverse_disabled_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_dim_foreground_inverse_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_dim_foreground_inverse_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_highlighted_text_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_highlighted_text_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_highlighted_text_holo_light = global::AndroidTestDrive.Resource.Color.wallet_highlighted_text_holo_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_hint_foreground_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_hint_foreground_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_hint_foreground_holo_light = global::AndroidTestDrive.Resource.Color.wallet_hint_foreground_holo_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_holo_blue_light = global::AndroidTestDrive.Resource.Color.wallet_holo_blue_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_link_text_light = global::AndroidTestDrive.Resource.Color.wallet_link_text_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_primary_text_holo_light = global::AndroidTestDrive.Resource.Color.wallet_primary_text_holo_light;
+			global::KinveyXamarinAndroid.Resource.Color.wallet_secondary_text_holo_dark = global::AndroidTestDrive.Resource.Color.wallet_secondary_text_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_default_height_material = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_default_height_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_default_padding_material = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_default_padding_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_progress_bar_size = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_stacked_max_height = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::AndroidTestDrive.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_button_min_height_material = global::AndroidTestDrive.Resource.Dimension.abc_action_button_min_height_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_button_min_width_material = global::AndroidTestDrive.Resource.Dimension.abc_action_button_min_width_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::AndroidTestDrive.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_button_inset_horizontal_material = global::AndroidTestDrive.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_button_inset_vertical_material = global::AndroidTestDrive.Resource.Dimension.abc_button_inset_vertical_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_button_padding_horizontal_material = global::AndroidTestDrive.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_button_padding_vertical_material = global::AndroidTestDrive.Resource.Dimension.abc_button_padding_vertical_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_config_prefDialogWidth = global::AndroidTestDrive.Resource.Dimension.abc_config_prefDialogWidth;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_control_corner_material = global::AndroidTestDrive.Resource.Dimension.abc_control_corner_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_control_inset_material = global::AndroidTestDrive.Resource.Dimension.abc_control_inset_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_control_padding_material = global::AndroidTestDrive.Resource.Dimension.abc_control_padding_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_dropdownitem_icon_width = global::AndroidTestDrive.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::AndroidTestDrive.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::AndroidTestDrive.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_panel_menu_list_width = global::AndroidTestDrive.Resource.Dimension.abc_panel_menu_list_width;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_search_view_preferred_width = global::AndroidTestDrive.Resource.Dimension.abc_search_view_preferred_width;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_search_view_text_min_width = global::AndroidTestDrive.Resource.Dimension.abc_search_view_text_min_width;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_body_1_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_body_1_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_body_2_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_body_2_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_button_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_button_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_caption_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_caption_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_display_1_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_display_1_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_display_2_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_display_2_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_display_3_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_display_3_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_display_4_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_display_4_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_headline_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_headline_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_large_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_large_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_medium_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_medium_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_menu_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_menu_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_small_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_small_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_subhead_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_subhead_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::AndroidTestDrive.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_title_material = global::AndroidTestDrive.Resource.Dimension.abc_text_size_title_material;
+			global::KinveyXamarinAndroid.Resource.Dimension.abc_text_size_title_material_toolbar = global::AndroidTestDrive.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::KinveyXamarinAndroid.Resource.Dimension.dialog_fixed_height_major = global::AndroidTestDrive.Resource.Dimension.dialog_fixed_height_major;
+			global::KinveyXamarinAndroid.Resource.Dimension.dialog_fixed_height_minor = global::AndroidTestDrive.Resource.Dimension.dialog_fixed_height_minor;
+			global::KinveyXamarinAndroid.Resource.Dimension.dialog_fixed_width_major = global::AndroidTestDrive.Resource.Dimension.dialog_fixed_width_major;
+			global::KinveyXamarinAndroid.Resource.Dimension.dialog_fixed_width_minor = global::AndroidTestDrive.Resource.Dimension.dialog_fixed_width_minor;
+			global::KinveyXamarinAndroid.Resource.Dimension.disabled_alpha_material_dark = global::AndroidTestDrive.Resource.Dimension.disabled_alpha_material_dark;
+			global::KinveyXamarinAndroid.Resource.Dimension.disabled_alpha_material_light = global::AndroidTestDrive.Resource.Dimension.disabled_alpha_material_light;
+			global::KinveyXamarinAndroid.Resource.Dimension.mr_media_route_controller_art_max_height = global::AndroidTestDrive.Resource.Dimension.mr_media_route_controller_art_max_height;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_check_material = global::AndroidTestDrive.Resource.Drawable.abc_btn_check_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::AndroidTestDrive.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::AndroidTestDrive.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_default_mtrl_shape = global::AndroidTestDrive.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_radio_material = global::AndroidTestDrive.Resource.Drawable.abc_btn_radio_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::AndroidTestDrive.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::AndroidTestDrive.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::AndroidTestDrive.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::AndroidTestDrive.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_cab_background_internal_bg = global::AndroidTestDrive.Resource.Drawable.abc_cab_background_internal_bg;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_cab_background_top_material = global::AndroidTestDrive.Resource.Drawable.abc_cab_background_top_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_edit_text_material = global::AndroidTestDrive.Resource.Drawable.abc_edit_text_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_item_background_holo_dark = global::AndroidTestDrive.Resource.Drawable.abc_item_background_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_item_background_holo_light = global::AndroidTestDrive.Resource.Drawable.abc_item_background_holo_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_focused_holo = global::AndroidTestDrive.Resource.Drawable.abc_list_focused_holo;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_longpressed_holo = global::AndroidTestDrive.Resource.Drawable.abc_list_longpressed_holo;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_pressed_holo_dark = global::AndroidTestDrive.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_pressed_holo_light = global::AndroidTestDrive.Resource.Drawable.abc_list_pressed_holo_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::AndroidTestDrive.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::AndroidTestDrive.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::AndroidTestDrive.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::AndroidTestDrive.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_selector_holo_dark = global::AndroidTestDrive.Resource.Drawable.abc_list_selector_holo_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_list_selector_holo_light = global::AndroidTestDrive.Resource.Drawable.abc_list_selector_holo_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::AndroidTestDrive.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_popup_background_mtrl_mult = global::AndroidTestDrive.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_ratingbar_full_material = global::AndroidTestDrive.Resource.Drawable.abc_ratingbar_full_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::AndroidTestDrive.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_spinner_textfield_background_material = global::AndroidTestDrive.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_switch_thumb_material = global::AndroidTestDrive.Resource.Drawable.abc_switch_thumb_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_tab_indicator_material = global::AndroidTestDrive.Resource.Drawable.abc_tab_indicator_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::AndroidTestDrive.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::KinveyXamarinAndroid.Resource.Drawable.abc_textfield_search_material = global::AndroidTestDrive.Resource.Drawable.abc_textfield_search_material;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_full_open_on_phone = global::AndroidTestDrive.Resource.Drawable.common_full_open_on_phone;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_ic_googleplayservices = global::AndroidTestDrive.Resource.Drawable.common_ic_googleplayservices;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_disabled_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_disabled_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_disabled_focus_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_disabled_focus_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_disabled_focus_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_disabled_focus_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_disabled_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_disabled_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_focus_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_focus_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_focus_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_focus_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_normal_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_normal_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_normal_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_normal_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_pressed_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_pressed_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_icon_pressed_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_icon_pressed_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_disabled_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_disabled_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_disabled_focus_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_disabled_focus_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_disabled_focus_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_disabled_focus_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_disabled_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_disabled_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_focus_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_focus_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_focus_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_focus_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_normal_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_normal_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_normal_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_normal_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_pressed_dark = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_pressed_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.common_signin_btn_text_pressed_light = global::AndroidTestDrive.Resource.Drawable.common_signin_btn_text_pressed_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_dark = global::AndroidTestDrive.Resource.Drawable.ic_cast_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_disabled_light = global::AndroidTestDrive.Resource.Drawable.ic_cast_disabled_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_light = global::AndroidTestDrive.Resource.Drawable.ic_cast_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_off_light = global::AndroidTestDrive.Resource.Drawable.ic_cast_off_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_on_0_light = global::AndroidTestDrive.Resource.Drawable.ic_cast_on_0_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_on_1_light = global::AndroidTestDrive.Resource.Drawable.ic_cast_on_1_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_on_2_light = global::AndroidTestDrive.Resource.Drawable.ic_cast_on_2_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_cast_on_light = global::AndroidTestDrive.Resource.Drawable.ic_cast_on_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_pause = global::AndroidTestDrive.Resource.Drawable.ic_media_pause;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_play = global::AndroidTestDrive.Resource.Drawable.ic_media_play;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_route_disabled_mono_dark = global::AndroidTestDrive.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_route_off_mono_dark = global::AndroidTestDrive.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_route_on_0_mono_dark = global::AndroidTestDrive.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_route_on_1_mono_dark = global::AndroidTestDrive.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_route_on_2_mono_dark = global::AndroidTestDrive.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_media_route_on_mono_dark = global::AndroidTestDrive.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_pause_dark = global::AndroidTestDrive.Resource.Drawable.ic_pause_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_pause_light = global::AndroidTestDrive.Resource.Drawable.ic_pause_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_play_dark = global::AndroidTestDrive.Resource.Drawable.ic_play_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_play_light = global::AndroidTestDrive.Resource.Drawable.ic_play_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_plusone_medium_off_client = global::AndroidTestDrive.Resource.Drawable.ic_plusone_medium_off_client;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_plusone_small_off_client = global::AndroidTestDrive.Resource.Drawable.ic_plusone_small_off_client;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_plusone_standard_off_client = global::AndroidTestDrive.Resource.Drawable.ic_plusone_standard_off_client;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_plusone_tall_off_client = global::AndroidTestDrive.Resource.Drawable.ic_plusone_tall_off_client;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_setting_dark = global::AndroidTestDrive.Resource.Drawable.ic_setting_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.ic_setting_light = global::AndroidTestDrive.Resource.Drawable.ic_setting_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_audio_vol = global::AndroidTestDrive.Resource.Drawable.mr_ic_audio_vol;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::AndroidTestDrive.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::AndroidTestDrive.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_media_route_mono_dark = global::AndroidTestDrive.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_media_route_mono_light = global::AndroidTestDrive.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_pause_dark = global::AndroidTestDrive.Resource.Drawable.mr_ic_pause_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_pause_light = global::AndroidTestDrive.Resource.Drawable.mr_ic_pause_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_play_dark = global::AndroidTestDrive.Resource.Drawable.mr_ic_play_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_play_light = global::AndroidTestDrive.Resource.Drawable.mr_ic_play_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_settings_dark = global::AndroidTestDrive.Resource.Drawable.mr_ic_settings_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.mr_ic_settings_light = global::AndroidTestDrive.Resource.Drawable.mr_ic_settings_light;
+			global::KinveyXamarinAndroid.Resource.Drawable.powered_by_google_dark = global::AndroidTestDrive.Resource.Drawable.powered_by_google_dark;
+			global::KinveyXamarinAndroid.Resource.Drawable.powered_by_google_light = global::AndroidTestDrive.Resource.Drawable.powered_by_google_light;
+			global::KinveyXamarinAndroid.Resource.Id.action_bar = global::AndroidTestDrive.Resource.Id.action_bar;
+			global::KinveyXamarinAndroid.Resource.Id.action_bar_activity_content = global::AndroidTestDrive.Resource.Id.action_bar_activity_content;
+			global::KinveyXamarinAndroid.Resource.Id.action_bar_container = global::AndroidTestDrive.Resource.Id.action_bar_container;
+			global::KinveyXamarinAndroid.Resource.Id.action_bar_root = global::AndroidTestDrive.Resource.Id.action_bar_root;
+			global::KinveyXamarinAndroid.Resource.Id.action_bar_spinner = global::AndroidTestDrive.Resource.Id.action_bar_spinner;
+			global::KinveyXamarinAndroid.Resource.Id.action_bar_subtitle = global::AndroidTestDrive.Resource.Id.action_bar_subtitle;
+			global::KinveyXamarinAndroid.Resource.Id.action_bar_title = global::AndroidTestDrive.Resource.Id.action_bar_title;
+			global::KinveyXamarinAndroid.Resource.Id.action_context_bar = global::AndroidTestDrive.Resource.Id.action_context_bar;
+			global::KinveyXamarinAndroid.Resource.Id.action_menu_divider = global::AndroidTestDrive.Resource.Id.action_menu_divider;
+			global::KinveyXamarinAndroid.Resource.Id.action_menu_presenter = global::AndroidTestDrive.Resource.Id.action_menu_presenter;
+			global::KinveyXamarinAndroid.Resource.Id.action_mode_bar = global::AndroidTestDrive.Resource.Id.action_mode_bar;
+			global::KinveyXamarinAndroid.Resource.Id.action_mode_bar_stub = global::AndroidTestDrive.Resource.Id.action_mode_bar_stub;
+			global::KinveyXamarinAndroid.Resource.Id.action_mode_close_button = global::AndroidTestDrive.Resource.Id.action_mode_close_button;
+			global::KinveyXamarinAndroid.Resource.Id.activity_chooser_view_content = global::AndroidTestDrive.Resource.Id.activity_chooser_view_content;
+			global::KinveyXamarinAndroid.Resource.Id.adjust_height = global::AndroidTestDrive.Resource.Id.adjust_height;
+			global::KinveyXamarinAndroid.Resource.Id.adjust_width = global::AndroidTestDrive.Resource.Id.adjust_width;
+			global::KinveyXamarinAndroid.Resource.Id.always = global::AndroidTestDrive.Resource.Id.always;
+			global::KinveyXamarinAndroid.Resource.Id.art = global::AndroidTestDrive.Resource.Id.art;
+			global::KinveyXamarinAndroid.Resource.Id.beginning = global::AndroidTestDrive.Resource.Id.beginning;
+			global::KinveyXamarinAndroid.Resource.Id.book_now = global::AndroidTestDrive.Resource.Id.book_now;
+			global::KinveyXamarinAndroid.Resource.Id.buttons = global::AndroidTestDrive.Resource.Id.buttons;
+			global::KinveyXamarinAndroid.Resource.Id.buyButton = global::AndroidTestDrive.Resource.Id.buyButton;
+			global::KinveyXamarinAndroid.Resource.Id.buy_now = global::AndroidTestDrive.Resource.Id.buy_now;
+			global::KinveyXamarinAndroid.Resource.Id.buy_with_google = global::AndroidTestDrive.Resource.Id.buy_with_google;
+			global::KinveyXamarinAndroid.Resource.Id.checkbox = global::AndroidTestDrive.Resource.Id.checkbox;
+			global::KinveyXamarinAndroid.Resource.Id.classic = global::AndroidTestDrive.Resource.Id.classic;
+			global::KinveyXamarinAndroid.Resource.Id.collapseActionView = global::AndroidTestDrive.Resource.Id.collapseActionView;
+			global::KinveyXamarinAndroid.Resource.Id.decor_content_parent = global::AndroidTestDrive.Resource.Id.decor_content_parent;
+			global::KinveyXamarinAndroid.Resource.Id.default_activity_button = global::AndroidTestDrive.Resource.Id.default_activity_button;
+			global::KinveyXamarinAndroid.Resource.Id.default_control_frame = global::AndroidTestDrive.Resource.Id.default_control_frame;
+			global::KinveyXamarinAndroid.Resource.Id.dialog = global::AndroidTestDrive.Resource.Id.dialog;
+			global::KinveyXamarinAndroid.Resource.Id.disableHome = global::AndroidTestDrive.Resource.Id.disableHome;
+			global::KinveyXamarinAndroid.Resource.Id.disconnect = global::AndroidTestDrive.Resource.Id.disconnect;
+			global::KinveyXamarinAndroid.Resource.Id.donate_with_google = global::AndroidTestDrive.Resource.Id.donate_with_google;
+			global::KinveyXamarinAndroid.Resource.Id.dropdown = global::AndroidTestDrive.Resource.Id.dropdown;
+			global::KinveyXamarinAndroid.Resource.Id.edit_query = global::AndroidTestDrive.Resource.Id.edit_query;
+			global::KinveyXamarinAndroid.Resource.Id.end = global::AndroidTestDrive.Resource.Id.end;
+			global::KinveyXamarinAndroid.Resource.Id.expand_activities_button = global::AndroidTestDrive.Resource.Id.expand_activities_button;
+			global::KinveyXamarinAndroid.Resource.Id.expanded_menu = global::AndroidTestDrive.Resource.Id.expanded_menu;
+			global::KinveyXamarinAndroid.Resource.Id.grayscale = global::AndroidTestDrive.Resource.Id.grayscale;
+			global::KinveyXamarinAndroid.Resource.Id.holo_dark = global::AndroidTestDrive.Resource.Id.holo_dark;
+			global::KinveyXamarinAndroid.Resource.Id.holo_light = global::AndroidTestDrive.Resource.Id.holo_light;
+			global::KinveyXamarinAndroid.Resource.Id.home = global::AndroidTestDrive.Resource.Id.home;
+			global::KinveyXamarinAndroid.Resource.Id.homeAsUp = global::AndroidTestDrive.Resource.Id.homeAsUp;
+			global::KinveyXamarinAndroid.Resource.Id.hybrid = global::AndroidTestDrive.Resource.Id.hybrid;
+			global::KinveyXamarinAndroid.Resource.Id.icon = global::AndroidTestDrive.Resource.Id.icon;
+			global::KinveyXamarinAndroid.Resource.Id.ifRoom = global::AndroidTestDrive.Resource.Id.ifRoom;
+			global::KinveyXamarinAndroid.Resource.Id.image = global::AndroidTestDrive.Resource.Id.image;
+			global::KinveyXamarinAndroid.Resource.Id.listMode = global::AndroidTestDrive.Resource.Id.listMode;
+			global::KinveyXamarinAndroid.Resource.Id.list_item = global::AndroidTestDrive.Resource.Id.list_item;
+			global::KinveyXamarinAndroid.Resource.Id.match_parent = global::AndroidTestDrive.Resource.Id.match_parent;
+			global::KinveyXamarinAndroid.Resource.Id.media_route_control_frame = global::AndroidTestDrive.Resource.Id.media_route_control_frame;
+			global::KinveyXamarinAndroid.Resource.Id.media_route_list = global::AndroidTestDrive.Resource.Id.media_route_list;
+			global::KinveyXamarinAndroid.Resource.Id.middle = global::AndroidTestDrive.Resource.Id.middle;
+			global::KinveyXamarinAndroid.Resource.Id.monochrome = global::AndroidTestDrive.Resource.Id.monochrome;
+			global::KinveyXamarinAndroid.Resource.Id.never = global::AndroidTestDrive.Resource.Id.never;
+			global::KinveyXamarinAndroid.Resource.Id.none = global::AndroidTestDrive.Resource.Id.none;
+			global::KinveyXamarinAndroid.Resource.Id.normal = global::AndroidTestDrive.Resource.Id.normal;
+			global::KinveyXamarinAndroid.Resource.Id.play_pause = global::AndroidTestDrive.Resource.Id.play_pause;
+			global::KinveyXamarinAndroid.Resource.Id.production = global::AndroidTestDrive.Resource.Id.production;
+			global::KinveyXamarinAndroid.Resource.Id.progress_circular = global::AndroidTestDrive.Resource.Id.progress_circular;
+			global::KinveyXamarinAndroid.Resource.Id.progress_horizontal = global::AndroidTestDrive.Resource.Id.progress_horizontal;
+			global::KinveyXamarinAndroid.Resource.Id.radio = global::AndroidTestDrive.Resource.Id.radio;
+			global::KinveyXamarinAndroid.Resource.Id.route_name = global::AndroidTestDrive.Resource.Id.route_name;
+			global::KinveyXamarinAndroid.Resource.Id.sandbox = global::AndroidTestDrive.Resource.Id.sandbox;
+			global::KinveyXamarinAndroid.Resource.Id.satellite = global::AndroidTestDrive.Resource.Id.satellite;
+			global::KinveyXamarinAndroid.Resource.Id.search_badge = global::AndroidTestDrive.Resource.Id.search_badge;
+			global::KinveyXamarinAndroid.Resource.Id.search_bar = global::AndroidTestDrive.Resource.Id.search_bar;
+			global::KinveyXamarinAndroid.Resource.Id.search_button = global::AndroidTestDrive.Resource.Id.search_button;
+			global::KinveyXamarinAndroid.Resource.Id.search_close_btn = global::AndroidTestDrive.Resource.Id.search_close_btn;
+			global::KinveyXamarinAndroid.Resource.Id.search_edit_frame = global::AndroidTestDrive.Resource.Id.search_edit_frame;
+			global::KinveyXamarinAndroid.Resource.Id.search_go_btn = global::AndroidTestDrive.Resource.Id.search_go_btn;
+			global::KinveyXamarinAndroid.Resource.Id.search_mag_icon = global::AndroidTestDrive.Resource.Id.search_mag_icon;
+			global::KinveyXamarinAndroid.Resource.Id.search_plate = global::AndroidTestDrive.Resource.Id.search_plate;
+			global::KinveyXamarinAndroid.Resource.Id.search_src_text = global::AndroidTestDrive.Resource.Id.search_src_text;
+			global::KinveyXamarinAndroid.Resource.Id.search_voice_btn = global::AndroidTestDrive.Resource.Id.search_voice_btn;
+			global::KinveyXamarinAndroid.Resource.Id.selectionDetails = global::AndroidTestDrive.Resource.Id.selectionDetails;
+			global::KinveyXamarinAndroid.Resource.Id.settings = global::AndroidTestDrive.Resource.Id.settings;
+			global::KinveyXamarinAndroid.Resource.Id.shortcut = global::AndroidTestDrive.Resource.Id.shortcut;
+			global::KinveyXamarinAndroid.Resource.Id.showCustom = global::AndroidTestDrive.Resource.Id.showCustom;
+			global::KinveyXamarinAndroid.Resource.Id.showHome = global::AndroidTestDrive.Resource.Id.showHome;
+			global::KinveyXamarinAndroid.Resource.Id.showTitle = global::AndroidTestDrive.Resource.Id.showTitle;
+			global::KinveyXamarinAndroid.Resource.Id.split_action_bar = global::AndroidTestDrive.Resource.Id.split_action_bar;
+			global::KinveyXamarinAndroid.Resource.Id.stop = global::AndroidTestDrive.Resource.Id.stop;
+			global::KinveyXamarinAndroid.Resource.Id.strict_sandbox = global::AndroidTestDrive.Resource.Id.strict_sandbox;
+			global::KinveyXamarinAndroid.Resource.Id.submit_area = global::AndroidTestDrive.Resource.Id.submit_area;
+			global::KinveyXamarinAndroid.Resource.Id.subtitle = global::AndroidTestDrive.Resource.Id.subtitle;
+			global::KinveyXamarinAndroid.Resource.Id.tabMode = global::AndroidTestDrive.Resource.Id.tabMode;
+			global::KinveyXamarinAndroid.Resource.Id.terrain = global::AndroidTestDrive.Resource.Id.terrain;
+			global::KinveyXamarinAndroid.Resource.Id.text_wrapper = global::AndroidTestDrive.Resource.Id.text_wrapper;
+			global::KinveyXamarinAndroid.Resource.Id.title = global::AndroidTestDrive.Resource.Id.title;
+			global::KinveyXamarinAndroid.Resource.Id.title_bar = global::AndroidTestDrive.Resource.Id.title_bar;
+			global::KinveyXamarinAndroid.Resource.Id.up = global::AndroidTestDrive.Resource.Id.up;
+			global::KinveyXamarinAndroid.Resource.Id.useLogo = global::AndroidTestDrive.Resource.Id.useLogo;
+			global::KinveyXamarinAndroid.Resource.Id.withText = global::AndroidTestDrive.Resource.Id.withText;
+			global::KinveyXamarinAndroid.Resource.Id.wrap_content = global::AndroidTestDrive.Resource.Id.wrap_content;
+			global::KinveyXamarinAndroid.Resource.Integer.abc_config_activityDefaultDur = global::AndroidTestDrive.Resource.Integer.abc_config_activityDefaultDur;
+			global::KinveyXamarinAndroid.Resource.Integer.abc_config_activityShortDur = global::AndroidTestDrive.Resource.Integer.abc_config_activityShortDur;
+			global::KinveyXamarinAndroid.Resource.Integer.abc_max_action_buttons = global::AndroidTestDrive.Resource.Integer.abc_max_action_buttons;
+			global::KinveyXamarinAndroid.Resource.Integer.google_play_services_version = global::AndroidTestDrive.Resource.Integer.google_play_services_version;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_action_bar_title_item = global::AndroidTestDrive.Resource.Layout.abc_action_bar_title_item;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_action_bar_up_container = global::AndroidTestDrive.Resource.Layout.abc_action_bar_up_container;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::AndroidTestDrive.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_action_menu_item_layout = global::AndroidTestDrive.Resource.Layout.abc_action_menu_item_layout;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_action_menu_layout = global::AndroidTestDrive.Resource.Layout.abc_action_menu_layout;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_action_mode_bar = global::AndroidTestDrive.Resource.Layout.abc_action_mode_bar;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_action_mode_close_item_material = global::AndroidTestDrive.Resource.Layout.abc_action_mode_close_item_material;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_activity_chooser_view = global::AndroidTestDrive.Resource.Layout.abc_activity_chooser_view;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_activity_chooser_view_list_item = global::AndroidTestDrive.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_expanded_menu_layout = global::AndroidTestDrive.Resource.Layout.abc_expanded_menu_layout;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_list_menu_item_checkbox = global::AndroidTestDrive.Resource.Layout.abc_list_menu_item_checkbox;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_list_menu_item_icon = global::AndroidTestDrive.Resource.Layout.abc_list_menu_item_icon;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_list_menu_item_layout = global::AndroidTestDrive.Resource.Layout.abc_list_menu_item_layout;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_list_menu_item_radio = global::AndroidTestDrive.Resource.Layout.abc_list_menu_item_radio;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_popup_menu_item_layout = global::AndroidTestDrive.Resource.Layout.abc_popup_menu_item_layout;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_screen_content_include = global::AndroidTestDrive.Resource.Layout.abc_screen_content_include;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_screen_simple = global::AndroidTestDrive.Resource.Layout.abc_screen_simple;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::AndroidTestDrive.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_screen_toolbar = global::AndroidTestDrive.Resource.Layout.abc_screen_toolbar;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::AndroidTestDrive.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_search_view = global::AndroidTestDrive.Resource.Layout.abc_search_view;
+			global::KinveyXamarinAndroid.Resource.Layout.abc_simple_dropdown_hint = global::AndroidTestDrive.Resource.Layout.abc_simple_dropdown_hint;
+			global::KinveyXamarinAndroid.Resource.Layout.mr_media_route_chooser_dialog = global::AndroidTestDrive.Resource.Layout.mr_media_route_chooser_dialog;
+			global::KinveyXamarinAndroid.Resource.Layout.mr_media_route_controller_material_dialog_b = global::AndroidTestDrive.Resource.Layout.mr_media_route_controller_material_dialog_b;
+			global::KinveyXamarinAndroid.Resource.Layout.mr_media_route_list_item = global::AndroidTestDrive.Resource.Layout.mr_media_route_list_item;
+			global::KinveyXamarinAndroid.Resource.Layout.support_simple_spinner_dropdown_item = global::AndroidTestDrive.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::KinveyXamarinAndroid.Resource.Raw.gtm_analytics = global::AndroidTestDrive.Resource.Raw.gtm_analytics;
+			global::KinveyXamarinAndroid.Resource.String.abc_action_bar_home_description = global::AndroidTestDrive.Resource.String.abc_action_bar_home_description;
+			global::KinveyXamarinAndroid.Resource.String.abc_action_bar_home_description_format = global::AndroidTestDrive.Resource.String.abc_action_bar_home_description_format;
+			global::KinveyXamarinAndroid.Resource.String.abc_action_bar_home_subtitle_description_format = global::AndroidTestDrive.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::KinveyXamarinAndroid.Resource.String.abc_action_bar_up_description = global::AndroidTestDrive.Resource.String.abc_action_bar_up_description;
+			global::KinveyXamarinAndroid.Resource.String.abc_action_menu_overflow_description = global::AndroidTestDrive.Resource.String.abc_action_menu_overflow_description;
+			global::KinveyXamarinAndroid.Resource.String.abc_action_mode_done = global::AndroidTestDrive.Resource.String.abc_action_mode_done;
+			global::KinveyXamarinAndroid.Resource.String.abc_activity_chooser_view_see_all = global::AndroidTestDrive.Resource.String.abc_activity_chooser_view_see_all;
+			global::KinveyXamarinAndroid.Resource.String.abc_activitychooserview_choose_application = global::AndroidTestDrive.Resource.String.abc_activitychooserview_choose_application;
+			global::KinveyXamarinAndroid.Resource.String.abc_searchview_description_clear = global::AndroidTestDrive.Resource.String.abc_searchview_description_clear;
+			global::KinveyXamarinAndroid.Resource.String.abc_searchview_description_query = global::AndroidTestDrive.Resource.String.abc_searchview_description_query;
+			global::KinveyXamarinAndroid.Resource.String.abc_searchview_description_search = global::AndroidTestDrive.Resource.String.abc_searchview_description_search;
+			global::KinveyXamarinAndroid.Resource.String.abc_searchview_description_submit = global::AndroidTestDrive.Resource.String.abc_searchview_description_submit;
+			global::KinveyXamarinAndroid.Resource.String.abc_searchview_description_voice = global::AndroidTestDrive.Resource.String.abc_searchview_description_voice;
+			global::KinveyXamarinAndroid.Resource.String.abc_shareactionprovider_share_with = global::AndroidTestDrive.Resource.String.abc_shareactionprovider_share_with;
+			global::KinveyXamarinAndroid.Resource.String.abc_shareactionprovider_share_with_application = global::AndroidTestDrive.Resource.String.abc_shareactionprovider_share_with_application;
+			global::KinveyXamarinAndroid.Resource.String.abc_toolbar_collapse_description = global::AndroidTestDrive.Resource.String.abc_toolbar_collapse_description;
+			global::KinveyXamarinAndroid.Resource.String.accept = global::AndroidTestDrive.Resource.String.accept;
+			global::KinveyXamarinAndroid.Resource.String.common_android_wear_notification_needs_update_text = global::AndroidTestDrive.Resource.String.common_android_wear_notification_needs_update_text;
+			global::KinveyXamarinAndroid.Resource.String.common_android_wear_update_text = global::AndroidTestDrive.Resource.String.common_android_wear_update_text;
+			global::KinveyXamarinAndroid.Resource.String.common_android_wear_update_title = global::AndroidTestDrive.Resource.String.common_android_wear_update_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_enable_button = global::AndroidTestDrive.Resource.String.common_google_play_services_enable_button;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_enable_text = global::AndroidTestDrive.Resource.String.common_google_play_services_enable_text;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_enable_title = global::AndroidTestDrive.Resource.String.common_google_play_services_enable_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_error_notification_requested_by_msg = global::AndroidTestDrive.Resource.String.common_google_play_services_error_notification_requested_by_msg;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_install_button = global::AndroidTestDrive.Resource.String.common_google_play_services_install_button;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_install_text_phone = global::AndroidTestDrive.Resource.String.common_google_play_services_install_text_phone;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_install_text_tablet = global::AndroidTestDrive.Resource.String.common_google_play_services_install_text_tablet;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_install_title = global::AndroidTestDrive.Resource.String.common_google_play_services_install_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_invalid_account_text = global::AndroidTestDrive.Resource.String.common_google_play_services_invalid_account_text;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_invalid_account_title = global::AndroidTestDrive.Resource.String.common_google_play_services_invalid_account_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_needs_enabling_title = global::AndroidTestDrive.Resource.String.common_google_play_services_needs_enabling_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_network_error_text = global::AndroidTestDrive.Resource.String.common_google_play_services_network_error_text;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_network_error_title = global::AndroidTestDrive.Resource.String.common_google_play_services_network_error_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_notification_needs_installation_title = global::AndroidTestDrive.Resource.String.common_google_play_services_notification_needs_installation_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_notification_needs_update_title = global::AndroidTestDrive.Resource.String.common_google_play_services_notification_needs_update_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_notification_ticker = global::AndroidTestDrive.Resource.String.common_google_play_services_notification_ticker;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_unknown_issue = global::AndroidTestDrive.Resource.String.common_google_play_services_unknown_issue;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_unsupported_text = global::AndroidTestDrive.Resource.String.common_google_play_services_unsupported_text;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_unsupported_title = global::AndroidTestDrive.Resource.String.common_google_play_services_unsupported_title;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_update_button = global::AndroidTestDrive.Resource.String.common_google_play_services_update_button;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_update_text = global::AndroidTestDrive.Resource.String.common_google_play_services_update_text;
+			global::KinveyXamarinAndroid.Resource.String.common_google_play_services_update_title = global::AndroidTestDrive.Resource.String.common_google_play_services_update_title;
+			global::KinveyXamarinAndroid.Resource.String.common_open_on_phone = global::AndroidTestDrive.Resource.String.common_open_on_phone;
+			global::KinveyXamarinAndroid.Resource.String.common_signin_button_text = global::AndroidTestDrive.Resource.String.common_signin_button_text;
+			global::KinveyXamarinAndroid.Resource.String.common_signin_button_text_long = global::AndroidTestDrive.Resource.String.common_signin_button_text_long;
+			global::KinveyXamarinAndroid.Resource.String.create_calendar_message = global::AndroidTestDrive.Resource.String.create_calendar_message;
+			global::KinveyXamarinAndroid.Resource.String.create_calendar_title = global::AndroidTestDrive.Resource.String.create_calendar_title;
+			global::KinveyXamarinAndroid.Resource.String.decline = global::AndroidTestDrive.Resource.String.decline;
 			global::KinveyXamarinAndroid.Resource.String.library_name = global::AndroidTestDrive.Resource.String.library_name;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_button_content_description = global::AndroidTestDrive.Resource.String.mr_media_route_button_content_description;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_chooser_searching = global::AndroidTestDrive.Resource.String.mr_media_route_chooser_searching;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_chooser_title = global::AndroidTestDrive.Resource.String.mr_media_route_chooser_title;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_controller_disconnect = global::AndroidTestDrive.Resource.String.mr_media_route_controller_disconnect;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_controller_pause = global::AndroidTestDrive.Resource.String.mr_media_route_controller_pause;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_controller_play = global::AndroidTestDrive.Resource.String.mr_media_route_controller_play;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_controller_settings_description = global::AndroidTestDrive.Resource.String.mr_media_route_controller_settings_description;
+			global::KinveyXamarinAndroid.Resource.String.mr_media_route_controller_stop = global::AndroidTestDrive.Resource.String.mr_media_route_controller_stop;
+			global::KinveyXamarinAndroid.Resource.String.mr_system_route_name = global::AndroidTestDrive.Resource.String.mr_system_route_name;
+			global::KinveyXamarinAndroid.Resource.String.mr_user_route_category_name = global::AndroidTestDrive.Resource.String.mr_user_route_category_name;
+			global::KinveyXamarinAndroid.Resource.String.store_picture_message = global::AndroidTestDrive.Resource.String.store_picture_message;
+			global::KinveyXamarinAndroid.Resource.String.store_picture_title = global::AndroidTestDrive.Resource.String.store_picture_title;
+			global::KinveyXamarinAndroid.Resource.String.wallet_buy_button_place_holder = global::AndroidTestDrive.Resource.String.wallet_buy_button_place_holder;
+			global::KinveyXamarinAndroid.Resource.Style.Animation_AppCompat_DropDownUp = global::AndroidTestDrive.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::AndroidTestDrive.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::AndroidTestDrive.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_Dialog = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::AndroidTestDrive.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::KinveyXamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat = global::AndroidTestDrive.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::AndroidTestDrive.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::AndroidTestDrive.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::KinveyXamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::AndroidTestDrive.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V11_Theme_AppCompat = global::AndroidTestDrive.Resource.Style.Base_V11_Theme_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::AndroidTestDrive.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V11_Theme_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Base_V11_Theme_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::AndroidTestDrive.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V14_Theme_AppCompat = global::AndroidTestDrive.Resource.Style.Base_V14_Theme_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V14_Theme_AppCompat_Dialog = global::AndroidTestDrive.Resource.Style.Base_V14_Theme_AppCompat_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V14_Theme_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Base_V14_Theme_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V14_Theme_AppCompat_Light_Dialog = global::AndroidTestDrive.Resource.Style.Base_V14_Theme_AppCompat_Light_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat = global::AndroidTestDrive.Resource.Style.Base_V21_Theme_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::AndroidTestDrive.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::AndroidTestDrive.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V7_Theme_AppCompat = global::AndroidTestDrive.Resource.Style.Base_V7_Theme_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::AndroidTestDrive.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Button;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_EditText = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_SearchView = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Spinner = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::KinveyXamarinAndroid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::AndroidTestDrive.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::KinveyXamarinAndroid.Resource.Style.Platform_AppCompat = global::AndroidTestDrive.Resource.Style.Platform_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Platform_AppCompat_Dialog = global::AndroidTestDrive.Resource.Style.Platform_AppCompat_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Platform_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Platform_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Platform_AppCompat_Light_Dialog = global::AndroidTestDrive.Resource.Style.Platform_AppCompat_Light_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_CloseMode;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::KinveyXamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::AndroidTestDrive.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Body1 = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Body2 = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Button = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Button;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Caption = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display1 = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display2 = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display3 = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display4 = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Headline = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Large = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Large;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Medium = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Menu = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Small = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Small;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Subhead = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Title = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Title;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AndroidTestDrive.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AndroidTestDrive.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AndroidTestDrive.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::KinveyXamarinAndroid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::AndroidTestDrive.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat = global::AndroidTestDrive.Resource.Style.Theme_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_CompactMenu = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_Dialog = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_Light = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_Light_Dialog = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_AppCompat_NoActionBar = global::AndroidTestDrive.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_IAPTheme = global::AndroidTestDrive.Resource.Style.Theme_IAPTheme;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_MediaRouter = global::AndroidTestDrive.Resource.Style.Theme_MediaRouter;
+			global::KinveyXamarinAndroid.Resource.Style.Theme_MediaRouter_Light = global::AndroidTestDrive.Resource.Style.Theme_MediaRouter_Light;
+			global::KinveyXamarinAndroid.Resource.Style.ThemeOverlay_AppCompat = global::AndroidTestDrive.Resource.Style.ThemeOverlay_AppCompat;
+			global::KinveyXamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::AndroidTestDrive.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::AndroidTestDrive.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::KinveyXamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::AndroidTestDrive.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Light = global::AndroidTestDrive.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::KinveyXamarinAndroid.Resource.Style.WalletFragmentDefaultButtonTextAppearance = global::AndroidTestDrive.Resource.Style.WalletFragmentDefaultButtonTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Style.WalletFragmentDefaultDetailsHeaderTextAppearance = global::AndroidTestDrive.Resource.Style.WalletFragmentDefaultDetailsHeaderTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Style.WalletFragmentDefaultDetailsTextAppearance = global::AndroidTestDrive.Resource.Style.WalletFragmentDefaultDetailsTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Style.WalletFragmentDefaultStyle = global::AndroidTestDrive.Resource.Style.WalletFragmentDefaultStyle;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionButton = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionButton;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActionMode = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActionMode;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Button = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Button;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Button_Small = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Button_Small;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_EditText = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_EditText;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_SearchView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ListView_Menu = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_PopupMenu = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_PopupWindow = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ProgressBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_RatingBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_RatingBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_SearchView = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_SearchView;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Spinner = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Spinner;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Toolbar = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Toolbar;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::AndroidTestDrive.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::AndroidTestDrive.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::KinveyXamarinAndroid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::AndroidTestDrive.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar = global::AndroidTestDrive.Resource.Styleable.ActionBar;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_background = global::AndroidTestDrive.Resource.Styleable.ActionBar_background;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_backgroundSplit = global::AndroidTestDrive.Resource.Styleable.ActionBar_backgroundSplit;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_backgroundStacked = global::AndroidTestDrive.Resource.Styleable.ActionBar_backgroundStacked;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_contentInsetEnd = global::AndroidTestDrive.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_contentInsetLeft = global::AndroidTestDrive.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_contentInsetRight = global::AndroidTestDrive.Resource.Styleable.ActionBar_contentInsetRight;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_contentInsetStart = global::AndroidTestDrive.Resource.Styleable.ActionBar_contentInsetStart;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_customNavigationLayout = global::AndroidTestDrive.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_displayOptions = global::AndroidTestDrive.Resource.Styleable.ActionBar_displayOptions;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_divider = global::AndroidTestDrive.Resource.Styleable.ActionBar_divider;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_elevation = global::AndroidTestDrive.Resource.Styleable.ActionBar_elevation;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_height = global::AndroidTestDrive.Resource.Styleable.ActionBar_height;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_hideOnContentScroll = global::AndroidTestDrive.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::AndroidTestDrive.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_homeLayout = global::AndroidTestDrive.Resource.Styleable.ActionBar_homeLayout;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_icon = global::AndroidTestDrive.Resource.Styleable.ActionBar_icon;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::AndroidTestDrive.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_itemPadding = global::AndroidTestDrive.Resource.Styleable.ActionBar_itemPadding;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_logo = global::AndroidTestDrive.Resource.Styleable.ActionBar_logo;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_navigationMode = global::AndroidTestDrive.Resource.Styleable.ActionBar_navigationMode;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_popupTheme = global::AndroidTestDrive.Resource.Styleable.ActionBar_popupTheme;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_progressBarPadding = global::AndroidTestDrive.Resource.Styleable.ActionBar_progressBarPadding;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_progressBarStyle = global::AndroidTestDrive.Resource.Styleable.ActionBar_progressBarStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_subtitle = global::AndroidTestDrive.Resource.Styleable.ActionBar_subtitle;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_subtitleTextStyle = global::AndroidTestDrive.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_title = global::AndroidTestDrive.Resource.Styleable.ActionBar_title;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBar_titleTextStyle = global::AndroidTestDrive.Resource.Styleable.ActionBar_titleTextStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBarLayout = global::AndroidTestDrive.Resource.Styleable.ActionBarLayout;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::AndroidTestDrive.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMenuItemView = global::AndroidTestDrive.Resource.Styleable.ActionMenuItemView;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::AndroidTestDrive.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMenuView = global::AndroidTestDrive.Resource.Styleable.ActionMenuView;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMode = global::AndroidTestDrive.Resource.Styleable.ActionMode;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMode_background = global::AndroidTestDrive.Resource.Styleable.ActionMode_background;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMode_backgroundSplit = global::AndroidTestDrive.Resource.Styleable.ActionMode_backgroundSplit;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMode_closeItemLayout = global::AndroidTestDrive.Resource.Styleable.ActionMode_closeItemLayout;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMode_height = global::AndroidTestDrive.Resource.Styleable.ActionMode_height;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMode_subtitleTextStyle = global::AndroidTestDrive.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActionMode_titleTextStyle = global::AndroidTestDrive.Resource.Styleable.ActionMode_titleTextStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActivityChooserView = global::AndroidTestDrive.Resource.Styleable.ActivityChooserView;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::AndroidTestDrive.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::AndroidTestDrive.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::KinveyXamarinAndroid.Resource.Styleable.AdsAttrs = global::AndroidTestDrive.Resource.Styleable.AdsAttrs;
+			global::KinveyXamarinAndroid.Resource.Styleable.AdsAttrs_adSize = global::AndroidTestDrive.Resource.Styleable.AdsAttrs_adSize;
+			global::KinveyXamarinAndroid.Resource.Styleable.AdsAttrs_adSizes = global::AndroidTestDrive.Resource.Styleable.AdsAttrs_adSizes;
+			global::KinveyXamarinAndroid.Resource.Styleable.AdsAttrs_adUnitId = global::AndroidTestDrive.Resource.Styleable.AdsAttrs_adUnitId;
+			global::KinveyXamarinAndroid.Resource.Styleable.CompatTextView = global::AndroidTestDrive.Resource.Styleable.CompatTextView;
+			global::KinveyXamarinAndroid.Resource.Styleable.CompatTextView_textAllCaps = global::AndroidTestDrive.Resource.Styleable.CompatTextView_textAllCaps;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_barSize = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_barSize;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_color = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_color;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_spinBars = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_thickness = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::KinveyXamarinAndroid.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize = global::AndroidTestDrive.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_divider = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_divider;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_showDividers = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::KinveyXamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::AndroidTestDrive.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::KinveyXamarinAndroid.Resource.Styleable.ListPopupWindow = global::AndroidTestDrive.Resource.Styleable.ListPopupWindow;
+			global::KinveyXamarinAndroid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::AndroidTestDrive.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::KinveyXamarinAndroid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::AndroidTestDrive.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::KinveyXamarinAndroid.Resource.Styleable.LoadingImageView = global::AndroidTestDrive.Resource.Styleable.LoadingImageView;
+			global::KinveyXamarinAndroid.Resource.Styleable.LoadingImageView_circleCrop = global::AndroidTestDrive.Resource.Styleable.LoadingImageView_circleCrop;
+			global::KinveyXamarinAndroid.Resource.Styleable.LoadingImageView_imageAspectRatio = global::AndroidTestDrive.Resource.Styleable.LoadingImageView_imageAspectRatio;
+			global::KinveyXamarinAndroid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::AndroidTestDrive.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs = global::AndroidTestDrive.Resource.Styleable.MapAttrs;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_cameraBearing = global::AndroidTestDrive.Resource.Styleable.MapAttrs_cameraBearing;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_cameraTargetLat = global::AndroidTestDrive.Resource.Styleable.MapAttrs_cameraTargetLat;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_cameraTargetLng = global::AndroidTestDrive.Resource.Styleable.MapAttrs_cameraTargetLng;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_cameraTilt = global::AndroidTestDrive.Resource.Styleable.MapAttrs_cameraTilt;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_cameraZoom = global::AndroidTestDrive.Resource.Styleable.MapAttrs_cameraZoom;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_liteMode = global::AndroidTestDrive.Resource.Styleable.MapAttrs_liteMode;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_mapType = global::AndroidTestDrive.Resource.Styleable.MapAttrs_mapType;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_uiCompass = global::AndroidTestDrive.Resource.Styleable.MapAttrs_uiCompass;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_uiMapToolbar = global::AndroidTestDrive.Resource.Styleable.MapAttrs_uiMapToolbar;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_uiRotateGestures = global::AndroidTestDrive.Resource.Styleable.MapAttrs_uiRotateGestures;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_uiScrollGestures = global::AndroidTestDrive.Resource.Styleable.MapAttrs_uiScrollGestures;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_uiTiltGestures = global::AndroidTestDrive.Resource.Styleable.MapAttrs_uiTiltGestures;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_uiZoomControls = global::AndroidTestDrive.Resource.Styleable.MapAttrs_uiZoomControls;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_uiZoomGestures = global::AndroidTestDrive.Resource.Styleable.MapAttrs_uiZoomGestures;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_useViewLifecycle = global::AndroidTestDrive.Resource.Styleable.MapAttrs_useViewLifecycle;
+			global::KinveyXamarinAndroid.Resource.Styleable.MapAttrs_zOrderOnTop = global::AndroidTestDrive.Resource.Styleable.MapAttrs_zOrderOnTop;
+			global::KinveyXamarinAndroid.Resource.Styleable.MediaRouteButton = global::AndroidTestDrive.Resource.Styleable.MediaRouteButton;
+			global::KinveyXamarinAndroid.Resource.Styleable.MediaRouteButton_android_minHeight = global::AndroidTestDrive.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::KinveyXamarinAndroid.Resource.Styleable.MediaRouteButton_android_minWidth = global::AndroidTestDrive.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::KinveyXamarinAndroid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::AndroidTestDrive.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuGroup = global::AndroidTestDrive.Resource.Styleable.MenuGroup;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::AndroidTestDrive.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuGroup_android_enabled = global::AndroidTestDrive.Resource.Styleable.MenuGroup_android_enabled;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuGroup_android_id = global::AndroidTestDrive.Resource.Styleable.MenuGroup_android_id;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuGroup_android_menuCategory = global::AndroidTestDrive.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuGroup_android_orderInCategory = global::AndroidTestDrive.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuGroup_android_visible = global::AndroidTestDrive.Resource.Styleable.MenuGroup_android_visible;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem = global::AndroidTestDrive.Resource.Styleable.MenuItem;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_actionLayout = global::AndroidTestDrive.Resource.Styleable.MenuItem_actionLayout;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_actionProviderClass = global::AndroidTestDrive.Resource.Styleable.MenuItem_actionProviderClass;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_actionViewClass = global::AndroidTestDrive.Resource.Styleable.MenuItem_actionViewClass;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_checkable = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_checkable;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_checked = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_checked;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_enabled = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_enabled;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_icon = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_icon;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_id = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_id;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_menuCategory = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_menuCategory;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_numericShortcut = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_onClick = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_onClick;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_orderInCategory = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_title = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_title;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_titleCondensed = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_android_visible = global::AndroidTestDrive.Resource.Styleable.MenuItem_android_visible;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuItem_showAsAction = global::AndroidTestDrive.Resource.Styleable.MenuItem_showAsAction;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView = global::AndroidTestDrive.Resource.Styleable.MenuView;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_android_headerBackground = global::AndroidTestDrive.Resource.Styleable.MenuView_android_headerBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_android_horizontalDivider = global::AndroidTestDrive.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_android_itemBackground = global::AndroidTestDrive.Resource.Styleable.MenuView_android_itemBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::AndroidTestDrive.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_android_itemTextAppearance = global::AndroidTestDrive.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_android_verticalDivider = global::AndroidTestDrive.Resource.Styleable.MenuView_android_verticalDivider;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::AndroidTestDrive.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.MenuView_preserveIconSpacing = global::AndroidTestDrive.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::KinveyXamarinAndroid.Resource.Styleable.PopupWindow = global::AndroidTestDrive.Resource.Styleable.PopupWindow;
+			global::KinveyXamarinAndroid.Resource.Styleable.PopupWindow_android_popupBackground = global::AndroidTestDrive.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.PopupWindow_overlapAnchor = global::AndroidTestDrive.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::KinveyXamarinAndroid.Resource.Styleable.PopupWindowBackgroundState = global::AndroidTestDrive.Resource.Styleable.PopupWindowBackgroundState;
+			global::KinveyXamarinAndroid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::AndroidTestDrive.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView = global::AndroidTestDrive.Resource.Styleable.SearchView;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_android_focusable = global::AndroidTestDrive.Resource.Styleable.SearchView_android_focusable;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_android_imeOptions = global::AndroidTestDrive.Resource.Styleable.SearchView_android_imeOptions;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_android_inputType = global::AndroidTestDrive.Resource.Styleable.SearchView_android_inputType;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_android_maxWidth = global::AndroidTestDrive.Resource.Styleable.SearchView_android_maxWidth;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_closeIcon = global::AndroidTestDrive.Resource.Styleable.SearchView_closeIcon;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_commitIcon = global::AndroidTestDrive.Resource.Styleable.SearchView_commitIcon;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_goIcon = global::AndroidTestDrive.Resource.Styleable.SearchView_goIcon;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_iconifiedByDefault = global::AndroidTestDrive.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_layout = global::AndroidTestDrive.Resource.Styleable.SearchView_layout;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_queryBackground = global::AndroidTestDrive.Resource.Styleable.SearchView_queryBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_queryHint = global::AndroidTestDrive.Resource.Styleable.SearchView_queryHint;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_searchIcon = global::AndroidTestDrive.Resource.Styleable.SearchView_searchIcon;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_submitBackground = global::AndroidTestDrive.Resource.Styleable.SearchView_submitBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_suggestionRowLayout = global::AndroidTestDrive.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::KinveyXamarinAndroid.Resource.Styleable.SearchView_voiceIcon = global::AndroidTestDrive.Resource.Styleable.SearchView_voiceIcon;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner = global::AndroidTestDrive.Resource.Styleable.Spinner;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_android_background = global::AndroidTestDrive.Resource.Styleable.Spinner_android_background;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::AndroidTestDrive.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_android_dropDownSelector = global::AndroidTestDrive.Resource.Styleable.Spinner_android_dropDownSelector;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::AndroidTestDrive.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_android_dropDownWidth = global::AndroidTestDrive.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_android_gravity = global::AndroidTestDrive.Resource.Styleable.Spinner_android_gravity;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_android_popupBackground = global::AndroidTestDrive.Resource.Styleable.Spinner_android_popupBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::AndroidTestDrive.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_popupPromptView = global::AndroidTestDrive.Resource.Styleable.Spinner_popupPromptView;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_prompt = global::AndroidTestDrive.Resource.Styleable.Spinner_prompt;
+			global::KinveyXamarinAndroid.Resource.Styleable.Spinner_spinnerMode = global::AndroidTestDrive.Resource.Styleable.Spinner_spinnerMode;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat = global::AndroidTestDrive.Resource.Styleable.SwitchCompat;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_android_textOff = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_android_textOff;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_android_textOn = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_android_textOn;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_android_thumb = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_android_thumb;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_showText = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_showText;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_splitTrack = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_splitTrack;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_switchMinWidth = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_switchPadding = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_switchPadding;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompat_track = global::AndroidTestDrive.Resource.Styleable.SwitchCompat_track;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompatTextAppearance = global::AndroidTestDrive.Resource.Styleable.SwitchCompatTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompatTextAppearance_android_textColor = global::AndroidTestDrive.Resource.Styleable.SwitchCompatTextAppearance_android_textColor;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompatTextAppearance_android_textSize = global::AndroidTestDrive.Resource.Styleable.SwitchCompatTextAppearance_android_textSize;
+			global::KinveyXamarinAndroid.Resource.Styleable.SwitchCompatTextAppearance_textAllCaps = global::AndroidTestDrive.Resource.Styleable.SwitchCompatTextAppearance_textAllCaps;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme = global::AndroidTestDrive.Resource.Styleable.Theme;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarDivider = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarDivider;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarItemBackground = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarItemBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarPopupTheme = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarPopupTheme;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarSize = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarSize;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarSplitStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarSplitStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarTabBarStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarTabBarStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarTabStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarTabStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarTabTextStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarTabTextStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarTheme = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarTheme;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionBarWidgetTheme = global::AndroidTestDrive.Resource.Styleable.Theme_actionBarWidgetTheme;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionButtonStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionDropDownStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionDropDownStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionMenuTextAppearance = global::AndroidTestDrive.Resource.Styleable.Theme_actionMenuTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionMenuTextColor = global::AndroidTestDrive.Resource.Styleable.Theme_actionMenuTextColor;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeBackground = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeCloseButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeCloseDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeCloseDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeCopyDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeCopyDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeCutDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeCutDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeFindDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeFindDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModePasteDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModePasteDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModePopupWindowStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionModePopupWindowStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeSelectAllDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeShareDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeShareDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeSplitBackground = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeSplitBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::AndroidTestDrive.Resource.Styleable.Theme_actionModeWebSearchDrawable;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionOverflowButtonStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionOverflowButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_actionOverflowMenuStyle = global::AndroidTestDrive.Resource.Styleable.Theme_actionOverflowMenuStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_activityChooserViewStyle = global::AndroidTestDrive.Resource.Styleable.Theme_activityChooserViewStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_android_windowAnimationStyle = global::AndroidTestDrive.Resource.Styleable.Theme_android_windowAnimationStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_android_windowIsFloating = global::AndroidTestDrive.Resource.Styleable.Theme_android_windowIsFloating;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_buttonBarButtonStyle = global::AndroidTestDrive.Resource.Styleable.Theme_buttonBarButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_buttonBarStyle = global::AndroidTestDrive.Resource.Styleable.Theme_buttonBarStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorAccent = global::AndroidTestDrive.Resource.Styleable.Theme_colorAccent;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorButtonNormal = global::AndroidTestDrive.Resource.Styleable.Theme_colorButtonNormal;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorControlActivated = global::AndroidTestDrive.Resource.Styleable.Theme_colorControlActivated;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorControlHighlight = global::AndroidTestDrive.Resource.Styleable.Theme_colorControlHighlight;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorControlNormal = global::AndroidTestDrive.Resource.Styleable.Theme_colorControlNormal;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorPrimary = global::AndroidTestDrive.Resource.Styleable.Theme_colorPrimary;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorPrimaryDark = global::AndroidTestDrive.Resource.Styleable.Theme_colorPrimaryDark;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_colorSwitchThumbNormal = global::AndroidTestDrive.Resource.Styleable.Theme_colorSwitchThumbNormal;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_dividerHorizontal = global::AndroidTestDrive.Resource.Styleable.Theme_dividerHorizontal;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_dividerVertical = global::AndroidTestDrive.Resource.Styleable.Theme_dividerVertical;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_dropDownListViewStyle = global::AndroidTestDrive.Resource.Styleable.Theme_dropDownListViewStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::AndroidTestDrive.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_editTextBackground = global::AndroidTestDrive.Resource.Styleable.Theme_editTextBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_editTextColor = global::AndroidTestDrive.Resource.Styleable.Theme_editTextColor;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_homeAsUpIndicator = global::AndroidTestDrive.Resource.Styleable.Theme_homeAsUpIndicator;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::AndroidTestDrive.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_listPopupWindowStyle = global::AndroidTestDrive.Resource.Styleable.Theme_listPopupWindowStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_listPreferredItemHeight = global::AndroidTestDrive.Resource.Styleable.Theme_listPreferredItemHeight;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::AndroidTestDrive.Resource.Styleable.Theme_listPreferredItemHeightLarge;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::AndroidTestDrive.Resource.Styleable.Theme_listPreferredItemHeightSmall;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::AndroidTestDrive.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::AndroidTestDrive.Resource.Styleable.Theme_listPreferredItemPaddingRight;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_panelBackground = global::AndroidTestDrive.Resource.Styleable.Theme_panelBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_panelMenuListTheme = global::AndroidTestDrive.Resource.Styleable.Theme_panelMenuListTheme;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_panelMenuListWidth = global::AndroidTestDrive.Resource.Styleable.Theme_panelMenuListWidth;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_popupMenuStyle = global::AndroidTestDrive.Resource.Styleable.Theme_popupMenuStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_popupWindowStyle = global::AndroidTestDrive.Resource.Styleable.Theme_popupWindowStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_searchViewStyle = global::AndroidTestDrive.Resource.Styleable.Theme_searchViewStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_selectableItemBackground = global::AndroidTestDrive.Resource.Styleable.Theme_selectableItemBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::AndroidTestDrive.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::AndroidTestDrive.Resource.Styleable.Theme_spinnerDropDownItemStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_spinnerStyle = global::AndroidTestDrive.Resource.Styleable.Theme_spinnerStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_switchStyle = global::AndroidTestDrive.Resource.Styleable.Theme_switchStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::AndroidTestDrive.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_textAppearanceListItem = global::AndroidTestDrive.Resource.Styleable.Theme_textAppearanceListItem;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_textAppearanceListItemSmall = global::AndroidTestDrive.Resource.Styleable.Theme_textAppearanceListItemSmall;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::AndroidTestDrive.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::AndroidTestDrive.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::AndroidTestDrive.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_textColorSearchUrl = global::AndroidTestDrive.Resource.Styleable.Theme_textColorSearchUrl;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::AndroidTestDrive.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_toolbarStyle = global::AndroidTestDrive.Resource.Styleable.Theme_toolbarStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_windowActionBar = global::AndroidTestDrive.Resource.Styleable.Theme_windowActionBar;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_windowActionBarOverlay = global::AndroidTestDrive.Resource.Styleable.Theme_windowActionBarOverlay;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_windowActionModeOverlay = global::AndroidTestDrive.Resource.Styleable.Theme_windowActionModeOverlay;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_windowFixedHeightMajor = global::AndroidTestDrive.Resource.Styleable.Theme_windowFixedHeightMajor;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_windowFixedHeightMinor = global::AndroidTestDrive.Resource.Styleable.Theme_windowFixedHeightMinor;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_windowFixedWidthMajor = global::AndroidTestDrive.Resource.Styleable.Theme_windowFixedWidthMajor;
+			global::KinveyXamarinAndroid.Resource.Styleable.Theme_windowFixedWidthMinor = global::AndroidTestDrive.Resource.Styleable.Theme_windowFixedWidthMinor;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar = global::AndroidTestDrive.Resource.Styleable.Toolbar;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_android_gravity = global::AndroidTestDrive.Resource.Styleable.Toolbar_android_gravity;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_android_minHeight = global::AndroidTestDrive.Resource.Styleable.Toolbar_android_minHeight;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_collapseContentDescription = global::AndroidTestDrive.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_collapseIcon = global::AndroidTestDrive.Resource.Styleable.Toolbar_collapseIcon;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_contentInsetEnd = global::AndroidTestDrive.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_contentInsetLeft = global::AndroidTestDrive.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_contentInsetRight = global::AndroidTestDrive.Resource.Styleable.Toolbar_contentInsetRight;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_contentInsetStart = global::AndroidTestDrive.Resource.Styleable.Toolbar_contentInsetStart;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_maxButtonHeight = global::AndroidTestDrive.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_navigationContentDescription = global::AndroidTestDrive.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_navigationIcon = global::AndroidTestDrive.Resource.Styleable.Toolbar_navigationIcon;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_popupTheme = global::AndroidTestDrive.Resource.Styleable.Toolbar_popupTheme;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_subtitle = global::AndroidTestDrive.Resource.Styleable.Toolbar_subtitle;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::AndroidTestDrive.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_theme = global::AndroidTestDrive.Resource.Styleable.Toolbar_theme;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_title = global::AndroidTestDrive.Resource.Styleable.Toolbar_title;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_titleMarginBottom = global::AndroidTestDrive.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_titleMarginEnd = global::AndroidTestDrive.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_titleMarginStart = global::AndroidTestDrive.Resource.Styleable.Toolbar_titleMarginStart;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_titleMarginTop = global::AndroidTestDrive.Resource.Styleable.Toolbar_titleMarginTop;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_titleMargins = global::AndroidTestDrive.Resource.Styleable.Toolbar_titleMargins;
+			global::KinveyXamarinAndroid.Resource.Styleable.Toolbar_titleTextAppearance = global::AndroidTestDrive.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.View = global::AndroidTestDrive.Resource.Styleable.View;
+			global::KinveyXamarinAndroid.Resource.Styleable.View_android_focusable = global::AndroidTestDrive.Resource.Styleable.View_android_focusable;
+			global::KinveyXamarinAndroid.Resource.Styleable.View_paddingEnd = global::AndroidTestDrive.Resource.Styleable.View_paddingEnd;
+			global::KinveyXamarinAndroid.Resource.Styleable.View_paddingStart = global::AndroidTestDrive.Resource.Styleable.View_paddingStart;
+			global::KinveyXamarinAndroid.Resource.Styleable.ViewStubCompat = global::AndroidTestDrive.Resource.Styleable.ViewStubCompat;
+			global::KinveyXamarinAndroid.Resource.Styleable.ViewStubCompat_android_id = global::AndroidTestDrive.Resource.Styleable.ViewStubCompat_android_id;
+			global::KinveyXamarinAndroid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::AndroidTestDrive.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::KinveyXamarinAndroid.Resource.Styleable.ViewStubCompat_android_layout = global::AndroidTestDrive.Resource.Styleable.ViewStubCompat_android_layout;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentOptions = global::AndroidTestDrive.Resource.Styleable.WalletFragmentOptions;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentOptions_appTheme = global::AndroidTestDrive.Resource.Styleable.WalletFragmentOptions_appTheme;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentOptions_environment = global::AndroidTestDrive.Resource.Styleable.WalletFragmentOptions_environment;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentOptions_fragmentMode = global::AndroidTestDrive.Resource.Styleable.WalletFragmentOptions_fragmentMode;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentOptions_fragmentStyle = global::AndroidTestDrive.Resource.Styleable.WalletFragmentOptions_fragmentStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_buyButtonAppearance = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_buyButtonAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_buyButtonHeight = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_buyButtonHeight;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_buyButtonText = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_buyButtonText;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_buyButtonWidth = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_buyButtonWidth;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsBackground = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonBackground = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonBackground;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor;
+			global::KinveyXamarinAndroid.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance = global::AndroidTestDrive.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance;
 		}
 		
 		public partial class Animation
@@ -41,16 +1284,22 @@ namespace AndroidTestDrive
 			public const int abc_fade_out = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int abc_slide_in_bottom = 2130968578;
+			public const int abc_grow_fade_in_from_bottom = 2130968578;
 			
 			// aapt resource value: 0x7f040003
-			public const int abc_slide_in_top = 2130968579;
+			public const int abc_shrink_fade_out_from_bottom = 2130968579;
 			
 			// aapt resource value: 0x7f040004
-			public const int abc_slide_out_bottom = 2130968580;
+			public const int abc_slide_in_bottom = 2130968580;
 			
 			// aapt resource value: 0x7f040005
-			public const int abc_slide_out_top = 2130968581;
+			public const int abc_slide_in_top = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int abc_slide_out_bottom = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int abc_slide_out_top = 2130968583;
 			
 			static Animation()
 			{
@@ -65,107 +1314,107 @@ namespace AndroidTestDrive
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010084
-			public const int actionBarDivider = 2130772100;
-			
-			// aapt resource value: 0x7f010085
-			public const int actionBarItemBackground = 2130772101;
-			
-			// aapt resource value: 0x7f01007e
-			public const int actionBarPopupTheme = 2130772094;
-			
-			// aapt resource value: 0x7f010083
-			public const int actionBarSize = 2130772099;
-			
-			// aapt resource value: 0x7f010080
-			public const int actionBarSplitStyle = 2130772096;
-			
-			// aapt resource value: 0x7f01007f
-			public const int actionBarStyle = 2130772095;
-			
-			// aapt resource value: 0x7f01007a
-			public const int actionBarTabBarStyle = 2130772090;
-			
-			// aapt resource value: 0x7f010079
-			public const int actionBarTabStyle = 2130772089;
-			
-			// aapt resource value: 0x7f01007b
-			public const int actionBarTabTextStyle = 2130772091;
-			
-			// aapt resource value: 0x7f010081
-			public const int actionBarTheme = 2130772097;
-			
-			// aapt resource value: 0x7f010082
-			public const int actionBarWidgetTheme = 2130772098;
-			
-			// aapt resource value: 0x7f01009c
-			public const int actionButtonStyle = 2130772124;
-			
-			// aapt resource value: 0x7f010097
-			public const int actionDropDownStyle = 2130772119;
-			
-			// aapt resource value: 0x7f010056
-			public const int actionLayout = 2130772054;
-			
-			// aapt resource value: 0x7f010086
-			public const int actionMenuTextAppearance = 2130772102;
-			
 			// aapt resource value: 0x7f010087
-			public const int actionMenuTextColor = 2130772103;
-			
-			// aapt resource value: 0x7f01008a
-			public const int actionModeBackground = 2130772106;
-			
-			// aapt resource value: 0x7f010089
-			public const int actionModeCloseButtonStyle = 2130772105;
-			
-			// aapt resource value: 0x7f01008c
-			public const int actionModeCloseDrawable = 2130772108;
-			
-			// aapt resource value: 0x7f01008e
-			public const int actionModeCopyDrawable = 2130772110;
-			
-			// aapt resource value: 0x7f01008d
-			public const int actionModeCutDrawable = 2130772109;
-			
-			// aapt resource value: 0x7f010092
-			public const int actionModeFindDrawable = 2130772114;
-			
-			// aapt resource value: 0x7f01008f
-			public const int actionModePasteDrawable = 2130772111;
-			
-			// aapt resource value: 0x7f010094
-			public const int actionModePopupWindowStyle = 2130772116;
-			
-			// aapt resource value: 0x7f010090
-			public const int actionModeSelectAllDrawable = 2130772112;
-			
-			// aapt resource value: 0x7f010091
-			public const int actionModeShareDrawable = 2130772113;
-			
-			// aapt resource value: 0x7f01008b
-			public const int actionModeSplitBackground = 2130772107;
+			public const int actionBarDivider = 2130772103;
 			
 			// aapt resource value: 0x7f010088
-			public const int actionModeStyle = 2130772104;
+			public const int actionBarItemBackground = 2130772104;
 			
-			// aapt resource value: 0x7f010093
-			public const int actionModeWebSearchDrawable = 2130772115;
+			// aapt resource value: 0x7f010081
+			public const int actionBarPopupTheme = 2130772097;
 			
-			// aapt resource value: 0x7f01007c
-			public const int actionOverflowButtonStyle = 2130772092;
+			// aapt resource value: 0x7f010086
+			public const int actionBarSize = 2130772102;
+			
+			// aapt resource value: 0x7f010083
+			public const int actionBarSplitStyle = 2130772099;
+			
+			// aapt resource value: 0x7f010082
+			public const int actionBarStyle = 2130772098;
 			
 			// aapt resource value: 0x7f01007d
-			public const int actionOverflowMenuStyle = 2130772093;
+			public const int actionBarTabBarStyle = 2130772093;
 			
-			// aapt resource value: 0x7f010058
-			public const int actionProviderClass = 2130772056;
+			// aapt resource value: 0x7f01007c
+			public const int actionBarTabStyle = 2130772092;
 			
-			// aapt resource value: 0x7f010057
-			public const int actionViewClass = 2130772055;
+			// aapt resource value: 0x7f01007e
+			public const int actionBarTabTextStyle = 2130772094;
 			
-			// aapt resource value: 0x7f0100a3
-			public const int activityChooserViewStyle = 2130772131;
+			// aapt resource value: 0x7f010084
+			public const int actionBarTheme = 2130772100;
+			
+			// aapt resource value: 0x7f010085
+			public const int actionBarWidgetTheme = 2130772101;
+			
+			// aapt resource value: 0x7f01009f
+			public const int actionButtonStyle = 2130772127;
+			
+			// aapt resource value: 0x7f01009a
+			public const int actionDropDownStyle = 2130772122;
+			
+			// aapt resource value: 0x7f010059
+			public const int actionLayout = 2130772057;
+			
+			// aapt resource value: 0x7f010089
+			public const int actionMenuTextAppearance = 2130772105;
+			
+			// aapt resource value: 0x7f01008a
+			public const int actionMenuTextColor = 2130772106;
+			
+			// aapt resource value: 0x7f01008d
+			public const int actionModeBackground = 2130772109;
+			
+			// aapt resource value: 0x7f01008c
+			public const int actionModeCloseButtonStyle = 2130772108;
+			
+			// aapt resource value: 0x7f01008f
+			public const int actionModeCloseDrawable = 2130772111;
+			
+			// aapt resource value: 0x7f010091
+			public const int actionModeCopyDrawable = 2130772113;
+			
+			// aapt resource value: 0x7f010090
+			public const int actionModeCutDrawable = 2130772112;
+			
+			// aapt resource value: 0x7f010095
+			public const int actionModeFindDrawable = 2130772117;
+			
+			// aapt resource value: 0x7f010092
+			public const int actionModePasteDrawable = 2130772114;
+			
+			// aapt resource value: 0x7f010097
+			public const int actionModePopupWindowStyle = 2130772119;
+			
+			// aapt resource value: 0x7f010093
+			public const int actionModeSelectAllDrawable = 2130772115;
+			
+			// aapt resource value: 0x7f010094
+			public const int actionModeShareDrawable = 2130772116;
+			
+			// aapt resource value: 0x7f01008e
+			public const int actionModeSplitBackground = 2130772110;
+			
+			// aapt resource value: 0x7f01008b
+			public const int actionModeStyle = 2130772107;
+			
+			// aapt resource value: 0x7f010096
+			public const int actionModeWebSearchDrawable = 2130772118;
+			
+			// aapt resource value: 0x7f01007f
+			public const int actionOverflowButtonStyle = 2130772095;
+			
+			// aapt resource value: 0x7f010080
+			public const int actionOverflowMenuStyle = 2130772096;
+			
+			// aapt resource value: 0x7f01005b
+			public const int actionProviderClass = 2130772059;
+			
+			// aapt resource value: 0x7f01005a
+			public const int actionViewClass = 2130772058;
+			
+			// aapt resource value: 0x7f0100a6
+			public const int activityChooserViewStyle = 2130772134;
 			
 			// aapt resource value: 0x7f010000
 			public const int adSize = 2130771968;
@@ -179,23 +1428,23 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f010016
 			public const int appTheme = 2130771990;
 			
-			// aapt resource value: 0x7f010036
-			public const int background = 2130772022;
+			// aapt resource value: 0x7f010039
+			public const int background = 2130772025;
 			
-			// aapt resource value: 0x7f010038
-			public const int backgroundSplit = 2130772024;
+			// aapt resource value: 0x7f01003b
+			public const int backgroundSplit = 2130772027;
 			
-			// aapt resource value: 0x7f010037
-			public const int backgroundStacked = 2130772023;
+			// aapt resource value: 0x7f01003a
+			public const int backgroundStacked = 2130772026;
 			
-			// aapt resource value: 0x7f010050
-			public const int barSize = 2130772048;
+			// aapt resource value: 0x7f010053
+			public const int barSize = 2130772051;
 			
-			// aapt resource value: 0x7f01009e
-			public const int buttonBarButtonStyle = 2130772126;
+			// aapt resource value: 0x7f0100a1
+			public const int buttonBarButtonStyle = 2130772129;
 			
-			// aapt resource value: 0x7f01009d
-			public const int buttonBarStyle = 2130772125;
+			// aapt resource value: 0x7f0100a0
+			public const int buttonBarStyle = 2130772128;
 			
 			// aapt resource value: 0x7f01001d
 			public const int buyButtonAppearance = 2130771997;
@@ -227,110 +1476,110 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f010005
 			public const int circleCrop = 2130771973;
 			
-			// aapt resource value: 0x7f01005f
-			public const int closeIcon = 2130772063;
+			// aapt resource value: 0x7f010062
+			public const int closeIcon = 2130772066;
 			
-			// aapt resource value: 0x7f010046
-			public const int closeItemLayout = 2130772038;
+			// aapt resource value: 0x7f010049
+			public const int closeItemLayout = 2130772041;
 			
-			// aapt resource value: 0x7f0100ce
-			public const int collapseContentDescription = 2130772174;
+			// aapt resource value: 0x7f0100d1
+			public const int collapseContentDescription = 2130772177;
 			
-			// aapt resource value: 0x7f0100cd
-			public const int collapseIcon = 2130772173;
+			// aapt resource value: 0x7f0100d0
+			public const int collapseIcon = 2130772176;
 			
-			// aapt resource value: 0x7f01004a
-			public const int color = 2130772042;
-			
-			// aapt resource value: 0x7f0100be
-			public const int colorAccent = 2130772158;
-			
-			// aapt resource value: 0x7f0100c2
-			public const int colorButtonNormal = 2130772162;
-			
-			// aapt resource value: 0x7f0100c0
-			public const int colorControlActivated = 2130772160;
+			// aapt resource value: 0x7f01004d
+			public const int color = 2130772045;
 			
 			// aapt resource value: 0x7f0100c1
-			public const int colorControlHighlight = 2130772161;
+			public const int colorAccent = 2130772161;
 			
-			// aapt resource value: 0x7f0100bf
-			public const int colorControlNormal = 2130772159;
-			
-			// aapt resource value: 0x7f0100bc
-			public const int colorPrimary = 2130772156;
-			
-			// aapt resource value: 0x7f0100bd
-			public const int colorPrimaryDark = 2130772157;
+			// aapt resource value: 0x7f0100c5
+			public const int colorButtonNormal = 2130772165;
 			
 			// aapt resource value: 0x7f0100c3
-			public const int colorSwitchThumbNormal = 2130772163;
+			public const int colorControlActivated = 2130772163;
 			
-			// aapt resource value: 0x7f010063
-			public const int commitIcon = 2130772067;
+			// aapt resource value: 0x7f0100c4
+			public const int colorControlHighlight = 2130772164;
 			
-			// aapt resource value: 0x7f010041
-			public const int contentInsetEnd = 2130772033;
+			// aapt resource value: 0x7f0100c2
+			public const int colorControlNormal = 2130772162;
 			
-			// aapt resource value: 0x7f010042
-			public const int contentInsetLeft = 2130772034;
+			// aapt resource value: 0x7f0100bf
+			public const int colorPrimary = 2130772159;
 			
-			// aapt resource value: 0x7f010043
-			public const int contentInsetRight = 2130772035;
+			// aapt resource value: 0x7f0100c0
+			public const int colorPrimaryDark = 2130772160;
 			
-			// aapt resource value: 0x7f010040
-			public const int contentInsetStart = 2130772032;
+			// aapt resource value: 0x7f0100c6
+			public const int colorSwitchThumbNormal = 2130772166;
 			
-			// aapt resource value: 0x7f010039
-			public const int customNavigationLayout = 2130772025;
-			
-			// aapt resource value: 0x7f01006a
-			public const int disableChildrenWhenDisabled = 2130772074;
-			
-			// aapt resource value: 0x7f01002f
-			public const int displayOptions = 2130772015;
-			
-			// aapt resource value: 0x7f010035
-			public const int divider = 2130772021;
-			
-			// aapt resource value: 0x7f0100a2
-			public const int dividerHorizontal = 2130772130;
-			
-			// aapt resource value: 0x7f010054
-			public const int dividerPadding = 2130772052;
-			
-			// aapt resource value: 0x7f0100a1
-			public const int dividerVertical = 2130772129;
-			
-			// aapt resource value: 0x7f01004c
-			public const int drawableSize = 2130772044;
-			
-			// aapt resource value: 0x7f01002a
-			public const int drawerArrowStyle = 2130772010;
-			
-			// aapt resource value: 0x7f0100b4
-			public const int dropDownListViewStyle = 2130772148;
-			
-			// aapt resource value: 0x7f010098
-			public const int dropdownListPreferredItemHeight = 2130772120;
-			
-			// aapt resource value: 0x7f0100a9
-			public const int editTextBackground = 2130772137;
-			
-			// aapt resource value: 0x7f0100a8
-			public const int editTextColor = 2130772136;
+			// aapt resource value: 0x7f010066
+			public const int commitIcon = 2130772070;
 			
 			// aapt resource value: 0x7f010044
-			public const int elevation = 2130772036;
+			public const int contentInsetEnd = 2130772036;
+			
+			// aapt resource value: 0x7f010045
+			public const int contentInsetLeft = 2130772037;
+			
+			// aapt resource value: 0x7f010046
+			public const int contentInsetRight = 2130772038;
+			
+			// aapt resource value: 0x7f010043
+			public const int contentInsetStart = 2130772035;
+			
+			// aapt resource value: 0x7f01003c
+			public const int customNavigationLayout = 2130772028;
+			
+			// aapt resource value: 0x7f01006d
+			public const int disableChildrenWhenDisabled = 2130772077;
+			
+			// aapt resource value: 0x7f010032
+			public const int displayOptions = 2130772018;
+			
+			// aapt resource value: 0x7f010038
+			public const int divider = 2130772024;
+			
+			// aapt resource value: 0x7f0100a5
+			public const int dividerHorizontal = 2130772133;
+			
+			// aapt resource value: 0x7f010057
+			public const int dividerPadding = 2130772055;
+			
+			// aapt resource value: 0x7f0100a4
+			public const int dividerVertical = 2130772132;
+			
+			// aapt resource value: 0x7f01004f
+			public const int drawableSize = 2130772047;
+			
+			// aapt resource value: 0x7f01002d
+			public const int drawerArrowStyle = 2130772013;
+			
+			// aapt resource value: 0x7f0100b7
+			public const int dropDownListViewStyle = 2130772151;
+			
+			// aapt resource value: 0x7f01009b
+			public const int dropdownListPreferredItemHeight = 2130772123;
+			
+			// aapt resource value: 0x7f0100ac
+			public const int editTextBackground = 2130772140;
+			
+			// aapt resource value: 0x7f0100ab
+			public const int editTextColor = 2130772139;
+			
+			// aapt resource value: 0x7f010047
+			public const int elevation = 2130772039;
 			
 			// aapt resource value: 0x7f010017
 			public const int environment = 2130771991;
 			
-			// aapt resource value: 0x7f010048
-			public const int expandActivityOverflowButtonDrawable = 2130772040;
+			// aapt resource value: 0x7f01004b
+			public const int expandActivityOverflowButtonDrawable = 2130772043;
 			
-			// aapt resource value: 0x7f010029
-			public const int externalRouteEnabledDrawable = 2130772009;
+			// aapt resource value: 0x7f01002c
+			public const int externalRouteEnabledDrawable = 2130772012;
 			
 			// aapt resource value: 0x7f010019
 			public const int fragmentMode = 2130771993;
@@ -338,29 +1587,29 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f010018
 			public const int fragmentStyle = 2130771992;
 			
-			// aapt resource value: 0x7f01004d
-			public const int gapBetweenBars = 2130772045;
+			// aapt resource value: 0x7f010050
+			public const int gapBetweenBars = 2130772048;
+			
+			// aapt resource value: 0x7f010063
+			public const int goIcon = 2130772067;
+			
+			// aapt resource value: 0x7f01002e
+			public const int height = 2130772014;
+			
+			// aapt resource value: 0x7f010042
+			public const int hideOnContentScroll = 2130772034;
+			
+			// aapt resource value: 0x7f01009e
+			public const int homeAsUpIndicator = 2130772126;
+			
+			// aapt resource value: 0x7f01003d
+			public const int homeLayout = 2130772029;
+			
+			// aapt resource value: 0x7f010036
+			public const int icon = 2130772022;
 			
 			// aapt resource value: 0x7f010060
-			public const int goIcon = 2130772064;
-			
-			// aapt resource value: 0x7f01002b
-			public const int height = 2130772011;
-			
-			// aapt resource value: 0x7f01003f
-			public const int hideOnContentScroll = 2130772031;
-			
-			// aapt resource value: 0x7f01009b
-			public const int homeAsUpIndicator = 2130772123;
-			
-			// aapt resource value: 0x7f01003a
-			public const int homeLayout = 2130772026;
-			
-			// aapt resource value: 0x7f010033
-			public const int icon = 2130772019;
-			
-			// aapt resource value: 0x7f01005d
-			public const int iconifiedByDefault = 2130772061;
+			public const int iconifiedByDefault = 2130772064;
 			
 			// aapt resource value: 0x7f010004
 			public const int imageAspectRatio = 2130771972;
@@ -368,47 +1617,47 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f010003
 			public const int imageAspectRatioAdjust = 2130771971;
 			
-			// aapt resource value: 0x7f01003c
-			public const int indeterminateProgressStyle = 2130772028;
+			// aapt resource value: 0x7f01003f
+			public const int indeterminateProgressStyle = 2130772031;
 			
-			// aapt resource value: 0x7f010047
-			public const int initialActivityCount = 2130772039;
+			// aapt resource value: 0x7f01004a
+			public const int initialActivityCount = 2130772042;
 			
-			// aapt resource value: 0x7f01002c
-			public const int isLightTheme = 2130772012;
+			// aapt resource value: 0x7f01002f
+			public const int isLightTheme = 2130772015;
 			
-			// aapt resource value: 0x7f01003e
-			public const int itemPadding = 2130772030;
+			// aapt resource value: 0x7f010041
+			public const int itemPadding = 2130772033;
 			
-			// aapt resource value: 0x7f01005c
-			public const int layout = 2130772060;
+			// aapt resource value: 0x7f01005f
+			public const int layout = 2130772063;
 			
-			// aapt resource value: 0x7f0100bb
-			public const int listChoiceBackgroundIndicator = 2130772155;
+			// aapt resource value: 0x7f0100be
+			public const int listChoiceBackgroundIndicator = 2130772158;
 			
-			// aapt resource value: 0x7f0100b5
-			public const int listPopupWindowStyle = 2130772149;
-			
-			// aapt resource value: 0x7f0100af
-			public const int listPreferredItemHeight = 2130772143;
-			
-			// aapt resource value: 0x7f0100b1
-			public const int listPreferredItemHeightLarge = 2130772145;
-			
-			// aapt resource value: 0x7f0100b0
-			public const int listPreferredItemHeightSmall = 2130772144;
+			// aapt resource value: 0x7f0100b8
+			public const int listPopupWindowStyle = 2130772152;
 			
 			// aapt resource value: 0x7f0100b2
-			public const int listPreferredItemPaddingLeft = 2130772146;
+			public const int listPreferredItemHeight = 2130772146;
+			
+			// aapt resource value: 0x7f0100b4
+			public const int listPreferredItemHeightLarge = 2130772148;
 			
 			// aapt resource value: 0x7f0100b3
-			public const int listPreferredItemPaddingRight = 2130772147;
+			public const int listPreferredItemHeightSmall = 2130772147;
+			
+			// aapt resource value: 0x7f0100b5
+			public const int listPreferredItemPaddingLeft = 2130772149;
+			
+			// aapt resource value: 0x7f0100b6
+			public const int listPreferredItemPaddingRight = 2130772150;
 			
 			// aapt resource value: 0x7f01000c
 			public const int liteMode = 2130771980;
 			
-			// aapt resource value: 0x7f010034
-			public const int logo = 2130772020;
+			// aapt resource value: 0x7f010037
+			public const int logo = 2130772023;
 			
 			// aapt resource value: 0x7f010006
 			public const int mapType = 2130771974;
@@ -434,11 +1683,11 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f01001e
 			public const int maskedWalletDetailsTextAppearance = 2130771998;
 			
-			// aapt resource value: 0x7f0100cb
-			public const int maxButtonHeight = 2130772171;
+			// aapt resource value: 0x7f0100ce
+			public const int maxButtonHeight = 2130772174;
 			
-			// aapt resource value: 0x7f010052
-			public const int measureWithLargestChild = 2130772050;
+			// aapt resource value: 0x7f010055
+			public const int measureWithLargestChild = 2130772053;
 			
 			// aapt resource value: 0x7f010025
 			public const int mediaRouteButtonStyle = 2130772005;
@@ -452,200 +1701,209 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f010028
 			public const int mediaRouteOnDrawable = 2130772008;
 			
-			// aapt resource value: 0x7f01004f
-			public const int middleBarArrowSize = 2130772047;
+			// aapt resource value: 0x7f010029
+			public const int mediaRoutePauseDrawable = 2130772009;
 			
-			// aapt resource value: 0x7f0100d0
-			public const int navigationContentDescription = 2130772176;
+			// aapt resource value: 0x7f01002a
+			public const int mediaRoutePlayDrawable = 2130772010;
 			
-			// aapt resource value: 0x7f0100cf
-			public const int navigationIcon = 2130772175;
+			// aapt resource value: 0x7f01002b
+			public const int mediaRouteSettingsDrawable = 2130772011;
 			
-			// aapt resource value: 0x7f01002e
-			public const int navigationMode = 2130772014;
+			// aapt resource value: 0x7f010052
+			public const int middleBarArrowSize = 2130772050;
 			
-			// aapt resource value: 0x7f01005a
-			public const int overlapAnchor = 2130772058;
+			// aapt resource value: 0x7f0100d3
+			public const int navigationContentDescription = 2130772179;
 			
 			// aapt resource value: 0x7f0100d2
-			public const int paddingEnd = 2130772178;
-			
-			// aapt resource value: 0x7f0100d1
-			public const int paddingStart = 2130772177;
-			
-			// aapt resource value: 0x7f0100b8
-			public const int panelBackground = 2130772152;
-			
-			// aapt resource value: 0x7f0100ba
-			public const int panelMenuListTheme = 2130772154;
-			
-			// aapt resource value: 0x7f0100b9
-			public const int panelMenuListWidth = 2130772153;
-			
-			// aapt resource value: 0x7f0100a6
-			public const int popupMenuStyle = 2130772134;
-			
-			// aapt resource value: 0x7f010069
-			public const int popupPromptView = 2130772073;
-			
-			// aapt resource value: 0x7f010045
-			public const int popupTheme = 2130772037;
-			
-			// aapt resource value: 0x7f0100a7
-			public const int popupWindowStyle = 2130772135;
-			
-			// aapt resource value: 0x7f010059
-			public const int preserveIconSpacing = 2130772057;
-			
-			// aapt resource value: 0x7f01003d
-			public const int progressBarPadding = 2130772029;
-			
-			// aapt resource value: 0x7f01003b
-			public const int progressBarStyle = 2130772027;
-			
-			// aapt resource value: 0x7f010067
-			public const int prompt = 2130772071;
-			
-			// aapt resource value: 0x7f010065
-			public const int queryBackground = 2130772069;
-			
-			// aapt resource value: 0x7f01005e
-			public const int queryHint = 2130772062;
-			
-			// aapt resource value: 0x7f010061
-			public const int searchIcon = 2130772065;
-			
-			// aapt resource value: 0x7f0100ae
-			public const int searchViewStyle = 2130772142;
-			
-			// aapt resource value: 0x7f01009f
-			public const int selectableItemBackground = 2130772127;
-			
-			// aapt resource value: 0x7f0100a0
-			public const int selectableItemBackgroundBorderless = 2130772128;
-			
-			// aapt resource value: 0x7f010055
-			public const int showAsAction = 2130772053;
-			
-			// aapt resource value: 0x7f010053
-			public const int showDividers = 2130772051;
-			
-			// aapt resource value: 0x7f010071
-			public const int showText = 2130772081;
-			
-			// aapt resource value: 0x7f01004b
-			public const int spinBars = 2130772043;
-			
-			// aapt resource value: 0x7f01009a
-			public const int spinnerDropDownItemStyle = 2130772122;
-			
-			// aapt resource value: 0x7f010068
-			public const int spinnerMode = 2130772072;
-			
-			// aapt resource value: 0x7f010099
-			public const int spinnerStyle = 2130772121;
-			
-			// aapt resource value: 0x7f010070
-			public const int splitTrack = 2130772080;
-			
-			// aapt resource value: 0x7f01005b
-			public const int state_above_anchor = 2130772059;
-			
-			// aapt resource value: 0x7f010066
-			public const int submitBackground = 2130772070;
-			
-			// aapt resource value: 0x7f010030
-			public const int subtitle = 2130772016;
-			
-			// aapt resource value: 0x7f0100c5
-			public const int subtitleTextAppearance = 2130772165;
-			
-			// aapt resource value: 0x7f010032
-			public const int subtitleTextStyle = 2130772018;
-			
-			// aapt resource value: 0x7f010064
-			public const int suggestionRowLayout = 2130772068;
-			
-			// aapt resource value: 0x7f01006e
-			public const int switchMinWidth = 2130772078;
-			
-			// aapt resource value: 0x7f01006f
-			public const int switchPadding = 2130772079;
-			
-			// aapt resource value: 0x7f0100aa
-			public const int switchStyle = 2130772138;
-			
-			// aapt resource value: 0x7f01006d
-			public const int switchTextAppearance = 2130772077;
-			
-			// aapt resource value: 0x7f010049
-			public const int textAllCaps = 2130772041;
-			
-			// aapt resource value: 0x7f010095
-			public const int textAppearanceLargePopupMenu = 2130772117;
-			
-			// aapt resource value: 0x7f0100b6
-			public const int textAppearanceListItem = 2130772150;
-			
-			// aapt resource value: 0x7f0100b7
-			public const int textAppearanceListItemSmall = 2130772151;
-			
-			// aapt resource value: 0x7f0100ac
-			public const int textAppearanceSearchResultSubtitle = 2130772140;
-			
-			// aapt resource value: 0x7f0100ab
-			public const int textAppearanceSearchResultTitle = 2130772139;
-			
-			// aapt resource value: 0x7f010096
-			public const int textAppearanceSmallPopupMenu = 2130772118;
-			
-			// aapt resource value: 0x7f0100ad
-			public const int textColorSearchUrl = 2130772141;
-			
-			// aapt resource value: 0x7f0100cc
-			public const int theme = 2130772172;
-			
-			// aapt resource value: 0x7f010051
-			public const int thickness = 2130772049;
-			
-			// aapt resource value: 0x7f01006c
-			public const int thumbTextPadding = 2130772076;
-			
-			// aapt resource value: 0x7f01002d
-			public const int title = 2130772013;
-			
-			// aapt resource value: 0x7f0100ca
-			public const int titleMarginBottom = 2130772170;
-			
-			// aapt resource value: 0x7f0100c8
-			public const int titleMarginEnd = 2130772168;
-			
-			// aapt resource value: 0x7f0100c7
-			public const int titleMarginStart = 2130772167;
-			
-			// aapt resource value: 0x7f0100c9
-			public const int titleMarginTop = 2130772169;
-			
-			// aapt resource value: 0x7f0100c6
-			public const int titleMargins = 2130772166;
-			
-			// aapt resource value: 0x7f0100c4
-			public const int titleTextAppearance = 2130772164;
+			public const int navigationIcon = 2130772178;
 			
 			// aapt resource value: 0x7f010031
-			public const int titleTextStyle = 2130772017;
+			public const int navigationMode = 2130772017;
 			
-			// aapt resource value: 0x7f0100a5
-			public const int toolbarNavigationButtonStyle = 2130772133;
+			// aapt resource value: 0x7f01005d
+			public const int overlapAnchor = 2130772061;
 			
-			// aapt resource value: 0x7f0100a4
-			public const int toolbarStyle = 2130772132;
+			// aapt resource value: 0x7f0100d5
+			public const int paddingEnd = 2130772181;
+			
+			// aapt resource value: 0x7f0100d4
+			public const int paddingStart = 2130772180;
+			
+			// aapt resource value: 0x7f0100bb
+			public const int panelBackground = 2130772155;
+			
+			// aapt resource value: 0x7f0100bd
+			public const int panelMenuListTheme = 2130772157;
+			
+			// aapt resource value: 0x7f0100bc
+			public const int panelMenuListWidth = 2130772156;
+			
+			// aapt resource value: 0x7f0100a9
+			public const int popupMenuStyle = 2130772137;
+			
+			// aapt resource value: 0x7f01006c
+			public const int popupPromptView = 2130772076;
+			
+			// aapt resource value: 0x7f010048
+			public const int popupTheme = 2130772040;
+			
+			// aapt resource value: 0x7f0100aa
+			public const int popupWindowStyle = 2130772138;
+			
+			// aapt resource value: 0x7f01005c
+			public const int preserveIconSpacing = 2130772060;
+			
+			// aapt resource value: 0x7f010040
+			public const int progressBarPadding = 2130772032;
+			
+			// aapt resource value: 0x7f01003e
+			public const int progressBarStyle = 2130772030;
+			
+			// aapt resource value: 0x7f01006a
+			public const int prompt = 2130772074;
+			
+			// aapt resource value: 0x7f010068
+			public const int queryBackground = 2130772072;
+			
+			// aapt resource value: 0x7f010061
+			public const int queryHint = 2130772065;
+			
+			// aapt resource value: 0x7f010064
+			public const int searchIcon = 2130772068;
+			
+			// aapt resource value: 0x7f0100b1
+			public const int searchViewStyle = 2130772145;
+			
+			// aapt resource value: 0x7f0100a2
+			public const int selectableItemBackground = 2130772130;
+			
+			// aapt resource value: 0x7f0100a3
+			public const int selectableItemBackgroundBorderless = 2130772131;
+			
+			// aapt resource value: 0x7f010058
+			public const int showAsAction = 2130772056;
+			
+			// aapt resource value: 0x7f010056
+			public const int showDividers = 2130772054;
+			
+			// aapt resource value: 0x7f010074
+			public const int showText = 2130772084;
 			
 			// aapt resource value: 0x7f01004e
-			public const int topBottomBarArrowSize = 2130772046;
+			public const int spinBars = 2130772046;
+			
+			// aapt resource value: 0x7f01009d
+			public const int spinnerDropDownItemStyle = 2130772125;
 			
 			// aapt resource value: 0x7f01006b
-			public const int track = 2130772075;
+			public const int spinnerMode = 2130772075;
+			
+			// aapt resource value: 0x7f01009c
+			public const int spinnerStyle = 2130772124;
+			
+			// aapt resource value: 0x7f010073
+			public const int splitTrack = 2130772083;
+			
+			// aapt resource value: 0x7f01005e
+			public const int state_above_anchor = 2130772062;
+			
+			// aapt resource value: 0x7f010069
+			public const int submitBackground = 2130772073;
+			
+			// aapt resource value: 0x7f010033
+			public const int subtitle = 2130772019;
+			
+			// aapt resource value: 0x7f0100c8
+			public const int subtitleTextAppearance = 2130772168;
+			
+			// aapt resource value: 0x7f010035
+			public const int subtitleTextStyle = 2130772021;
+			
+			// aapt resource value: 0x7f010067
+			public const int suggestionRowLayout = 2130772071;
+			
+			// aapt resource value: 0x7f010071
+			public const int switchMinWidth = 2130772081;
+			
+			// aapt resource value: 0x7f010072
+			public const int switchPadding = 2130772082;
+			
+			// aapt resource value: 0x7f0100ad
+			public const int switchStyle = 2130772141;
+			
+			// aapt resource value: 0x7f010070
+			public const int switchTextAppearance = 2130772080;
+			
+			// aapt resource value: 0x7f01004c
+			public const int textAllCaps = 2130772044;
+			
+			// aapt resource value: 0x7f010098
+			public const int textAppearanceLargePopupMenu = 2130772120;
+			
+			// aapt resource value: 0x7f0100b9
+			public const int textAppearanceListItem = 2130772153;
+			
+			// aapt resource value: 0x7f0100ba
+			public const int textAppearanceListItemSmall = 2130772154;
+			
+			// aapt resource value: 0x7f0100af
+			public const int textAppearanceSearchResultSubtitle = 2130772143;
+			
+			// aapt resource value: 0x7f0100ae
+			public const int textAppearanceSearchResultTitle = 2130772142;
+			
+			// aapt resource value: 0x7f010099
+			public const int textAppearanceSmallPopupMenu = 2130772121;
+			
+			// aapt resource value: 0x7f0100b0
+			public const int textColorSearchUrl = 2130772144;
+			
+			// aapt resource value: 0x7f0100cf
+			public const int theme = 2130772175;
+			
+			// aapt resource value: 0x7f010054
+			public const int thickness = 2130772052;
+			
+			// aapt resource value: 0x7f01006f
+			public const int thumbTextPadding = 2130772079;
+			
+			// aapt resource value: 0x7f010030
+			public const int title = 2130772016;
+			
+			// aapt resource value: 0x7f0100cd
+			public const int titleMarginBottom = 2130772173;
+			
+			// aapt resource value: 0x7f0100cb
+			public const int titleMarginEnd = 2130772171;
+			
+			// aapt resource value: 0x7f0100ca
+			public const int titleMarginStart = 2130772170;
+			
+			// aapt resource value: 0x7f0100cc
+			public const int titleMarginTop = 2130772172;
+			
+			// aapt resource value: 0x7f0100c9
+			public const int titleMargins = 2130772169;
+			
+			// aapt resource value: 0x7f0100c7
+			public const int titleTextAppearance = 2130772167;
+			
+			// aapt resource value: 0x7f010034
+			public const int titleTextStyle = 2130772020;
+			
+			// aapt resource value: 0x7f0100a8
+			public const int toolbarNavigationButtonStyle = 2130772136;
+			
+			// aapt resource value: 0x7f0100a7
+			public const int toolbarStyle = 2130772135;
+			
+			// aapt resource value: 0x7f010051
+			public const int topBottomBarArrowSize = 2130772049;
+			
+			// aapt resource value: 0x7f01006e
+			public const int track = 2130772078;
 			
 			// aapt resource value: 0x7f01000d
 			public const int uiCompass = 2130771981;
@@ -671,29 +1929,29 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f010013
 			public const int useViewLifecycle = 2130771987;
 			
-			// aapt resource value: 0x7f010062
-			public const int voiceIcon = 2130772066;
-			
-			// aapt resource value: 0x7f010072
-			public const int windowActionBar = 2130772082;
-			
-			// aapt resource value: 0x7f010073
-			public const int windowActionBarOverlay = 2130772083;
-			
-			// aapt resource value: 0x7f010074
-			public const int windowActionModeOverlay = 2130772084;
-			
-			// aapt resource value: 0x7f010078
-			public const int windowFixedHeightMajor = 2130772088;
-			
-			// aapt resource value: 0x7f010076
-			public const int windowFixedHeightMinor = 2130772086;
+			// aapt resource value: 0x7f010065
+			public const int voiceIcon = 2130772069;
 			
 			// aapt resource value: 0x7f010075
-			public const int windowFixedWidthMajor = 2130772085;
+			public const int windowActionBar = 2130772085;
+			
+			// aapt resource value: 0x7f010076
+			public const int windowActionBarOverlay = 2130772086;
 			
 			// aapt resource value: 0x7f010077
-			public const int windowFixedWidthMinor = 2130772087;
+			public const int windowActionModeOverlay = 2130772087;
+			
+			// aapt resource value: 0x7f01007b
+			public const int windowFixedHeightMajor = 2130772091;
+			
+			// aapt resource value: 0x7f010079
+			public const int windowFixedHeightMinor = 2130772089;
+			
+			// aapt resource value: 0x7f010078
+			public const int windowFixedWidthMajor = 2130772088;
+			
+			// aapt resource value: 0x7f01007a
+			public const int windowFixedWidthMinor = 2130772090;
 			
 			// aapt resource value: 0x7f010014
 			public const int zOrderOnTop = 2130771988;
@@ -711,23 +1969,23 @@ namespace AndroidTestDrive
 		public partial class Boolean
 		{
 			
-			// aapt resource value: 0x7f0a0000
-			public const int abc_action_bar_embed_tabs = 2131361792;
+			// aapt resource value: 0x7f0b0000
+			public const int abc_action_bar_embed_tabs = 2131427328;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int abc_action_bar_embed_tabs_pre_jb = 2131361793;
+			// aapt resource value: 0x7f0b0001
+			public const int abc_action_bar_embed_tabs_pre_jb = 2131427329;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int abc_action_bar_expanded_action_views_exclusive = 2131361794;
+			// aapt resource value: 0x7f0b0002
+			public const int abc_action_bar_expanded_action_views_exclusive = 2131427330;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int abc_config_actionMenuItemAllCaps = 2131361795;
+			// aapt resource value: 0x7f0b0003
+			public const int abc_config_actionMenuItemAllCaps = 2131427331;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int abc_config_allowActionMenuItemTextWithIcon = 2131361796;
+			// aapt resource value: 0x7f0b0004
+			public const int abc_config_allowActionMenuItemTextWithIcon = 2131427332;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131361797;
+			// aapt resource value: 0x7f0b0005
+			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131427333;
 			
 			static Boolean()
 			{
@@ -1010,134 +2268,152 @@ namespace AndroidTestDrive
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f0b0000
-			public const int abc_action_bar_default_height_material = 2131427328;
+			// aapt resource value: 0x7f0a0001
+			public const int abc_action_bar_default_height_material = 2131361793;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int abc_action_bar_default_padding_material = 2131427329;
+			// aapt resource value: 0x7f0a0002
+			public const int abc_action_bar_default_padding_material = 2131361794;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int abc_action_bar_icon_vertical_padding_material = 2131427330;
+			// aapt resource value: 0x7f0a0003
+			public const int abc_action_bar_icon_vertical_padding_material = 2131361795;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int abc_action_bar_progress_bar_size = 2131427331;
+			// aapt resource value: 0x7f0a0004
+			public const int abc_action_bar_progress_bar_size = 2131361796;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int abc_action_bar_stacked_max_height = 2131427332;
+			// aapt resource value: 0x7f0a0005
+			public const int abc_action_bar_stacked_max_height = 2131361797;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int abc_action_bar_stacked_tab_max_width = 2131427333;
+			// aapt resource value: 0x7f0a0006
+			public const int abc_action_bar_stacked_tab_max_width = 2131361798;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131427334;
+			// aapt resource value: 0x7f0a0007
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131361799;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int abc_action_bar_subtitle_top_margin_material = 2131427335;
+			// aapt resource value: 0x7f0a0008
+			public const int abc_action_bar_subtitle_top_margin_material = 2131361800;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int abc_action_button_min_height_material = 2131427336;
+			// aapt resource value: 0x7f0a0009
+			public const int abc_action_button_min_height_material = 2131361801;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int abc_action_button_min_width_material = 2131427337;
+			// aapt resource value: 0x7f0a000a
+			public const int abc_action_button_min_width_material = 2131361802;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int abc_action_button_min_width_overflow_material = 2131427338;
+			// aapt resource value: 0x7f0a000b
+			public const int abc_action_button_min_width_overflow_material = 2131361803;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int abc_config_prefDialogWidth = 2131427339;
+			// aapt resource value: 0x7f0a000c
+			public const int abc_button_inset_horizontal_material = 2131361804;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int abc_control_inset_material = 2131427340;
+			// aapt resource value: 0x7f0a000d
+			public const int abc_button_inset_vertical_material = 2131361805;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int abc_control_padding_material = 2131427341;
+			// aapt resource value: 0x7f0a000e
+			public const int abc_button_padding_horizontal_material = 2131361806;
 			
-			// aapt resource value: 0x7f0b000e
-			public const int abc_dropdownitem_icon_width = 2131427342;
+			// aapt resource value: 0x7f0a000f
+			public const int abc_button_padding_vertical_material = 2131361807;
 			
-			// aapt resource value: 0x7f0b000f
-			public const int abc_dropdownitem_text_padding_left = 2131427343;
+			// aapt resource value: 0x7f0a0010
+			public const int abc_config_prefDialogWidth = 2131361808;
 			
-			// aapt resource value: 0x7f0b0010
-			public const int abc_dropdownitem_text_padding_right = 2131427344;
+			// aapt resource value: 0x7f0a0011
+			public const int abc_control_corner_material = 2131361809;
 			
-			// aapt resource value: 0x7f0b0011
-			public const int abc_panel_menu_list_width = 2131427345;
+			// aapt resource value: 0x7f0a0012
+			public const int abc_control_inset_material = 2131361810;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int abc_search_view_preferred_width = 2131427346;
+			// aapt resource value: 0x7f0a0013
+			public const int abc_control_padding_material = 2131361811;
 			
-			// aapt resource value: 0x7f0b0013
-			public const int abc_search_view_text_min_width = 2131427347;
+			// aapt resource value: 0x7f0a0014
+			public const int abc_dropdownitem_icon_width = 2131361812;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int abc_text_size_body_1_material = 2131427348;
+			// aapt resource value: 0x7f0a0015
+			public const int abc_dropdownitem_text_padding_left = 2131361813;
 			
-			// aapt resource value: 0x7f0b0015
-			public const int abc_text_size_body_2_material = 2131427349;
+			// aapt resource value: 0x7f0a0016
+			public const int abc_dropdownitem_text_padding_right = 2131361814;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int abc_text_size_button_material = 2131427350;
+			// aapt resource value: 0x7f0a0017
+			public const int abc_panel_menu_list_width = 2131361815;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int abc_text_size_caption_material = 2131427351;
+			// aapt resource value: 0x7f0a0018
+			public const int abc_search_view_preferred_width = 2131361816;
 			
-			// aapt resource value: 0x7f0b0018
-			public const int abc_text_size_display_1_material = 2131427352;
+			// aapt resource value: 0x7f0a0019
+			public const int abc_search_view_text_min_width = 2131361817;
 			
-			// aapt resource value: 0x7f0b0019
-			public const int abc_text_size_display_2_material = 2131427353;
+			// aapt resource value: 0x7f0a001a
+			public const int abc_text_size_body_1_material = 2131361818;
 			
-			// aapt resource value: 0x7f0b001a
-			public const int abc_text_size_display_3_material = 2131427354;
+			// aapt resource value: 0x7f0a001b
+			public const int abc_text_size_body_2_material = 2131361819;
 			
-			// aapt resource value: 0x7f0b001b
-			public const int abc_text_size_display_4_material = 2131427355;
+			// aapt resource value: 0x7f0a001c
+			public const int abc_text_size_button_material = 2131361820;
 			
-			// aapt resource value: 0x7f0b001c
-			public const int abc_text_size_headline_material = 2131427356;
+			// aapt resource value: 0x7f0a001d
+			public const int abc_text_size_caption_material = 2131361821;
 			
-			// aapt resource value: 0x7f0b001d
-			public const int abc_text_size_large_material = 2131427357;
+			// aapt resource value: 0x7f0a001e
+			public const int abc_text_size_display_1_material = 2131361822;
 			
-			// aapt resource value: 0x7f0b001e
-			public const int abc_text_size_medium_material = 2131427358;
+			// aapt resource value: 0x7f0a001f
+			public const int abc_text_size_display_2_material = 2131361823;
 			
-			// aapt resource value: 0x7f0b001f
-			public const int abc_text_size_menu_material = 2131427359;
+			// aapt resource value: 0x7f0a0020
+			public const int abc_text_size_display_3_material = 2131361824;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int abc_text_size_small_material = 2131427360;
+			// aapt resource value: 0x7f0a0021
+			public const int abc_text_size_display_4_material = 2131361825;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int abc_text_size_subhead_material = 2131427361;
+			// aapt resource value: 0x7f0a0022
+			public const int abc_text_size_headline_material = 2131361826;
 			
-			// aapt resource value: 0x7f0b0022
-			public const int abc_text_size_subtitle_material_toolbar = 2131427362;
+			// aapt resource value: 0x7f0a0023
+			public const int abc_text_size_large_material = 2131361827;
 			
-			// aapt resource value: 0x7f0b0023
-			public const int abc_text_size_title_material = 2131427363;
+			// aapt resource value: 0x7f0a0024
+			public const int abc_text_size_medium_material = 2131361828;
 			
-			// aapt resource value: 0x7f0b0024
-			public const int abc_text_size_title_material_toolbar = 2131427364;
+			// aapt resource value: 0x7f0a0025
+			public const int abc_text_size_menu_material = 2131361829;
 			
-			// aapt resource value: 0x7f0b0025
-			public const int dialog_fixed_height_major = 2131427365;
+			// aapt resource value: 0x7f0a0026
+			public const int abc_text_size_small_material = 2131361830;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int dialog_fixed_height_minor = 2131427366;
+			// aapt resource value: 0x7f0a0027
+			public const int abc_text_size_subhead_material = 2131361831;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int dialog_fixed_width_major = 2131427367;
+			// aapt resource value: 0x7f0a0028
+			public const int abc_text_size_subtitle_material_toolbar = 2131361832;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int dialog_fixed_width_minor = 2131427368;
+			// aapt resource value: 0x7f0a0029
+			public const int abc_text_size_title_material = 2131361833;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int disabled_alpha_material_dark = 2131427369;
+			// aapt resource value: 0x7f0a002a
+			public const int abc_text_size_title_material_toolbar = 2131361834;
 			
-			// aapt resource value: 0x7f0b002a
-			public const int disabled_alpha_material_light = 2131427370;
+			// aapt resource value: 0x7f0a002b
+			public const int dialog_fixed_height_major = 2131361835;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int dialog_fixed_height_minor = 2131361836;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int dialog_fixed_width_major = 2131361837;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int dialog_fixed_width_minor = 2131361838;
+			
+			// aapt resource value: 0x7f0a002f
+			public const int disabled_alpha_material_dark = 2131361839;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int disabled_alpha_material_light = 2131361840;
+			
+			// aapt resource value: 0x7f0a0000
+			public const int mr_media_route_controller_art_max_height = 2131361792;
 			
 			static Dimension()
 			{
@@ -1153,19 +2429,19 @@ namespace AndroidTestDrive
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int abc_ab_share_pack_holo_dark = 2130837504;
+			public const int abc_ab_share_pack_mtrl_alpha = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int abc_ab_share_pack_holo_light = 2130837505;
+			public const int abc_btn_check_material = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int abc_btn_check_material = 2130837506;
+			public const int abc_btn_check_to_on_mtrl_000 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int abc_btn_check_to_on_mtrl_000 = 2130837507;
+			public const int abc_btn_check_to_on_mtrl_015 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int abc_btn_check_to_on_mtrl_015 = 2130837508;
+			public const int abc_btn_default_mtrl_shape = 2130837508;
 			
 			// aapt resource value: 0x7f020005
 			public const int abc_btn_radio_material = 2130837509;
@@ -1177,283 +2453,343 @@ namespace AndroidTestDrive
 			public const int abc_btn_radio_to_on_mtrl_015 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int abc_btn_switch_to_on_mtrl_00001 = 2130837512;
+			public const int abc_btn_rating_star_off_mtrl_alpha = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int abc_btn_switch_to_on_mtrl_00012 = 2130837513;
+			public const int abc_btn_rating_star_on_mtrl_alpha = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int abc_cab_background_internal_bg = 2130837514;
+			public const int abc_btn_switch_to_on_mtrl_00001 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int abc_cab_background_top_material = 2130837515;
+			public const int abc_btn_switch_to_on_mtrl_00012 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int abc_cab_background_top_mtrl_alpha = 2130837516;
+			public const int abc_cab_background_internal_bg = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int abc_edit_text_material = 2130837517;
+			public const int abc_cab_background_top_material = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int abc_ic_ab_back_mtrl_am_alpha = 2130837518;
+			public const int abc_cab_background_top_mtrl_alpha = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int abc_ic_clear_mtrl_alpha = 2130837519;
+			public const int abc_edit_text_material = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int abc_ic_commit_search_api_mtrl_alpha = 2130837520;
+			public const int abc_ic_ab_back_mtrl_am_alpha = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int abc_ic_go_search_api_mtrl_alpha = 2130837521;
+			public const int abc_ic_clear_mtrl_alpha = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int abc_ic_menu_copy_mtrl_am_alpha = 2130837522;
+			public const int abc_ic_commit_search_api_mtrl_alpha = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int abc_ic_menu_cut_mtrl_alpha = 2130837523;
+			public const int abc_ic_go_search_api_mtrl_alpha = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int abc_ic_menu_moreoverflow_mtrl_alpha = 2130837524;
+			public const int abc_ic_menu_copy_mtrl_am_alpha = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int abc_ic_menu_paste_mtrl_am_alpha = 2130837525;
+			public const int abc_ic_menu_cut_mtrl_alpha = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int abc_ic_menu_selectall_mtrl_alpha = 2130837526;
+			public const int abc_ic_menu_moreoverflow_mtrl_alpha = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int abc_ic_menu_share_mtrl_alpha = 2130837527;
+			public const int abc_ic_menu_paste_mtrl_am_alpha = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int abc_ic_search_api_mtrl_alpha = 2130837528;
+			public const int abc_ic_menu_selectall_mtrl_alpha = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int abc_ic_voice_search_api_mtrl_alpha = 2130837529;
+			public const int abc_ic_menu_share_mtrl_alpha = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int abc_item_background_holo_dark = 2130837530;
+			public const int abc_ic_search_api_mtrl_alpha = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int abc_item_background_holo_light = 2130837531;
+			public const int abc_ic_voice_search_api_mtrl_alpha = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int abc_list_divider_mtrl_alpha = 2130837532;
+			public const int abc_item_background_holo_dark = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int abc_list_focused_holo = 2130837533;
+			public const int abc_item_background_holo_light = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int abc_list_longpressed_holo = 2130837534;
+			public const int abc_list_divider_mtrl_alpha = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int abc_list_pressed_holo_dark = 2130837535;
+			public const int abc_list_focused_holo = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int abc_list_pressed_holo_light = 2130837536;
+			public const int abc_list_longpressed_holo = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int abc_list_selector_background_transition_holo_dark = 2130837537;
+			public const int abc_list_pressed_holo_dark = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int abc_list_selector_background_transition_holo_light = 2130837538;
+			public const int abc_list_pressed_holo_light = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int abc_list_selector_disabled_holo_dark = 2130837539;
+			public const int abc_list_selector_background_transition_holo_dark = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int abc_list_selector_disabled_holo_light = 2130837540;
+			public const int abc_list_selector_background_transition_holo_light = 2130837540;
 			
 			// aapt resource value: 0x7f020025
-			public const int abc_list_selector_holo_dark = 2130837541;
+			public const int abc_list_selector_disabled_holo_dark = 2130837541;
 			
 			// aapt resource value: 0x7f020026
-			public const int abc_list_selector_holo_light = 2130837542;
+			public const int abc_list_selector_disabled_holo_light = 2130837542;
 			
 			// aapt resource value: 0x7f020027
-			public const int abc_menu_hardkey_panel_mtrl_mult = 2130837543;
+			public const int abc_list_selector_holo_dark = 2130837543;
 			
 			// aapt resource value: 0x7f020028
-			public const int abc_popup_background_mtrl_mult = 2130837544;
+			public const int abc_list_selector_holo_light = 2130837544;
 			
 			// aapt resource value: 0x7f020029
-			public const int abc_spinner_mtrl_am_alpha = 2130837545;
+			public const int abc_menu_hardkey_panel_mtrl_mult = 2130837545;
 			
 			// aapt resource value: 0x7f02002a
-			public const int abc_switch_thumb_material = 2130837546;
+			public const int abc_popup_background_mtrl_mult = 2130837546;
 			
 			// aapt resource value: 0x7f02002b
-			public const int abc_switch_track_mtrl_alpha = 2130837547;
+			public const int abc_ratingbar_full_material = 2130837547;
 			
 			// aapt resource value: 0x7f02002c
-			public const int abc_tab_indicator_material = 2130837548;
+			public const int abc_spinner_mtrl_am_alpha = 2130837548;
 			
 			// aapt resource value: 0x7f02002d
-			public const int abc_tab_indicator_mtrl_alpha = 2130837549;
+			public const int abc_spinner_textfield_background_material = 2130837549;
 			
 			// aapt resource value: 0x7f02002e
-			public const int abc_textfield_activated_mtrl_alpha = 2130837550;
+			public const int abc_switch_thumb_material = 2130837550;
 			
 			// aapt resource value: 0x7f02002f
-			public const int abc_textfield_default_mtrl_alpha = 2130837551;
+			public const int abc_switch_track_mtrl_alpha = 2130837551;
 			
 			// aapt resource value: 0x7f020030
-			public const int abc_textfield_search_activated_mtrl_alpha = 2130837552;
+			public const int abc_tab_indicator_material = 2130837552;
 			
 			// aapt resource value: 0x7f020031
-			public const int abc_textfield_search_default_mtrl_alpha = 2130837553;
+			public const int abc_tab_indicator_mtrl_alpha = 2130837553;
 			
 			// aapt resource value: 0x7f020032
-			public const int abc_textfield_search_material = 2130837554;
+			public const int abc_textfield_activated_mtrl_alpha = 2130837554;
 			
 			// aapt resource value: 0x7f020033
-			public const int common_full_open_on_phone = 2130837555;
+			public const int abc_textfield_default_mtrl_alpha = 2130837555;
 			
 			// aapt resource value: 0x7f020034
-			public const int common_ic_googleplayservices = 2130837556;
+			public const int abc_textfield_search_activated_mtrl_alpha = 2130837556;
 			
 			// aapt resource value: 0x7f020035
-			public const int common_signin_btn_icon_dark = 2130837557;
+			public const int abc_textfield_search_default_mtrl_alpha = 2130837557;
 			
 			// aapt resource value: 0x7f020036
-			public const int common_signin_btn_icon_disabled_dark = 2130837558;
+			public const int abc_textfield_search_material = 2130837558;
 			
 			// aapt resource value: 0x7f020037
-			public const int common_signin_btn_icon_disabled_focus_dark = 2130837559;
+			public const int common_full_open_on_phone = 2130837559;
 			
 			// aapt resource value: 0x7f020038
-			public const int common_signin_btn_icon_disabled_focus_light = 2130837560;
+			public const int common_ic_googleplayservices = 2130837560;
 			
 			// aapt resource value: 0x7f020039
-			public const int common_signin_btn_icon_disabled_light = 2130837561;
+			public const int common_signin_btn_icon_dark = 2130837561;
 			
 			// aapt resource value: 0x7f02003a
-			public const int common_signin_btn_icon_focus_dark = 2130837562;
+			public const int common_signin_btn_icon_disabled_dark = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int common_signin_btn_icon_focus_light = 2130837563;
+			public const int common_signin_btn_icon_disabled_focus_dark = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int common_signin_btn_icon_light = 2130837564;
+			public const int common_signin_btn_icon_disabled_focus_light = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int common_signin_btn_icon_normal_dark = 2130837565;
+			public const int common_signin_btn_icon_disabled_light = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int common_signin_btn_icon_normal_light = 2130837566;
+			public const int common_signin_btn_icon_focus_dark = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int common_signin_btn_icon_pressed_dark = 2130837567;
+			public const int common_signin_btn_icon_focus_light = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int common_signin_btn_icon_pressed_light = 2130837568;
+			public const int common_signin_btn_icon_light = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int common_signin_btn_text_dark = 2130837569;
+			public const int common_signin_btn_icon_normal_dark = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int common_signin_btn_text_disabled_dark = 2130837570;
+			public const int common_signin_btn_icon_normal_light = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int common_signin_btn_text_disabled_focus_dark = 2130837571;
+			public const int common_signin_btn_icon_pressed_dark = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int common_signin_btn_text_disabled_focus_light = 2130837572;
+			public const int common_signin_btn_icon_pressed_light = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int common_signin_btn_text_disabled_light = 2130837573;
+			public const int common_signin_btn_text_dark = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int common_signin_btn_text_focus_dark = 2130837574;
+			public const int common_signin_btn_text_disabled_dark = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int common_signin_btn_text_focus_light = 2130837575;
+			public const int common_signin_btn_text_disabled_focus_dark = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int common_signin_btn_text_light = 2130837576;
+			public const int common_signin_btn_text_disabled_focus_light = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int common_signin_btn_text_normal_dark = 2130837577;
+			public const int common_signin_btn_text_disabled_light = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int common_signin_btn_text_normal_light = 2130837578;
+			public const int common_signin_btn_text_focus_dark = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int common_signin_btn_text_pressed_dark = 2130837579;
+			public const int common_signin_btn_text_focus_light = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int common_signin_btn_text_pressed_light = 2130837580;
+			public const int common_signin_btn_text_light = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int ic_plusone_medium_off_client = 2130837581;
+			public const int common_signin_btn_text_normal_dark = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_plusone_small_off_client = 2130837582;
+			public const int common_signin_btn_text_normal_light = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_plusone_standard_off_client = 2130837583;
+			public const int common_signin_btn_text_pressed_dark = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_plusone_tall_off_client = 2130837584;
+			public const int common_signin_btn_text_pressed_light = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int Icon = 2130837585;
+			public const int ic_cast_dark = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int mr_ic_audio_vol = 2130837586;
+			public const int ic_cast_disabled_light = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int mr_ic_media_route_connecting_holo_dark = 2130837587;
+			public const int ic_cast_light = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int mr_ic_media_route_connecting_holo_light = 2130837588;
+			public const int ic_cast_off_light = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int mr_ic_media_route_disabled_holo_dark = 2130837589;
+			public const int ic_cast_on_0_light = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int mr_ic_media_route_disabled_holo_light = 2130837590;
+			public const int ic_cast_on_1_light = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int mr_ic_media_route_holo_dark = 2130837591;
+			public const int ic_cast_on_2_light = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int mr_ic_media_route_holo_light = 2130837592;
+			public const int ic_cast_on_light = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int mr_ic_media_route_off_holo_dark = 2130837593;
+			public const int ic_media_pause = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int mr_ic_media_route_off_holo_light = 2130837594;
+			public const int ic_media_play = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int mr_ic_media_route_on_0_holo_dark = 2130837595;
+			public const int ic_media_route_disabled_mono_dark = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int mr_ic_media_route_on_0_holo_light = 2130837596;
+			public const int ic_media_route_off_mono_dark = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int mr_ic_media_route_on_1_holo_dark = 2130837597;
+			public const int ic_media_route_on_0_mono_dark = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int mr_ic_media_route_on_1_holo_light = 2130837598;
+			public const int ic_media_route_on_1_mono_dark = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int mr_ic_media_route_on_2_holo_dark = 2130837599;
+			public const int ic_media_route_on_2_mono_dark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int mr_ic_media_route_on_2_holo_light = 2130837600;
+			public const int ic_media_route_on_mono_dark = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int mr_ic_media_route_on_holo_dark = 2130837601;
+			public const int ic_pause_dark = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int mr_ic_media_route_on_holo_light = 2130837602;
+			public const int ic_pause_light = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int powered_by_google_dark = 2130837603;
+			public const int ic_play_dark = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int powered_by_google_light = 2130837604;
+			public const int ic_play_light = 2130837604;
+			
+			// aapt resource value: 0x7f020065
+			public const int ic_plusone_medium_off_client = 2130837605;
+			
+			// aapt resource value: 0x7f020066
+			public const int ic_plusone_small_off_client = 2130837606;
+			
+			// aapt resource value: 0x7f020067
+			public const int ic_plusone_standard_off_client = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int ic_plusone_tall_off_client = 2130837608;
+			
+			// aapt resource value: 0x7f020069
+			public const int ic_setting_dark = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int ic_setting_light = 2130837610;
+			
+			// aapt resource value: 0x7f02006b
+			public const int Icon = 2130837611;
+			
+			// aapt resource value: 0x7f02006c
+			public const int mr_ic_audio_vol = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int mr_ic_media_route_connecting_mono_light = 2130837614;
+			
+			// aapt resource value: 0x7f02006f
+			public const int mr_ic_media_route_mono_dark = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int mr_ic_media_route_mono_light = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int mr_ic_pause_dark = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int mr_ic_pause_light = 2130837618;
+			
+			// aapt resource value: 0x7f020073
+			public const int mr_ic_play_dark = 2130837619;
+			
+			// aapt resource value: 0x7f020074
+			public const int mr_ic_play_light = 2130837620;
+			
+			// aapt resource value: 0x7f020075
+			public const int mr_ic_settings_dark = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int mr_ic_settings_light = 2130837622;
+			
+			// aapt resource value: 0x7f020077
+			public const int powered_by_google_dark = 2130837623;
+			
+			// aapt resource value: 0x7f020078
+			public const int powered_by_google_light = 2130837624;
 			
 			static Drawable()
 			{
@@ -1519,11 +2855,17 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f0c002b
 			public const int always = 2131492907;
 			
+			// aapt resource value: 0x7f0c005e
+			public const int art = 2131492958;
+			
 			// aapt resource value: 0x7f0c0028
 			public const int beginning = 2131492904;
 			
 			// aapt resource value: 0x7f0c0019
 			public const int book_now = 2131492889;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int buttons = 2131492962;
 			
 			// aapt resource value: 0x7f0c0015
 			public const int buyButton = 2131492885;
@@ -1549,11 +2891,17 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f0c0038
 			public const int default_activity_button = 2131492920;
 			
+			// aapt resource value: 0x7f0c005d
+			public const int default_control_frame = 2131492957;
+			
 			// aapt resource value: 0x7f0c0030
 			public const int dialog = 2131492912;
 			
 			// aapt resource value: 0x7f0c0022
 			public const int disableHome = 2131492898;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int disconnect = 2131492963;
 			
 			// aapt resource value: 0x7f0c001c
 			public const int donate_with_google = 2131492892;
@@ -1618,20 +2966,11 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f0c0017
 			public const int match_parent = 2131492887;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int media_route_control_frame = 2131492955;
-			
 			// aapt resource value: 0x7f0c005c
-			public const int media_route_disconnect_button = 2131492956;
+			public const int media_route_control_frame = 2131492956;
 			
 			// aapt resource value: 0x7f0c0058
 			public const int media_route_list = 2131492952;
-			
-			// aapt resource value: 0x7f0c0059
-			public const int media_route_volume_layout = 2131492953;
-			
-			// aapt resource value: 0x7f0c005a
-			public const int media_route_volume_slider = 2131492954;
 			
 			// aapt resource value: 0x7f0c002a
 			public const int middle = 2131492906;
@@ -1651,6 +2990,9 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f0c000d
 			public const int normal = 2131492877;
 			
+			// aapt resource value: 0x7f0c005f
+			public const int play_pause = 2131492959;
+			
 			// aapt resource value: 0x7f0c0012
 			public const int production = 2131492882;
 			
@@ -1662,6 +3004,9 @@ namespace AndroidTestDrive
 			
 			// aapt resource value: 0x7f0c003f
 			public const int radio = 2131492927;
+			
+			// aapt resource value: 0x7f0c005a
+			public const int route_name = 2131492954;
 			
 			// aapt resource value: 0x7f0c0013
 			public const int sandbox = 2131492883;
@@ -1705,6 +3050,9 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f0c0016
 			public const int selectionDetails = 2131492886;
 			
+			// aapt resource value: 0x7f0c005b
+			public const int settings = 2131492955;
+			
 			// aapt resource value: 0x7f0c003e
 			public const int shortcut = 2131492926;
 			
@@ -1720,11 +3068,17 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f0c0007
 			public const int split_action_bar = 2131492871;
 			
+			// aapt resource value: 0x7f0c0064
+			public const int stop = 2131492964;
+			
 			// aapt resource value: 0x7f0c0014
 			public const int strict_sandbox = 2131492884;
 			
 			// aapt resource value: 0x7f0c0050
 			public const int submit_area = 2131492944;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int subtitle = 2131492961;
 			
 			// aapt resource value: 0x7f0c0021
 			public const int tabMode = 2131492897;
@@ -1732,8 +3086,14 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f0c000f
 			public const int terrain = 2131492879;
 			
+			// aapt resource value: 0x7f0c0060
+			public const int text_wrapper = 2131492960;
+			
 			// aapt resource value: 0x7f0c003b
 			public const int title = 2131492923;
+			
+			// aapt resource value: 0x7f0c0059
+			public const int title_bar = 2131492953;
 			
 			// aapt resource value: 0x7f0c0008
 			public const int up = 2131492872;
@@ -1761,7 +3121,13 @@ namespace AndroidTestDrive
 		{
 			
 			// aapt resource value: 0x7f090001
-			public const int abc_max_action_buttons = 2131296257;
+			public const int abc_config_activityDefaultDur = 2131296257;
+			
+			// aapt resource value: 0x7f090002
+			public const int abc_config_activityShortDur = 2131296258;
+			
+			// aapt resource value: 0x7f090003
+			public const int abc_max_action_buttons = 2131296259;
 			
 			// aapt resource value: 0x7f090000
 			public const int google_play_services_version = 2131296256;
@@ -1804,64 +3170,61 @@ namespace AndroidTestDrive
 			public const int abc_activity_chooser_view = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int abc_activity_chooser_view_include = 2130903048;
+			public const int abc_activity_chooser_view_list_item = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int abc_activity_chooser_view_list_item = 2130903049;
+			public const int abc_expanded_menu_layout = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int abc_expanded_menu_layout = 2130903050;
+			public const int abc_list_menu_item_checkbox = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int abc_list_menu_item_checkbox = 2130903051;
+			public const int abc_list_menu_item_icon = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int abc_list_menu_item_icon = 2130903052;
+			public const int abc_list_menu_item_layout = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int abc_list_menu_item_layout = 2130903053;
+			public const int abc_list_menu_item_radio = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int abc_list_menu_item_radio = 2130903054;
+			public const int abc_popup_menu_item_layout = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int abc_popup_menu_item_layout = 2130903055;
+			public const int abc_screen_content_include = 2130903055;
 			
 			// aapt resource value: 0x7f030010
-			public const int abc_screen_content_include = 2130903056;
+			public const int abc_screen_simple = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int abc_screen_simple = 2130903057;
+			public const int abc_screen_simple_overlay_action_mode = 2130903057;
 			
 			// aapt resource value: 0x7f030012
-			public const int abc_screen_simple_overlay_action_mode = 2130903058;
+			public const int abc_screen_toolbar = 2130903058;
 			
 			// aapt resource value: 0x7f030013
-			public const int abc_screen_toolbar = 2130903059;
+			public const int abc_search_dropdown_item_icons_2line = 2130903059;
 			
 			// aapt resource value: 0x7f030014
-			public const int abc_search_dropdown_item_icons_2line = 2130903060;
+			public const int abc_search_view = 2130903060;
 			
 			// aapt resource value: 0x7f030015
-			public const int abc_search_view = 2130903061;
+			public const int abc_simple_dropdown_hint = 2130903061;
 			
 			// aapt resource value: 0x7f030016
-			public const int abc_simple_dropdown_hint = 2130903062;
+			public const int Main = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public const int Main = 2130903063;
+			public const int mr_media_route_chooser_dialog = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int mr_media_route_chooser_dialog = 2130903064;
+			public const int mr_media_route_controller_material_dialog_b = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int mr_media_route_controller_dialog = 2130903065;
+			public const int mr_media_route_list_item = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int mr_media_route_list_item = 2130903066;
-			
-			// aapt resource value: 0x7f03001b
-			public const int support_simple_spinner_dropdown_item = 2130903067;
+			public const int support_simple_spinner_dropdown_item = 2130903066;
 			
 			static Layout()
 			{
@@ -1892,65 +3255,65 @@ namespace AndroidTestDrive
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f07003b
-			public const int ApplicationName = 2131165243;
+			// aapt resource value: 0x7f07003f
+			public const int ApplicationName = 2131165247;
 			
-			// aapt resource value: 0x7f07003a
-			public const int Hello = 2131165242;
-			
-			// aapt resource value: 0x7f070029
-			public const int abc_action_bar_home_description = 2131165225;
-			
-			// aapt resource value: 0x7f07002a
-			public const int abc_action_bar_home_description_format = 2131165226;
-			
-			// aapt resource value: 0x7f07002b
-			public const int abc_action_bar_home_subtitle_description_format = 2131165227;
-			
-			// aapt resource value: 0x7f07002c
-			public const int abc_action_bar_up_description = 2131165228;
+			// aapt resource value: 0x7f07003e
+			public const int Hello = 2131165246;
 			
 			// aapt resource value: 0x7f07002d
-			public const int abc_action_menu_overflow_description = 2131165229;
+			public const int abc_action_bar_home_description = 2131165229;
 			
 			// aapt resource value: 0x7f07002e
-			public const int abc_action_mode_done = 2131165230;
+			public const int abc_action_bar_home_description_format = 2131165230;
 			
 			// aapt resource value: 0x7f07002f
-			public const int abc_activity_chooser_view_see_all = 2131165231;
+			public const int abc_action_bar_home_subtitle_description_format = 2131165231;
 			
 			// aapt resource value: 0x7f070030
-			public const int abc_activitychooserview_choose_application = 2131165232;
+			public const int abc_action_bar_up_description = 2131165232;
 			
 			// aapt resource value: 0x7f070031
-			public const int abc_searchview_description_clear = 2131165233;
+			public const int abc_action_menu_overflow_description = 2131165233;
 			
 			// aapt resource value: 0x7f070032
-			public const int abc_searchview_description_query = 2131165234;
+			public const int abc_action_mode_done = 2131165234;
 			
 			// aapt resource value: 0x7f070033
-			public const int abc_searchview_description_search = 2131165235;
+			public const int abc_activity_chooser_view_see_all = 2131165235;
 			
 			// aapt resource value: 0x7f070034
-			public const int abc_searchview_description_submit = 2131165236;
+			public const int abc_activitychooserview_choose_application = 2131165236;
 			
 			// aapt resource value: 0x7f070035
-			public const int abc_searchview_description_voice = 2131165237;
+			public const int abc_searchview_description_clear = 2131165237;
 			
 			// aapt resource value: 0x7f070036
-			public const int abc_shareactionprovider_share_with = 2131165238;
+			public const int abc_searchview_description_query = 2131165238;
 			
 			// aapt resource value: 0x7f070037
-			public const int abc_shareactionprovider_share_with_application = 2131165239;
+			public const int abc_searchview_description_search = 2131165239;
 			
 			// aapt resource value: 0x7f070038
-			public const int abc_toolbar_collapse_description = 2131165240;
+			public const int abc_searchview_description_submit = 2131165240;
+			
+			// aapt resource value: 0x7f070039
+			public const int abc_searchview_description_voice = 2131165241;
+			
+			// aapt resource value: 0x7f07003a
+			public const int abc_shareactionprovider_share_with = 2131165242;
+			
+			// aapt resource value: 0x7f07003b
+			public const int abc_shareactionprovider_share_with_application = 2131165243;
+			
+			// aapt resource value: 0x7f07003c
+			public const int abc_toolbar_collapse_description = 2131165244;
 			
 			// aapt resource value: 0x7f070002
 			public const int accept = 2131165186;
 			
-			// aapt resource value: 0x7f07003d
-			public const int app_name = 2131165245;
+			// aapt resource value: 0x7f070041
+			public const int app_name = 2131165249;
 			
 			// aapt resource value: 0x7f070009
 			public const int common_android_wear_notification_needs_update_text = 2131165193;
@@ -2045,20 +3408,20 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f070003
 			public const int decline = 2131165187;
 			
-			// aapt resource value: 0x7f07003c
-			public const int hello = 2131165244;
-			
-			// aapt resource value: 0x7f070039
-			public const int library_name = 2131165241;
-			
-			// aapt resource value: 0x7f07003f
-			public const int load = 2131165247;
-			
-			// aapt resource value: 0x7f070041
-			public const int loadQuery = 2131165249;
-			
 			// aapt resource value: 0x7f070040
-			public const int loadcache = 2131165248;
+			public const int hello = 2131165248;
+			
+			// aapt resource value: 0x7f07003d
+			public const int library_name = 2131165245;
+			
+			// aapt resource value: 0x7f070043
+			public const int load = 2131165251;
+			
+			// aapt resource value: 0x7f070045
+			public const int loadQuery = 2131165253;
+			
+			// aapt resource value: 0x7f070044
+			public const int loadcache = 2131165252;
 			
 			// aapt resource value: 0x7f070023
 			public const int mr_media_route_button_content_description = 2131165219;
@@ -2073,13 +3436,25 @@ namespace AndroidTestDrive
 			public const int mr_media_route_controller_disconnect = 2131165222;
 			
 			// aapt resource value: 0x7f070027
-			public const int mr_system_route_name = 2131165223;
+			public const int mr_media_route_controller_pause = 2131165223;
 			
 			// aapt resource value: 0x7f070028
-			public const int mr_user_route_category_name = 2131165224;
+			public const int mr_media_route_controller_play = 2131165224;
 			
-			// aapt resource value: 0x7f07003e
-			public const int save = 2131165246;
+			// aapt resource value: 0x7f070029
+			public const int mr_media_route_controller_settings_description = 2131165225;
+			
+			// aapt resource value: 0x7f07002a
+			public const int mr_media_route_controller_stop = 2131165226;
+			
+			// aapt resource value: 0x7f07002b
+			public const int mr_system_route_name = 2131165227;
+			
+			// aapt resource value: 0x7f07002c
+			public const int mr_user_route_category_name = 2131165228;
+			
+			// aapt resource value: 0x7f070042
+			public const int save = 2131165250;
 			
 			// aapt resource value: 0x7f070001
 			public const int store_picture_message = 2131165185;
@@ -2104,541 +3479,565 @@ namespace AndroidTestDrive
 		{
 			
 			// aapt resource value: 0x7f060009
-			public const int Base_TextAppearance_AppCompat = 2131099657;
+			public const int Animation_AppCompat_DropDownUp = 2131099657;
 			
 			// aapt resource value: 0x7f06000a
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131099658;
+			public const int Base_Animation_AppCompat_DropDownUp = 2131099658;
 			
 			// aapt resource value: 0x7f06000b
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131099659;
+			public const int Base_TextAppearance_AppCompat = 2131099659;
 			
 			// aapt resource value: 0x7f06000c
-			public const int Base_TextAppearance_AppCompat_Button = 2131099660;
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131099660;
 			
 			// aapt resource value: 0x7f06000d
-			public const int Base_TextAppearance_AppCompat_Caption = 2131099661;
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131099661;
 			
 			// aapt resource value: 0x7f06000e
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131099662;
+			public const int Base_TextAppearance_AppCompat_Button = 2131099662;
 			
 			// aapt resource value: 0x7f06000f
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131099663;
+			public const int Base_TextAppearance_AppCompat_Caption = 2131099663;
 			
 			// aapt resource value: 0x7f060010
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131099664;
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131099664;
 			
 			// aapt resource value: 0x7f060011
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131099665;
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131099665;
 			
 			// aapt resource value: 0x7f060012
-			public const int Base_TextAppearance_AppCompat_Headline = 2131099666;
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131099666;
 			
 			// aapt resource value: 0x7f060013
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131099667;
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131099667;
 			
 			// aapt resource value: 0x7f060014
-			public const int Base_TextAppearance_AppCompat_Large = 2131099668;
+			public const int Base_TextAppearance_AppCompat_Headline = 2131099668;
 			
 			// aapt resource value: 0x7f060015
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131099669;
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131099669;
 			
 			// aapt resource value: 0x7f060016
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131099670;
+			public const int Base_TextAppearance_AppCompat_Large = 2131099670;
 			
 			// aapt resource value: 0x7f060017
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131099671;
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131099671;
 			
 			// aapt resource value: 0x7f060018
-			public const int Base_TextAppearance_AppCompat_Medium = 2131099672;
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131099672;
 			
 			// aapt resource value: 0x7f060019
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131099673;
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131099673;
 			
 			// aapt resource value: 0x7f06001a
-			public const int Base_TextAppearance_AppCompat_Menu = 2131099674;
+			public const int Base_TextAppearance_AppCompat_Medium = 2131099674;
 			
 			// aapt resource value: 0x7f06001b
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131099675;
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131099675;
 			
 			// aapt resource value: 0x7f06001c
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131099676;
+			public const int Base_TextAppearance_AppCompat_Menu = 2131099676;
 			
 			// aapt resource value: 0x7f06001d
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131099677;
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131099677;
 			
 			// aapt resource value: 0x7f06001e
-			public const int Base_TextAppearance_AppCompat_Small = 2131099678;
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131099678;
 			
 			// aapt resource value: 0x7f06001f
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131099679;
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131099679;
 			
 			// aapt resource value: 0x7f060020
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131099680;
+			public const int Base_TextAppearance_AppCompat_Small = 2131099680;
 			
 			// aapt resource value: 0x7f060021
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131099681;
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131099681;
 			
 			// aapt resource value: 0x7f060022
-			public const int Base_TextAppearance_AppCompat_Title = 2131099682;
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131099682;
 			
 			// aapt resource value: 0x7f060023
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131099683;
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131099683;
 			
 			// aapt resource value: 0x7f060024
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131099684;
+			public const int Base_TextAppearance_AppCompat_Title = 2131099684;
 			
 			// aapt resource value: 0x7f060025
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131099685;
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131099685;
 			
 			// aapt resource value: 0x7f060026
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131099686;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131099686;
 			
 			// aapt resource value: 0x7f060027
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131099687;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131099687;
 			
 			// aapt resource value: 0x7f060028
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131099688;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131099688;
 			
 			// aapt resource value: 0x7f060029
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131099689;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131099689;
 			
 			// aapt resource value: 0x7f06002a
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131099690;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131099690;
 			
 			// aapt resource value: 0x7f06002b
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131099691;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131099691;
 			
 			// aapt resource value: 0x7f06002c
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131099692;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131099692;
 			
 			// aapt resource value: 0x7f06002d
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131099693;
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131099693;
 			
 			// aapt resource value: 0x7f06002e
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131099694;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131099694;
 			
 			// aapt resource value: 0x7f06002f
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131099695;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131099695;
 			
 			// aapt resource value: 0x7f060030
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131099696;
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131099696;
 			
 			// aapt resource value: 0x7f060031
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131099697;
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131099697;
 			
 			// aapt resource value: 0x7f060032
-			public const int Base_Theme_AppCompat = 2131099698;
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131099698;
 			
 			// aapt resource value: 0x7f060033
-			public const int Base_Theme_AppCompat_CompactMenu = 2131099699;
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131099699;
 			
 			// aapt resource value: 0x7f060034
-			public const int Base_Theme_AppCompat_Dialog = 2131099700;
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131099700;
 			
 			// aapt resource value: 0x7f060035
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131099701;
+			public const int Base_Theme_AppCompat = 2131099701;
 			
 			// aapt resource value: 0x7f060036
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131099702;
+			public const int Base_Theme_AppCompat_CompactMenu = 2131099702;
 			
 			// aapt resource value: 0x7f060037
-			public const int Base_Theme_AppCompat_Light = 2131099703;
+			public const int Base_Theme_AppCompat_Dialog = 2131099703;
 			
 			// aapt resource value: 0x7f060038
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131099704;
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131099704;
 			
 			// aapt resource value: 0x7f060039
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131099705;
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131099705;
 			
 			// aapt resource value: 0x7f06003a
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131099706;
+			public const int Base_Theme_AppCompat_Light = 2131099706;
 			
 			// aapt resource value: 0x7f06003b
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131099707;
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131099707;
 			
 			// aapt resource value: 0x7f06003c
-			public const int Base_ThemeOverlay_AppCompat = 2131099708;
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131099708;
 			
 			// aapt resource value: 0x7f06003d
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131099709;
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131099709;
 			
 			// aapt resource value: 0x7f06003e
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131099710;
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131099710;
 			
 			// aapt resource value: 0x7f06003f
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131099711;
+			public const int Base_ThemeOverlay_AppCompat = 2131099711;
 			
 			// aapt resource value: 0x7f060040
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131099712;
-			
-			// aapt resource value: 0x7f0600e8
-			public const int Base_V11_Theme_AppCompat = 2131099880;
-			
-			// aapt resource value: 0x7f0600e9
-			public const int Base_V11_Theme_AppCompat_Dialog = 2131099881;
-			
-			// aapt resource value: 0x7f0600ea
-			public const int Base_V11_Theme_AppCompat_Light = 2131099882;
-			
-			// aapt resource value: 0x7f0600eb
-			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131099883;
-			
-			// aapt resource value: 0x7f0600ec
-			public const int Base_V14_Theme_AppCompat = 2131099884;
-			
-			// aapt resource value: 0x7f0600ed
-			public const int Base_V14_Theme_AppCompat_Dialog = 2131099885;
-			
-			// aapt resource value: 0x7f0600ee
-			public const int Base_V14_Theme_AppCompat_Light = 2131099886;
-			
-			// aapt resource value: 0x7f0600ef
-			public const int Base_V14_Theme_AppCompat_Light_Dialog = 2131099887;
-			
-			// aapt resource value: 0x7f0600f0
-			public const int Base_V21_Theme_AppCompat = 2131099888;
-			
-			// aapt resource value: 0x7f0600f1
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131099889;
-			
-			// aapt resource value: 0x7f0600f2
-			public const int Base_V21_Theme_AppCompat_Light = 2131099890;
-			
-			// aapt resource value: 0x7f0600f3
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131099891;
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131099712;
 			
 			// aapt resource value: 0x7f060041
-			public const int Base_V7_Theme_AppCompat = 2131099713;
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131099713;
 			
 			// aapt resource value: 0x7f060042
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131099714;
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131099714;
 			
 			// aapt resource value: 0x7f060043
-			public const int Base_V7_Theme_AppCompat_Light = 2131099715;
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131099715;
+			
+			// aapt resource value: 0x7f0600f5
+			public const int Base_V11_Theme_AppCompat = 2131099893;
+			
+			// aapt resource value: 0x7f0600f6
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131099894;
+			
+			// aapt resource value: 0x7f0600f7
+			public const int Base_V11_Theme_AppCompat_Light = 2131099895;
+			
+			// aapt resource value: 0x7f0600f8
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131099896;
+			
+			// aapt resource value: 0x7f0600f9
+			public const int Base_V14_Theme_AppCompat = 2131099897;
+			
+			// aapt resource value: 0x7f0600fa
+			public const int Base_V14_Theme_AppCompat_Dialog = 2131099898;
+			
+			// aapt resource value: 0x7f0600fb
+			public const int Base_V14_Theme_AppCompat_Light = 2131099899;
+			
+			// aapt resource value: 0x7f0600fc
+			public const int Base_V14_Theme_AppCompat_Light_Dialog = 2131099900;
+			
+			// aapt resource value: 0x7f0600fd
+			public const int Base_V21_Theme_AppCompat = 2131099901;
+			
+			// aapt resource value: 0x7f0600fe
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131099902;
+			
+			// aapt resource value: 0x7f0600ff
+			public const int Base_V21_Theme_AppCompat_Light = 2131099903;
+			
+			// aapt resource value: 0x7f060100
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131099904;
 			
 			// aapt resource value: 0x7f060044
-			public const int Base_Widget_AppCompat_ActionBar = 2131099716;
+			public const int Base_V7_Theme_AppCompat = 2131099716;
 			
 			// aapt resource value: 0x7f060045
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131099717;
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131099717;
 			
 			// aapt resource value: 0x7f060046
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131099718;
+			public const int Base_V7_Theme_AppCompat_Light = 2131099718;
 			
 			// aapt resource value: 0x7f060047
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131099719;
+			public const int Base_Widget_AppCompat_ActionBar = 2131099719;
 			
 			// aapt resource value: 0x7f060048
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131099720;
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131099720;
 			
 			// aapt resource value: 0x7f060049
-			public const int Base_Widget_AppCompat_ActionButton = 2131099721;
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131099721;
 			
 			// aapt resource value: 0x7f06004a
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131099722;
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131099722;
 			
 			// aapt resource value: 0x7f06004b
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131099723;
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131099723;
 			
 			// aapt resource value: 0x7f06004c
-			public const int Base_Widget_AppCompat_ActionMode = 2131099724;
+			public const int Base_Widget_AppCompat_ActionButton = 2131099724;
 			
 			// aapt resource value: 0x7f06004d
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131099725;
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131099725;
 			
 			// aapt resource value: 0x7f06004e
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131099726;
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131099726;
 			
 			// aapt resource value: 0x7f06004f
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131099727;
+			public const int Base_Widget_AppCompat_ActionMode = 2131099727;
 			
 			// aapt resource value: 0x7f060050
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131099728;
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131099728;
 			
 			// aapt resource value: 0x7f060051
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131099729;
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131099729;
 			
 			// aapt resource value: 0x7f060052
-			public const int Base_Widget_AppCompat_EditText = 2131099730;
+			public const int Base_Widget_AppCompat_Button = 2131099730;
 			
 			// aapt resource value: 0x7f060053
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131099731;
+			public const int Base_Widget_AppCompat_Button_Small = 2131099731;
 			
 			// aapt resource value: 0x7f060054
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131099732;
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131099732;
 			
 			// aapt resource value: 0x7f060055
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131099733;
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131099733;
 			
 			// aapt resource value: 0x7f060056
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131099734;
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131099734;
 			
 			// aapt resource value: 0x7f060057
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131099735;
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131099735;
 			
 			// aapt resource value: 0x7f060058
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131099736;
+			public const int Base_Widget_AppCompat_EditText = 2131099736;
 			
 			// aapt resource value: 0x7f060059
-			public const int Base_Widget_AppCompat_Light_ActivityChooserView = 2131099737;
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131099737;
 			
 			// aapt resource value: 0x7f06005a
-			public const int Base_Widget_AppCompat_Light_AutoCompleteTextView = 2131099738;
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131099738;
 			
 			// aapt resource value: 0x7f06005b
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131099739;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131099739;
 			
 			// aapt resource value: 0x7f06005c
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131099740;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131099740;
 			
 			// aapt resource value: 0x7f06005d
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131099741;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131099741;
 			
 			// aapt resource value: 0x7f06005e
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131099742;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131099742;
 			
 			// aapt resource value: 0x7f06005f
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131099743;
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131099743;
 			
 			// aapt resource value: 0x7f060060
-			public const int Base_Widget_AppCompat_PopupMenu = 2131099744;
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131099744;
 			
 			// aapt resource value: 0x7f060061
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131099745;
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131099745;
 			
 			// aapt resource value: 0x7f060062
-			public const int Base_Widget_AppCompat_PopupWindow = 2131099746;
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131099746;
 			
 			// aapt resource value: 0x7f060063
-			public const int Base_Widget_AppCompat_ProgressBar = 2131099747;
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131099747;
 			
 			// aapt resource value: 0x7f060064
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131099748;
+			public const int Base_Widget_AppCompat_PopupMenu = 2131099748;
 			
 			// aapt resource value: 0x7f060065
-			public const int Base_Widget_AppCompat_SearchView = 2131099749;
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131099749;
 			
 			// aapt resource value: 0x7f060066
-			public const int Base_Widget_AppCompat_Spinner = 2131099750;
+			public const int Base_Widget_AppCompat_PopupWindow = 2131099750;
 			
 			// aapt resource value: 0x7f060067
-			public const int Base_Widget_AppCompat_Spinner_DropDown_ActionBar = 2131099751;
+			public const int Base_Widget_AppCompat_ProgressBar = 2131099751;
 			
 			// aapt resource value: 0x7f060068
-			public const int Base_Widget_AppCompat_Toolbar = 2131099752;
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131099752;
 			
 			// aapt resource value: 0x7f060069
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131099753;
+			public const int Base_Widget_AppCompat_RatingBar = 2131099753;
 			
 			// aapt resource value: 0x7f06006a
-			public const int Platform_AppCompat = 2131099754;
+			public const int Base_Widget_AppCompat_SearchView = 2131099754;
 			
 			// aapt resource value: 0x7f06006b
-			public const int Platform_AppCompat_Dialog = 2131099755;
+			public const int Base_Widget_AppCompat_Spinner = 2131099755;
 			
 			// aapt resource value: 0x7f06006c
-			public const int Platform_AppCompat_Light = 2131099756;
+			public const int Base_Widget_AppCompat_Spinner_DropDown_ActionBar = 2131099756;
 			
 			// aapt resource value: 0x7f06006d
-			public const int Platform_AppCompat_Light_Dialog = 2131099757;
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131099757;
 			
 			// aapt resource value: 0x7f06006e
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131099758;
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131099758;
 			
 			// aapt resource value: 0x7f06006f
-			public const int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = 2131099759;
+			public const int Base_Widget_AppCompat_Toolbar = 2131099759;
 			
 			// aapt resource value: 0x7f060070
-			public const int RtlOverlay_Widget_AppCompat_ActionButton_Overflow = 2131099760;
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131099760;
 			
 			// aapt resource value: 0x7f060071
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131099761;
+			public const int Platform_AppCompat = 2131099761;
 			
 			// aapt resource value: 0x7f060072
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131099762;
+			public const int Platform_AppCompat_Dialog = 2131099762;
 			
 			// aapt resource value: 0x7f060073
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131099763;
+			public const int Platform_AppCompat_Light = 2131099763;
 			
 			// aapt resource value: 0x7f060074
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131099764;
+			public const int Platform_AppCompat_Light_Dialog = 2131099764;
 			
 			// aapt resource value: 0x7f060075
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131099765;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131099765;
 			
 			// aapt resource value: 0x7f060076
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131099766;
+			public const int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = 2131099766;
 			
 			// aapt resource value: 0x7f060077
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131099767;
+			public const int RtlOverlay_Widget_AppCompat_ActionButton_Overflow = 2131099767;
 			
 			// aapt resource value: 0x7f060078
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131099768;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131099768;
 			
 			// aapt resource value: 0x7f060079
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131099769;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131099769;
 			
 			// aapt resource value: 0x7f06007a
-			public const int TextAppearance_AppCompat = 2131099770;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131099770;
 			
 			// aapt resource value: 0x7f06007b
-			public const int TextAppearance_AppCompat_Body1 = 2131099771;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131099771;
 			
 			// aapt resource value: 0x7f06007c
-			public const int TextAppearance_AppCompat_Body2 = 2131099772;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131099772;
 			
 			// aapt resource value: 0x7f06007d
-			public const int TextAppearance_AppCompat_Button = 2131099773;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131099773;
 			
 			// aapt resource value: 0x7f06007e
-			public const int TextAppearance_AppCompat_Caption = 2131099774;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131099774;
 			
 			// aapt resource value: 0x7f06007f
-			public const int TextAppearance_AppCompat_Display1 = 2131099775;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131099775;
 			
 			// aapt resource value: 0x7f060080
-			public const int TextAppearance_AppCompat_Display2 = 2131099776;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131099776;
 			
 			// aapt resource value: 0x7f060081
-			public const int TextAppearance_AppCompat_Display3 = 2131099777;
+			public const int TextAppearance_AppCompat = 2131099777;
 			
 			// aapt resource value: 0x7f060082
-			public const int TextAppearance_AppCompat_Display4 = 2131099778;
+			public const int TextAppearance_AppCompat_Body1 = 2131099778;
 			
 			// aapt resource value: 0x7f060083
-			public const int TextAppearance_AppCompat_Headline = 2131099779;
+			public const int TextAppearance_AppCompat_Body2 = 2131099779;
 			
 			// aapt resource value: 0x7f060084
-			public const int TextAppearance_AppCompat_Inverse = 2131099780;
+			public const int TextAppearance_AppCompat_Button = 2131099780;
 			
 			// aapt resource value: 0x7f060085
-			public const int TextAppearance_AppCompat_Large = 2131099781;
+			public const int TextAppearance_AppCompat_Caption = 2131099781;
 			
 			// aapt resource value: 0x7f060086
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131099782;
+			public const int TextAppearance_AppCompat_Display1 = 2131099782;
 			
 			// aapt resource value: 0x7f060087
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131099783;
+			public const int TextAppearance_AppCompat_Display2 = 2131099783;
 			
 			// aapt resource value: 0x7f060088
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131099784;
+			public const int TextAppearance_AppCompat_Display3 = 2131099784;
 			
 			// aapt resource value: 0x7f060089
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131099785;
+			public const int TextAppearance_AppCompat_Display4 = 2131099785;
 			
 			// aapt resource value: 0x7f06008a
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131099786;
+			public const int TextAppearance_AppCompat_Headline = 2131099786;
 			
 			// aapt resource value: 0x7f06008b
-			public const int TextAppearance_AppCompat_Medium = 2131099787;
+			public const int TextAppearance_AppCompat_Inverse = 2131099787;
 			
 			// aapt resource value: 0x7f06008c
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131099788;
+			public const int TextAppearance_AppCompat_Large = 2131099788;
 			
 			// aapt resource value: 0x7f06008d
-			public const int TextAppearance_AppCompat_Menu = 2131099789;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131099789;
 			
 			// aapt resource value: 0x7f06008e
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131099790;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131099790;
 			
 			// aapt resource value: 0x7f06008f
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131099791;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131099791;
 			
 			// aapt resource value: 0x7f060090
-			public const int TextAppearance_AppCompat_Small = 2131099792;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131099792;
 			
 			// aapt resource value: 0x7f060091
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131099793;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131099793;
 			
 			// aapt resource value: 0x7f060092
-			public const int TextAppearance_AppCompat_Subhead = 2131099794;
+			public const int TextAppearance_AppCompat_Medium = 2131099794;
 			
 			// aapt resource value: 0x7f060093
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131099795;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131099795;
 			
 			// aapt resource value: 0x7f060094
-			public const int TextAppearance_AppCompat_Title = 2131099796;
+			public const int TextAppearance_AppCompat_Menu = 2131099796;
 			
 			// aapt resource value: 0x7f060095
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131099797;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131099797;
 			
 			// aapt resource value: 0x7f060096
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131099798;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131099798;
 			
 			// aapt resource value: 0x7f060097
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131099799;
+			public const int TextAppearance_AppCompat_Small = 2131099799;
 			
 			// aapt resource value: 0x7f060098
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131099800;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131099800;
 			
 			// aapt resource value: 0x7f060099
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131099801;
+			public const int TextAppearance_AppCompat_Subhead = 2131099801;
 			
 			// aapt resource value: 0x7f06009a
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131099802;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131099802;
 			
 			// aapt resource value: 0x7f06009b
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131099803;
+			public const int TextAppearance_AppCompat_Title = 2131099803;
 			
 			// aapt resource value: 0x7f06009c
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131099804;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131099804;
 			
 			// aapt resource value: 0x7f06009d
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131099805;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131099805;
 			
 			// aapt resource value: 0x7f06009e
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131099806;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131099806;
 			
 			// aapt resource value: 0x7f06009f
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131099807;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131099807;
 			
 			// aapt resource value: 0x7f0600a0
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131099808;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131099808;
 			
 			// aapt resource value: 0x7f0600a1
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131099809;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131099809;
 			
 			// aapt resource value: 0x7f0600a2
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131099810;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131099810;
 			
 			// aapt resource value: 0x7f0600a3
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131099811;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131099811;
 			
 			// aapt resource value: 0x7f0600a4
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131099812;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131099812;
 			
 			// aapt resource value: 0x7f0600a5
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131099813;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131099813;
 			
 			// aapt resource value: 0x7f0600a6
-			public const int Theme_AppCompat = 2131099814;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131099814;
 			
 			// aapt resource value: 0x7f0600a7
-			public const int Theme_AppCompat_CompactMenu = 2131099815;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131099815;
 			
 			// aapt resource value: 0x7f0600a8
-			public const int Theme_AppCompat_Dialog = 2131099816;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131099816;
 			
 			// aapt resource value: 0x7f0600a9
-			public const int Theme_AppCompat_DialogWhenLarge = 2131099817;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131099817;
 			
 			// aapt resource value: 0x7f0600aa
-			public const int Theme_AppCompat_Light = 2131099818;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131099818;
 			
 			// aapt resource value: 0x7f0600ab
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131099819;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131099819;
 			
 			// aapt resource value: 0x7f0600ac
-			public const int Theme_AppCompat_Light_Dialog = 2131099820;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131099820;
 			
 			// aapt resource value: 0x7f0600ad
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131099821;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131099821;
 			
 			// aapt resource value: 0x7f0600ae
-			public const int Theme_AppCompat_Light_NoActionBar = 2131099822;
+			public const int Theme_AppCompat = 2131099822;
 			
 			// aapt resource value: 0x7f0600af
-			public const int Theme_AppCompat_NoActionBar = 2131099823;
+			public const int Theme_AppCompat_CompactMenu = 2131099823;
+			
+			// aapt resource value: 0x7f0600b0
+			public const int Theme_AppCompat_Dialog = 2131099824;
+			
+			// aapt resource value: 0x7f0600b1
+			public const int Theme_AppCompat_DialogWhenLarge = 2131099825;
+			
+			// aapt resource value: 0x7f0600b2
+			public const int Theme_AppCompat_Light = 2131099826;
+			
+			// aapt resource value: 0x7f0600b3
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131099827;
+			
+			// aapt resource value: 0x7f0600b4
+			public const int Theme_AppCompat_Light_Dialog = 2131099828;
+			
+			// aapt resource value: 0x7f0600b5
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131099829;
+			
+			// aapt resource value: 0x7f0600b6
+			public const int Theme_AppCompat_Light_NoActionBar = 2131099830;
+			
+			// aapt resource value: 0x7f0600b7
+			public const int Theme_AppCompat_NoActionBar = 2131099831;
 			
 			// aapt resource value: 0x7f060000
 			public const int Theme_IAPTheme = 2131099648;
@@ -2649,20 +4048,20 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f060006
 			public const int Theme_MediaRouter_Light = 2131099654;
 			
-			// aapt resource value: 0x7f0600b0
-			public const int ThemeOverlay_AppCompat = 2131099824;
+			// aapt resource value: 0x7f0600b8
+			public const int ThemeOverlay_AppCompat = 2131099832;
 			
-			// aapt resource value: 0x7f0600b1
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131099825;
+			// aapt resource value: 0x7f0600b9
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131099833;
 			
-			// aapt resource value: 0x7f0600b2
-			public const int ThemeOverlay_AppCompat_Dark = 2131099826;
+			// aapt resource value: 0x7f0600ba
+			public const int ThemeOverlay_AppCompat_Dark = 2131099834;
 			
-			// aapt resource value: 0x7f0600b3
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131099827;
+			// aapt resource value: 0x7f0600bb
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131099835;
 			
-			// aapt resource value: 0x7f0600b4
-			public const int ThemeOverlay_AppCompat_Light = 2131099828;
+			// aapt resource value: 0x7f0600bc
+			public const int ThemeOverlay_AppCompat_Light = 2131099836;
 			
 			// aapt resource value: 0x7f060003
 			public const int WalletFragmentDefaultButtonTextAppearance = 2131099651;
@@ -2676,158 +4075,173 @@ namespace AndroidTestDrive
 			// aapt resource value: 0x7f060004
 			public const int WalletFragmentDefaultStyle = 2131099652;
 			
-			// aapt resource value: 0x7f0600b5
-			public const int Widget_AppCompat_ActionBar = 2131099829;
-			
-			// aapt resource value: 0x7f0600b6
-			public const int Widget_AppCompat_ActionBar_Solid = 2131099830;
-			
-			// aapt resource value: 0x7f0600b7
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131099831;
-			
-			// aapt resource value: 0x7f0600b8
-			public const int Widget_AppCompat_ActionBar_TabText = 2131099832;
-			
-			// aapt resource value: 0x7f0600b9
-			public const int Widget_AppCompat_ActionBar_TabView = 2131099833;
-			
-			// aapt resource value: 0x7f0600ba
-			public const int Widget_AppCompat_ActionButton = 2131099834;
-			
-			// aapt resource value: 0x7f0600bb
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131099835;
-			
-			// aapt resource value: 0x7f0600bc
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131099836;
-			
 			// aapt resource value: 0x7f0600bd
-			public const int Widget_AppCompat_ActionMode = 2131099837;
+			public const int Widget_AppCompat_ActionBar = 2131099837;
 			
 			// aapt resource value: 0x7f0600be
-			public const int Widget_AppCompat_ActivityChooserView = 2131099838;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131099838;
 			
 			// aapt resource value: 0x7f0600bf
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131099839;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131099839;
 			
 			// aapt resource value: 0x7f0600c0
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131099840;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131099840;
 			
 			// aapt resource value: 0x7f0600c1
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131099841;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131099841;
 			
 			// aapt resource value: 0x7f0600c2
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131099842;
+			public const int Widget_AppCompat_ActionButton = 2131099842;
 			
 			// aapt resource value: 0x7f0600c3
-			public const int Widget_AppCompat_EditText = 2131099843;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131099843;
 			
 			// aapt resource value: 0x7f0600c4
-			public const int Widget_AppCompat_Light_ActionBar = 2131099844;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131099844;
 			
 			// aapt resource value: 0x7f0600c5
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131099845;
+			public const int Widget_AppCompat_ActionMode = 2131099845;
 			
 			// aapt resource value: 0x7f0600c6
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131099846;
+			public const int Widget_AppCompat_ActivityChooserView = 2131099846;
 			
 			// aapt resource value: 0x7f0600c7
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131099847;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131099847;
 			
 			// aapt resource value: 0x7f0600c8
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131099848;
+			public const int Widget_AppCompat_Button = 2131099848;
 			
 			// aapt resource value: 0x7f0600c9
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131099849;
+			public const int Widget_AppCompat_Button_Small = 2131099849;
 			
 			// aapt resource value: 0x7f0600ca
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131099850;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131099850;
 			
 			// aapt resource value: 0x7f0600cb
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131099851;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131099851;
 			
 			// aapt resource value: 0x7f0600cc
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131099852;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131099852;
 			
 			// aapt resource value: 0x7f0600cd
-			public const int Widget_AppCompat_Light_ActionButton = 2131099853;
+			public const int Widget_AppCompat_EditText = 2131099853;
 			
 			// aapt resource value: 0x7f0600ce
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131099854;
+			public const int Widget_AppCompat_Light_ActionBar = 2131099854;
 			
 			// aapt resource value: 0x7f0600cf
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131099855;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131099855;
 			
 			// aapt resource value: 0x7f0600d0
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131099856;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131099856;
 			
 			// aapt resource value: 0x7f0600d1
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131099857;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131099857;
 			
 			// aapt resource value: 0x7f0600d2
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131099858;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131099858;
 			
 			// aapt resource value: 0x7f0600d3
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131099859;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131099859;
 			
 			// aapt resource value: 0x7f0600d4
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131099860;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131099860;
 			
 			// aapt resource value: 0x7f0600d5
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131099861;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131099861;
 			
 			// aapt resource value: 0x7f0600d6
-			public const int Widget_AppCompat_Light_PopupMenu = 2131099862;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131099862;
 			
 			// aapt resource value: 0x7f0600d7
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131099863;
+			public const int Widget_AppCompat_Light_ActionButton = 2131099863;
 			
 			// aapt resource value: 0x7f0600d8
-			public const int Widget_AppCompat_Light_SearchView = 2131099864;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131099864;
 			
 			// aapt resource value: 0x7f0600d9
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131099865;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131099865;
 			
 			// aapt resource value: 0x7f0600da
-			public const int Widget_AppCompat_ListPopupWindow = 2131099866;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131099866;
 			
 			// aapt resource value: 0x7f0600db
-			public const int Widget_AppCompat_ListView_DropDown = 2131099867;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131099867;
 			
 			// aapt resource value: 0x7f0600dc
-			public const int Widget_AppCompat_ListView_Menu = 2131099868;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131099868;
 			
 			// aapt resource value: 0x7f0600dd
-			public const int Widget_AppCompat_PopupMenu = 2131099869;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131099869;
 			
 			// aapt resource value: 0x7f0600de
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131099870;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131099870;
 			
 			// aapt resource value: 0x7f0600df
-			public const int Widget_AppCompat_PopupWindow = 2131099871;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131099871;
 			
 			// aapt resource value: 0x7f0600e0
-			public const int Widget_AppCompat_ProgressBar = 2131099872;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131099872;
 			
 			// aapt resource value: 0x7f0600e1
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131099873;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131099873;
 			
 			// aapt resource value: 0x7f0600e2
-			public const int Widget_AppCompat_SearchView = 2131099874;
+			public const int Widget_AppCompat_Light_SearchView = 2131099874;
 			
 			// aapt resource value: 0x7f0600e3
-			public const int Widget_AppCompat_Spinner = 2131099875;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131099875;
 			
 			// aapt resource value: 0x7f0600e4
-			public const int Widget_AppCompat_Spinner_DropDown = 2131099876;
+			public const int Widget_AppCompat_ListPopupWindow = 2131099876;
 			
 			// aapt resource value: 0x7f0600e5
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131099877;
+			public const int Widget_AppCompat_ListView_DropDown = 2131099877;
 			
 			// aapt resource value: 0x7f0600e6
-			public const int Widget_AppCompat_Toolbar = 2131099878;
+			public const int Widget_AppCompat_ListView_Menu = 2131099878;
 			
 			// aapt resource value: 0x7f0600e7
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131099879;
+			public const int Widget_AppCompat_PopupMenu = 2131099879;
+			
+			// aapt resource value: 0x7f0600e8
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131099880;
+			
+			// aapt resource value: 0x7f0600e9
+			public const int Widget_AppCompat_PopupWindow = 2131099881;
+			
+			// aapt resource value: 0x7f0600ea
+			public const int Widget_AppCompat_ProgressBar = 2131099882;
+			
+			// aapt resource value: 0x7f0600eb
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131099883;
+			
+			// aapt resource value: 0x7f0600ec
+			public const int Widget_AppCompat_RatingBar = 2131099884;
+			
+			// aapt resource value: 0x7f0600ed
+			public const int Widget_AppCompat_SearchView = 2131099885;
+			
+			// aapt resource value: 0x7f0600ee
+			public const int Widget_AppCompat_Spinner = 2131099886;
+			
+			// aapt resource value: 0x7f0600ef
+			public const int Widget_AppCompat_Spinner_DropDown = 2131099887;
+			
+			// aapt resource value: 0x7f0600f0
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131099888;
+			
+			// aapt resource value: 0x7f0600f1
+			public const int Widget_AppCompat_Spinner_Underlined = 2131099889;
+			
+			// aapt resource value: 0x7f0600f2
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131099890;
+			
+			// aapt resource value: 0x7f0600f3
+			public const int Widget_AppCompat_Toolbar = 2131099891;
+			
+			// aapt resource value: 0x7f0600f4
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131099892;
 			
 			// aapt resource value: 0x7f060007
 			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131099655;
@@ -2850,10 +4264,7 @@ namespace AndroidTestDrive
 			
 			public static int[] ActionBar = new int[]
 			{
-					2130772011,
-					2130772013,
 					2130772014,
-					2130772015,
 					2130772016,
 					2130772017,
 					2130772018,
@@ -2876,7 +4287,10 @@ namespace AndroidTestDrive
 					2130772035,
 					2130772036,
 					2130772037,
-					2130772123};
+					2130772038,
+					2130772039,
+					2130772040,
+					2130772126};
 			
 			// aapt resource value: 10
 			public const int ActionBar_background = 10;
@@ -2977,12 +4391,12 @@ namespace AndroidTestDrive
 			
 			public static int[] ActionMode = new int[]
 			{
-					2130772011,
-					2130772017,
-					2130772018,
-					2130772022,
-					2130772024,
-					2130772038};
+					2130772014,
+					2130772020,
+					2130772021,
+					2130772025,
+					2130772027,
+					2130772041};
 			
 			// aapt resource value: 3
 			public const int ActionMode_background = 3;
@@ -3004,8 +4418,8 @@ namespace AndroidTestDrive
 			
 			public static int[] ActivityChooserView = new int[]
 			{
-					2130772039,
-					2130772040};
+					2130772042,
+					2130772043};
 			
 			// aapt resource value: 1
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
@@ -3030,21 +4444,21 @@ namespace AndroidTestDrive
 			
 			public static int[] CompatTextView = new int[]
 			{
-					2130772041};
+					2130772044};
 			
 			// aapt resource value: 0
 			public const int CompatTextView_textAllCaps = 0;
 			
 			public static int[] DrawerArrowToggle = new int[]
 			{
-					2130772042,
-					2130772043,
-					2130772044,
 					2130772045,
 					2130772046,
 					2130772047,
 					2130772048,
-					2130772049};
+					2130772049,
+					2130772050,
+					2130772051,
+					2130772052};
 			
 			// aapt resource value: 6
 			public const int DrawerArrowToggle_barSize = 6;
@@ -3077,10 +4491,10 @@ namespace AndroidTestDrive
 					16843046,
 					16843047,
 					16843048,
-					2130772021,
-					2130772050,
-					2130772051,
-					2130772052};
+					2130772024,
+					2130772053,
+					2130772054,
+					2130772055};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -3225,7 +4639,7 @@ namespace AndroidTestDrive
 			{
 					16843071,
 					16843072,
-					2130772009};
+					2130772012};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -3278,10 +4692,10 @@ namespace AndroidTestDrive
 					16843236,
 					16843237,
 					16843375,
-					2130772053,
-					2130772054,
-					2130772055,
-					2130772056};
+					2130772056,
+					2130772057,
+					2130772058,
+					2130772059};
 			
 			// aapt resource value: 14
 			public const int MenuItem_actionLayout = 14;
@@ -3343,7 +4757,7 @@ namespace AndroidTestDrive
 					16843055,
 					16843056,
 					16843057,
-					2130772057};
+					2130772060};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -3372,7 +4786,7 @@ namespace AndroidTestDrive
 			public static int[] PopupWindow = new int[]
 			{
 					16843126,
-					2130772058};
+					2130772061};
 			
 			// aapt resource value: 0
 			public const int PopupWindow_android_popupBackground = 0;
@@ -3382,7 +4796,7 @@ namespace AndroidTestDrive
 			
 			public static int[] PopupWindowBackgroundState = new int[]
 			{
-					2130772059};
+					2130772062};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -3393,9 +4807,6 @@ namespace AndroidTestDrive
 					16843039,
 					16843296,
 					16843364,
-					2130772060,
-					2130772061,
-					2130772062,
 					2130772063,
 					2130772064,
 					2130772065,
@@ -3403,7 +4814,10 @@ namespace AndroidTestDrive
 					2130772067,
 					2130772068,
 					2130772069,
-					2130772070};
+					2130772070,
+					2130772071,
+					2130772072,
+					2130772073};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -3459,10 +4873,10 @@ namespace AndroidTestDrive
 					16843362,
 					16843436,
 					16843437,
-					2130772071,
-					2130772072,
-					2130772073,
-					2130772074};
+					2130772074,
+					2130772075,
+					2130772076,
+					2130772077};
 			
 			// aapt resource value: 1
 			public const int Spinner_android_background = 1;
@@ -3502,13 +4916,13 @@ namespace AndroidTestDrive
 					16843044,
 					16843045,
 					16843074,
-					2130772075,
-					2130772076,
-					2130772077,
 					2130772078,
 					2130772079,
 					2130772080,
-					2130772081};
+					2130772081,
+					2130772082,
+					2130772083,
+					2130772084};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -3540,12 +4954,25 @@ namespace AndroidTestDrive
 			// aapt resource value: 3
 			public const int SwitchCompat_track = 3;
 			
+			public static int[] SwitchCompatTextAppearance = new int[]
+			{
+					16842901,
+					16842904,
+					2130772044};
+			
+			// aapt resource value: 1
+			public const int SwitchCompatTextAppearance_android_textColor = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchCompatTextAppearance_android_textSize = 0;
+			
+			// aapt resource value: 2
+			public const int SwitchCompatTextAppearance_textAllCaps = 2;
+			
 			public static int[] Theme = new int[]
 			{
 					16842839,
-					2130772082,
-					2130772083,
-					2130772084,
+					16842926,
 					2130772085,
 					2130772086,
 					2130772087,
@@ -3624,271 +5051,274 @@ namespace AndroidTestDrive
 					2130772160,
 					2130772161,
 					2130772162,
-					2130772163};
-			
-			// aapt resource value: 19
-			public const int Theme_actionBarDivider = 19;
+					2130772163,
+					2130772164,
+					2130772165,
+					2130772166};
 			
 			// aapt resource value: 20
-			public const int Theme_actionBarItemBackground = 20;
-			
-			// aapt resource value: 13
-			public const int Theme_actionBarPopupTheme = 13;
-			
-			// aapt resource value: 18
-			public const int Theme_actionBarSize = 18;
-			
-			// aapt resource value: 15
-			public const int Theme_actionBarSplitStyle = 15;
-			
-			// aapt resource value: 14
-			public const int Theme_actionBarStyle = 14;
-			
-			// aapt resource value: 9
-			public const int Theme_actionBarTabBarStyle = 9;
-			
-			// aapt resource value: 8
-			public const int Theme_actionBarTabStyle = 8;
-			
-			// aapt resource value: 10
-			public const int Theme_actionBarTabTextStyle = 10;
-			
-			// aapt resource value: 16
-			public const int Theme_actionBarTheme = 16;
-			
-			// aapt resource value: 17
-			public const int Theme_actionBarWidgetTheme = 17;
-			
-			// aapt resource value: 43
-			public const int Theme_actionButtonStyle = 43;
-			
-			// aapt resource value: 38
-			public const int Theme_actionDropDownStyle = 38;
+			public const int Theme_actionBarDivider = 20;
 			
 			// aapt resource value: 21
-			public const int Theme_actionMenuTextAppearance = 21;
+			public const int Theme_actionBarItemBackground = 21;
 			
-			// aapt resource value: 22
-			public const int Theme_actionMenuTextColor = 22;
+			// aapt resource value: 14
+			public const int Theme_actionBarPopupTheme = 14;
 			
-			// aapt resource value: 25
-			public const int Theme_actionModeBackground = 25;
+			// aapt resource value: 19
+			public const int Theme_actionBarSize = 19;
 			
-			// aapt resource value: 24
-			public const int Theme_actionModeCloseButtonStyle = 24;
+			// aapt resource value: 16
+			public const int Theme_actionBarSplitStyle = 16;
 			
-			// aapt resource value: 27
-			public const int Theme_actionModeCloseDrawable = 27;
+			// aapt resource value: 15
+			public const int Theme_actionBarStyle = 15;
 			
-			// aapt resource value: 29
-			public const int Theme_actionModeCopyDrawable = 29;
+			// aapt resource value: 10
+			public const int Theme_actionBarTabBarStyle = 10;
 			
-			// aapt resource value: 28
-			public const int Theme_actionModeCutDrawable = 28;
-			
-			// aapt resource value: 33
-			public const int Theme_actionModeFindDrawable = 33;
-			
-			// aapt resource value: 30
-			public const int Theme_actionModePasteDrawable = 30;
-			
-			// aapt resource value: 35
-			public const int Theme_actionModePopupWindowStyle = 35;
-			
-			// aapt resource value: 31
-			public const int Theme_actionModeSelectAllDrawable = 31;
-			
-			// aapt resource value: 32
-			public const int Theme_actionModeShareDrawable = 32;
-			
-			// aapt resource value: 26
-			public const int Theme_actionModeSplitBackground = 26;
-			
-			// aapt resource value: 23
-			public const int Theme_actionModeStyle = 23;
-			
-			// aapt resource value: 34
-			public const int Theme_actionModeWebSearchDrawable = 34;
+			// aapt resource value: 9
+			public const int Theme_actionBarTabStyle = 9;
 			
 			// aapt resource value: 11
-			public const int Theme_actionOverflowButtonStyle = 11;
+			public const int Theme_actionBarTabTextStyle = 11;
+			
+			// aapt resource value: 17
+			public const int Theme_actionBarTheme = 17;
+			
+			// aapt resource value: 18
+			public const int Theme_actionBarWidgetTheme = 18;
+			
+			// aapt resource value: 44
+			public const int Theme_actionButtonStyle = 44;
+			
+			// aapt resource value: 39
+			public const int Theme_actionDropDownStyle = 39;
+			
+			// aapt resource value: 22
+			public const int Theme_actionMenuTextAppearance = 22;
+			
+			// aapt resource value: 23
+			public const int Theme_actionMenuTextColor = 23;
+			
+			// aapt resource value: 26
+			public const int Theme_actionModeBackground = 26;
+			
+			// aapt resource value: 25
+			public const int Theme_actionModeCloseButtonStyle = 25;
+			
+			// aapt resource value: 28
+			public const int Theme_actionModeCloseDrawable = 28;
+			
+			// aapt resource value: 30
+			public const int Theme_actionModeCopyDrawable = 30;
+			
+			// aapt resource value: 29
+			public const int Theme_actionModeCutDrawable = 29;
+			
+			// aapt resource value: 34
+			public const int Theme_actionModeFindDrawable = 34;
+			
+			// aapt resource value: 31
+			public const int Theme_actionModePasteDrawable = 31;
+			
+			// aapt resource value: 36
+			public const int Theme_actionModePopupWindowStyle = 36;
+			
+			// aapt resource value: 32
+			public const int Theme_actionModeSelectAllDrawable = 32;
+			
+			// aapt resource value: 33
+			public const int Theme_actionModeShareDrawable = 33;
+			
+			// aapt resource value: 27
+			public const int Theme_actionModeSplitBackground = 27;
+			
+			// aapt resource value: 24
+			public const int Theme_actionModeStyle = 24;
+			
+			// aapt resource value: 35
+			public const int Theme_actionModeWebSearchDrawable = 35;
 			
 			// aapt resource value: 12
-			public const int Theme_actionOverflowMenuStyle = 12;
+			public const int Theme_actionOverflowButtonStyle = 12;
 			
-			// aapt resource value: 50
-			public const int Theme_activityChooserViewStyle = 50;
+			// aapt resource value: 13
+			public const int Theme_actionOverflowMenuStyle = 13;
+			
+			// aapt resource value: 51
+			public const int Theme_activityChooserViewStyle = 51;
+			
+			// aapt resource value: 1
+			public const int Theme_android_windowAnimationStyle = 1;
 			
 			// aapt resource value: 0
 			public const int Theme_android_windowIsFloating = 0;
 			
+			// aapt resource value: 46
+			public const int Theme_buttonBarButtonStyle = 46;
+			
 			// aapt resource value: 45
-			public const int Theme_buttonBarButtonStyle = 45;
-			
-			// aapt resource value: 44
-			public const int Theme_buttonBarStyle = 44;
-			
-			// aapt resource value: 77
-			public const int Theme_colorAccent = 77;
-			
-			// aapt resource value: 81
-			public const int Theme_colorButtonNormal = 81;
-			
-			// aapt resource value: 79
-			public const int Theme_colorControlActivated = 79;
-			
-			// aapt resource value: 80
-			public const int Theme_colorControlHighlight = 80;
+			public const int Theme_buttonBarStyle = 45;
 			
 			// aapt resource value: 78
-			public const int Theme_colorControlNormal = 78;
-			
-			// aapt resource value: 75
-			public const int Theme_colorPrimary = 75;
-			
-			// aapt resource value: 76
-			public const int Theme_colorPrimaryDark = 76;
+			public const int Theme_colorAccent = 78;
 			
 			// aapt resource value: 82
-			public const int Theme_colorSwitchThumbNormal = 82;
+			public const int Theme_colorButtonNormal = 82;
+			
+			// aapt resource value: 80
+			public const int Theme_colorControlActivated = 80;
+			
+			// aapt resource value: 81
+			public const int Theme_colorControlHighlight = 81;
+			
+			// aapt resource value: 79
+			public const int Theme_colorControlNormal = 79;
+			
+			// aapt resource value: 76
+			public const int Theme_colorPrimary = 76;
+			
+			// aapt resource value: 77
+			public const int Theme_colorPrimaryDark = 77;
+			
+			// aapt resource value: 83
+			public const int Theme_colorSwitchThumbNormal = 83;
+			
+			// aapt resource value: 50
+			public const int Theme_dividerHorizontal = 50;
 			
 			// aapt resource value: 49
-			public const int Theme_dividerHorizontal = 49;
-			
-			// aapt resource value: 48
-			public const int Theme_dividerVertical = 48;
-			
-			// aapt resource value: 67
-			public const int Theme_dropDownListViewStyle = 67;
-			
-			// aapt resource value: 39
-			public const int Theme_dropdownListPreferredItemHeight = 39;
-			
-			// aapt resource value: 56
-			public const int Theme_editTextBackground = 56;
-			
-			// aapt resource value: 55
-			public const int Theme_editTextColor = 55;
-			
-			// aapt resource value: 42
-			public const int Theme_homeAsUpIndicator = 42;
-			
-			// aapt resource value: 74
-			public const int Theme_listChoiceBackgroundIndicator = 74;
+			public const int Theme_dividerVertical = 49;
 			
 			// aapt resource value: 68
-			public const int Theme_listPopupWindowStyle = 68;
-			
-			// aapt resource value: 62
-			public const int Theme_listPreferredItemHeight = 62;
-			
-			// aapt resource value: 64
-			public const int Theme_listPreferredItemHeightLarge = 64;
-			
-			// aapt resource value: 63
-			public const int Theme_listPreferredItemHeightSmall = 63;
-			
-			// aapt resource value: 65
-			public const int Theme_listPreferredItemPaddingLeft = 65;
-			
-			// aapt resource value: 66
-			public const int Theme_listPreferredItemPaddingRight = 66;
-			
-			// aapt resource value: 71
-			public const int Theme_panelBackground = 71;
-			
-			// aapt resource value: 73
-			public const int Theme_panelMenuListTheme = 73;
-			
-			// aapt resource value: 72
-			public const int Theme_panelMenuListWidth = 72;
-			
-			// aapt resource value: 53
-			public const int Theme_popupMenuStyle = 53;
-			
-			// aapt resource value: 54
-			public const int Theme_popupWindowStyle = 54;
-			
-			// aapt resource value: 61
-			public const int Theme_searchViewStyle = 61;
-			
-			// aapt resource value: 46
-			public const int Theme_selectableItemBackground = 46;
-			
-			// aapt resource value: 47
-			public const int Theme_selectableItemBackgroundBorderless = 47;
-			
-			// aapt resource value: 41
-			public const int Theme_spinnerDropDownItemStyle = 41;
+			public const int Theme_dropDownListViewStyle = 68;
 			
 			// aapt resource value: 40
-			public const int Theme_spinnerStyle = 40;
+			public const int Theme_dropdownListPreferredItemHeight = 40;
 			
 			// aapt resource value: 57
-			public const int Theme_switchStyle = 57;
+			public const int Theme_editTextBackground = 57;
 			
-			// aapt resource value: 36
-			public const int Theme_textAppearanceLargePopupMenu = 36;
+			// aapt resource value: 56
+			public const int Theme_editTextColor = 56;
+			
+			// aapt resource value: 43
+			public const int Theme_homeAsUpIndicator = 43;
+			
+			// aapt resource value: 75
+			public const int Theme_listChoiceBackgroundIndicator = 75;
 			
 			// aapt resource value: 69
-			public const int Theme_textAppearanceListItem = 69;
+			public const int Theme_listPopupWindowStyle = 69;
 			
-			// aapt resource value: 70
-			public const int Theme_textAppearanceListItemSmall = 70;
+			// aapt resource value: 63
+			public const int Theme_listPreferredItemHeight = 63;
 			
-			// aapt resource value: 59
-			public const int Theme_textAppearanceSearchResultSubtitle = 59;
+			// aapt resource value: 65
+			public const int Theme_listPreferredItemHeightLarge = 65;
+			
+			// aapt resource value: 64
+			public const int Theme_listPreferredItemHeightSmall = 64;
+			
+			// aapt resource value: 66
+			public const int Theme_listPreferredItemPaddingLeft = 66;
+			
+			// aapt resource value: 67
+			public const int Theme_listPreferredItemPaddingRight = 67;
+			
+			// aapt resource value: 72
+			public const int Theme_panelBackground = 72;
+			
+			// aapt resource value: 74
+			public const int Theme_panelMenuListTheme = 74;
+			
+			// aapt resource value: 73
+			public const int Theme_panelMenuListWidth = 73;
+			
+			// aapt resource value: 54
+			public const int Theme_popupMenuStyle = 54;
+			
+			// aapt resource value: 55
+			public const int Theme_popupWindowStyle = 55;
+			
+			// aapt resource value: 62
+			public const int Theme_searchViewStyle = 62;
+			
+			// aapt resource value: 47
+			public const int Theme_selectableItemBackground = 47;
+			
+			// aapt resource value: 48
+			public const int Theme_selectableItemBackgroundBorderless = 48;
+			
+			// aapt resource value: 42
+			public const int Theme_spinnerDropDownItemStyle = 42;
+			
+			// aapt resource value: 41
+			public const int Theme_spinnerStyle = 41;
 			
 			// aapt resource value: 58
-			public const int Theme_textAppearanceSearchResultTitle = 58;
+			public const int Theme_switchStyle = 58;
 			
 			// aapt resource value: 37
-			public const int Theme_textAppearanceSmallPopupMenu = 37;
+			public const int Theme_textAppearanceLargePopupMenu = 37;
+			
+			// aapt resource value: 70
+			public const int Theme_textAppearanceListItem = 70;
+			
+			// aapt resource value: 71
+			public const int Theme_textAppearanceListItemSmall = 71;
 			
 			// aapt resource value: 60
-			public const int Theme_textColorSearchUrl = 60;
+			public const int Theme_textAppearanceSearchResultSubtitle = 60;
+			
+			// aapt resource value: 59
+			public const int Theme_textAppearanceSearchResultTitle = 59;
+			
+			// aapt resource value: 38
+			public const int Theme_textAppearanceSmallPopupMenu = 38;
+			
+			// aapt resource value: 61
+			public const int Theme_textColorSearchUrl = 61;
+			
+			// aapt resource value: 53
+			public const int Theme_toolbarNavigationButtonStyle = 53;
 			
 			// aapt resource value: 52
-			public const int Theme_toolbarNavigationButtonStyle = 52;
-			
-			// aapt resource value: 51
-			public const int Theme_toolbarStyle = 51;
-			
-			// aapt resource value: 1
-			public const int Theme_windowActionBar = 1;
+			public const int Theme_toolbarStyle = 52;
 			
 			// aapt resource value: 2
-			public const int Theme_windowActionBarOverlay = 2;
+			public const int Theme_windowActionBar = 2;
 			
 			// aapt resource value: 3
-			public const int Theme_windowActionModeOverlay = 3;
-			
-			// aapt resource value: 7
-			public const int Theme_windowFixedHeightMajor = 7;
-			
-			// aapt resource value: 5
-			public const int Theme_windowFixedHeightMinor = 5;
+			public const int Theme_windowActionBarOverlay = 3;
 			
 			// aapt resource value: 4
-			public const int Theme_windowFixedWidthMajor = 4;
+			public const int Theme_windowActionModeOverlay = 4;
+			
+			// aapt resource value: 8
+			public const int Theme_windowFixedHeightMajor = 8;
 			
 			// aapt resource value: 6
-			public const int Theme_windowFixedWidthMinor = 6;
+			public const int Theme_windowFixedHeightMinor = 6;
+			
+			// aapt resource value: 5
+			public const int Theme_windowFixedWidthMajor = 5;
+			
+			// aapt resource value: 7
+			public const int Theme_windowFixedWidthMinor = 7;
 			
 			public static int[] Toolbar = new int[]
 			{
 					16842927,
 					16843072,
-					2130772013,
 					2130772016,
-					2130772032,
-					2130772033,
-					2130772034,
+					2130772019,
 					2130772035,
+					2130772036,
 					2130772037,
-					2130772164,
-					2130772165,
-					2130772166,
+					2130772038,
+					2130772040,
 					2130772167,
 					2130772168,
 					2130772169,
@@ -3898,7 +5328,10 @@ namespace AndroidTestDrive
 					2130772173,
 					2130772174,
 					2130772175,
-					2130772176};
+					2130772176,
+					2130772177,
+					2130772178,
+					2130772179};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -3969,8 +5402,8 @@ namespace AndroidTestDrive
 			public static int[] View = new int[]
 			{
 					16842970,
-					2130772177,
-					2130772178};
+					2130772180,
+					2130772181};
 			
 			// aapt resource value: 0
 			public const int View_android_focusable = 0;

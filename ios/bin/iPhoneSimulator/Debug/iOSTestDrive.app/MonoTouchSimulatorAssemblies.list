@@ -22,11 +22,11 @@ Kinvey-Utils.dll
 Newtonsoft.Json.dll
 SQLite.Net.dll
 System.Reflection.dll
-System.Linq.Expressions.dll
+System.Diagnostics.Debug.dll
 System.Runtime.Extensions.dll
+System.Linq.Expressions.dll
 System.Linq.dll
 System.Reflection.Extensions.dll
-System.Diagnostics.Debug.dll
 System.Text.Encoding.dll
 System.Threading.dll
 System.Globalization.dll
@@ -34,3 +34,5 @@ SQLite.Net.Async.dll
 System.Runtime.Serialization.Primitives.dll
 System.Net.Primitives.dll
 LinqExtender.dll
+ModernHttpClient.dll
+System.Net.Requests.dll

@@ -1,18 +1,18 @@
-# Version: 8.4.0.47 (7244769)
-# [first argument, ignore] # /Users/edward/code/klibs/Kinvey-Xamarin/iOS-TestDrive/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.47/bin/mtouch \
+# Version: 8.9.1.3 (f7736a4)
+# [first argument, ignore] # /Users/edward/code/ksamples/xamarin/TestDrive-Xamarin/ios/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.9.1.3/bin/mtouch-64 \
 	--cache \
-	obj/iPhoneSimulator/Debug/mtouch-cache \
-	--nomanifest \
-	--nosign \
+	/Users/edward/code/ksamples/xamarin/TestDrive-Xamarin/ios/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	bin/iPhoneSimulator/Debug/iOSTestDrive.app \
+	/Users/edward/code/ksamples/xamarin/TestDrive-Xamarin/ios/bin/iPhoneSimulator/Debug/iOSTestDrive.app \
+	--executable \
+	iOSTestDrive \
 	--debug \
 	--nolink \
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--sdk \
-	8.1 \
+	8.3 \
 	--targetver \
 	8.0 \
 	--abi=i386 \
@@ -23,11 +23,21 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	../packages/Newtonsoft.Json.6.0.7/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	../../../../klibs/Kinvey-Xamarin/packages/Newtonsoft.Json.6.0.8/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	../../../../klibs/Kinvey-Xamarin/packages/LinqExtender.3.0.1/lib/LinqExtender.dll \
+	-r \
+	../../../../klibs/Kinvey-Xamarin/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll \
+	-r \
+	../../../../klibs/Kinvey-Xamarin/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
+	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Utils/bin/Debug//Kinvey-Utils.dll \
+	-r \
 	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug//Kinvey-Xamarin.dll \
+	-r \
+	/Users/edward/code/klibs/Kinvey-Xamarin/RestSharp.Portable/bin/Debug//RestSharp.Portable.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -117,11 +127,19 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll \
 	-r \
-	../packages/Newtonsoft.Json.6.0.7/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	../../../../klibs/Kinvey-Xamarin/packages/Newtonsoft.Json.6.0.8/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	../../../../klibs/Kinvey-Xamarin/packages/LinqExtender.3.0.1/lib/LinqExtender.dll \
+	-r \
+	../../../../klibs/Kinvey-Xamarin/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll \
+	-r \
+	../../../../klibs/Kinvey-Xamarin/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll \
+	-r \
+	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Utils/bin/Debug//Kinvey-Utils.dll \
 	-r \
 	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug//Kinvey-Xamarin.dll \
 	-r \
-	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/RestSharp.Portable.dll \
+	/Users/edward/code/klibs/Kinvey-Xamarin/RestSharp.Portable/bin/Debug//RestSharp.Portable.dll \
 	-r \
 	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/SQLite.Net.dll \
 	-r \
@@ -129,11 +147,7 @@
 	-r \
 	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/System.Net.Http.dll \
 	-r \
-	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/Kinvey-Utils.dll \
+	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/ModernHttpClient.dll \
 	-r \
-	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/LinqExtender.dll \
-	-r \
-	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/System.Net.Http.Primitives.dll \
-	-r \
-	/Users/edward/code/klibs/Kinvey-Xamarin/Kinvey-Xamarin/bin/Debug/Microsoft.Threading.Tasks.dll \
-	/Users/edward/code/klibs/Kinvey-Xamarin/iOS-TestDrive/bin/iPhoneSimulator/Debug//iOSTestDrive.exe \
+	/Users/edward/code/klibs/Kinvey-Xamarin/RestSharp.Portable/bin/Debug/System.Net.Http.Primitives.dll \
+	/Users/edward/code/ksamples/xamarin/TestDrive-Xamarin/ios/bin/iPhoneSimulator/Debug//iOSTestDrive.exe \

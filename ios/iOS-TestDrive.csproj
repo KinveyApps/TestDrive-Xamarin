@@ -92,6 +92,18 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\klibs\Kinvey-Xamarin\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqExtender">
+      <HintPath>..\..\..\..\klibs\Kinvey-Xamarin\packages\LinqExtender.3.0.1\lib\LinqExtender.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>..\..\..\..\klibs\Kinvey-Xamarin\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wpa81\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>..\..\..\..\klibs\Kinvey-Xamarin\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wpa81\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
@@ -117,9 +129,21 @@
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
-    <InterfaceDefinition Include="MainStoryboard_iPad.storyboard">
-      <DependentUpon>DefaultContext.cs</DependentUpon>
-    </InterfaceDefinition>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\..\..\..\klibs\Kinvey-Xamarin\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\..\..\klibs\Kinvey-Xamarin\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\klibs\Kinvey-Xamarin\Kinvey-Utils\Kinvey-Utils.csproj">
+      <Project>{444456B1-5B55-48D6-9637-00ADCA92B7C9}</Project>
+      <Name>Kinvey-Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\klibs\Kinvey-Xamarin\Kinvey-Xamarin\Kinvey-Xamarin.csproj">
+      <Project>{6644D98D-026B-48E9-95A3-61C4D98D82E7}</Project>
+      <Name>Kinvey-Xamarin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\klibs\Kinvey-Xamarin\RestSharp.Portable\RestSharp.Portable.csproj">
+      <Project>{BA2352E1-CB07-4795-A2EB-F70720B2BBC9}</Project>
+      <Name>RestSharp.Portable</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

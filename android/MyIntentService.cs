@@ -2,60 +2,41 @@
 using Android.App;
 using Android.OS;
 using Android.Content;
+using KinveyXamarinAndroid;
+using Android.Support.V4.App;
+using Android.Gms.Gcm;
 
 namespace AndroidTestDrive
 {
-
-
 	[Service]
-	public class MyIntentService : IntentService
+	public class MyIntentService : KinveyGCMService
 	{
-		static PowerManager.WakeLock sWakeLock;
-		static object LOCK = new object();
-	
-		public static void RunIntentInService(Context context, Intent intent)
-		{
-			lock (LOCK)
-			{
-				if (sWakeLock == null)
-				{
-					// This is called from BroadcastReceiver, there is no init.
-					var pm = PowerManager.FromContext(context);
-					sWakeLock = pm.NewWakeLock(
-						WakeLockFlags.Partial, "My WakeLock Tag");
-				}
-			}
-	
-			sWakeLock.Acquire();
-			intent.SetClass(context, typeof(MyIntentService));
-			context.StartService(intent);
+		public override void onMessage(String message) {
+			displayNotification(message);
 		}
-	
-		protected override void OnHandleIntent(Intent intent)
-		{
-			try
-			{
-				Context context = this.ApplicationContext;
-				string action = intent.Action;
-	
-				if (action.Equals("com.google.android.c2dm.intent.REGISTRATION"))
-				{
-//					HandleRegistration(context, intent);
-				}
-				else if (action.Equals("com.google.android.c2dm.intent.RECEIVE"))
-				{
-					//HandleMessage(context, intent);
-				}
-			}
-			finally
-			{
-				lock (LOCK)
-				{
-					//Sanity check for null as this is a public method
-					if (sWakeLock != null)
-						sWakeLock.Release();
-				}
-			}
+		public override void onError(String error) {
+			displayNotification(error);
+		}
+		public override void onDelete(int deleted) {
+			displayNotification(deleted.ToString());
+		}
+		public override void onRegistered(String gcmID) {
+			displayNotification(gcmID);
+		}
+		public override void onUnregistered(String oldID) {
+			displayNotification(oldID);
+		}
+		private void displayNotification(String message){
+			Console.WriteLine(message);
+
+			NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
+				.SetContentTitle("Push Received!") // Set the title
+				.SetSmallIcon(Resource.Drawable.Icon) // This is the icon to display
+				.SetContentText(message); // the message to display.
+
+			NotificationManager notificationManager = (NotificationManager)GetSystemService(NotificationService);
+			notificationManager.Notify(100, builder.Build());
+
 		}
 	}
 }
