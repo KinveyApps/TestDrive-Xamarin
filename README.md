@@ -5,7 +5,7 @@ This application showcases how to save and retrieve data from a Kinvey datastore
 
 ## Set up TestDrive Project
 
-1. Download the [StatusShare](https://github.com/KinveyApps/TestDrive-Xamarin/archive/master.zip) project.
+1. Download the [TestDrive-Xamarin](https://github.com/KinveyApps/TestDrive-Xamarin/archive/master.zip) project.
 2. [Download Kinvey's Xamarin Library](http://devcenter.kinvey.com/xamarin/downloads) and get your app-key and app-secret from the Kinvey console, by signing up and then creating a new app.
 3. Open the project in [Xamarin Studio](http://xamarin.com/studio)
 4.  Follow the steps in the [getting started guide](http://devcenter.kinvey.com/xamarin/guides/getting-started)  to import the Kinvey library.
