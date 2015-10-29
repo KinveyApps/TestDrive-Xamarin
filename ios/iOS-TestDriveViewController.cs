@@ -44,7 +44,9 @@ namespace iOSTestDrive
 				.setOfflinePlatform(new SQLitePlatformIOS())
 				.build();
 
-			User u = await myClient.User ().LoginAsync ();
+			if (!myClient.User ().isUserLoggedIn ()) {
+				User u = await myClient.User ().LoginAsync ();
+			}
 
 
 			Console.WriteLine ("logged in as: " + myClient.User().Id);
