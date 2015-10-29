@@ -4,6 +4,7 @@ using System.Drawing;
 using Foundation;
 using UIKit;
 using KinveyXamarin;
+using SQLite.Net.Platform.XamarinIOS;
 
 namespace iOSTestDrive
 {
@@ -38,11 +39,15 @@ namespace iOSTestDrive
 		{
 			base.ViewDidLoad ();
 
-			myClient = new Client.Builder ("kid_PeYFqjBcBJ", "3fee066a01784e2ab32a255151ff761b").build ();
+			myClient = new Client.Builder ("kid_PeYFqjBcBJ", "3fee066a01784e2ab32a255151ff761b")
+				.setFilePath(NSFileManager.DefaultManager.GetUrls (NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomain.User) [0].ToString())
+				.setOfflinePlatform(new SQLitePlatformIOS())
+				.build();
 
-			await myClient.User ().LoginAsync ();
+			User u = await myClient.User ().LoginAsync ();
 
-			Console.WriteLine ("logged in as: " + myClient.User().UserName);
+
+			Console.WriteLine ("logged in as: " + myClient.User().Id);
 
 			cache = new InMemoryCache<MyEntity> ();
 			
@@ -58,7 +63,7 @@ namespace iOSTestDrive
 
 				MyEntity entity = await entityCollection.SaveAsync(ent);
 
-				Console.WriteLine("saved: " + entity);
+				Console.WriteLine("saved: " + entity.ID);
 			};
 
 			loadButton.TouchUpInside += async (object sender, EventArgs e) => {
@@ -67,7 +72,7 @@ namespace iOSTestDrive
 
 				MyEntity entity = await entityCollection.GetEntityAsync(stableId);
 
-				Console.WriteLine("loaded: " + entity);
+				Console.WriteLine("loaded: " + entity.ID);
 			};
 
 			queryButton.TouchUpInside += async (object sender, EventArgs e) => {
