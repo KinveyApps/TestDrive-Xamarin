@@ -5,3 +5,5 @@ ios/obj
 ios/packages/
 ios/bin/
 ios/obj/
+
+*.userprefs
