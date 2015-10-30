@@ -1,18 +1,17 @@
 ﻿<Properties StartupItem="iOS-TestDrive.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS-TestDriveViewController.cs">
     <Files>
       <File FileName="AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="iOS-TestDriveViewController.cs" Line="60" Column="1" />
+      <File FileName="iOS-TestDriveViewController.cs" Line="50" Column="19" />
       <File FileName="Entitlements.plist" />
       <File FileName="Info.plist" />
-      <File FileName="Main.cs" Line="17" Column="1" />
+      <File FileName="Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/edward/code/ksamples/xamarin/testdrive-ios/TestDrive-Xamarin/ios/iOS-TestDriveViewController.cs" line="60" column="1" />
-      <Breakpoint file="/Users/edward/code/ksamples/xamarin/testdrive-ios/TestDrive-Xamarin/ios/iOS-TestDriveViewController.cs" line="46" column="1" />
+      <Breakpoint file="/Users/edward/code/ksamples/xamarin/testdrive-ios/TestDrive-Xamarin/ios/iOS-TestDriveViewController.cs" line="49" column="46" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

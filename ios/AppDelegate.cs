@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-
+using KinveyXamarin;
+using SQLite.Net.Platform.XamarinIOS;
 using Foundation;
 using UIKit;
 
@@ -14,6 +15,7 @@ namespace iOSTestDrive
 	public partial class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
+		public Client myClient { get; set; }
 		
 		public override UIWindow Window {
 			get;
@@ -41,6 +43,17 @@ namespace iOSTestDrive
 		// This method is called when the application is about to terminate. Save data, if needed.
 		public override void WillTerminate (UIApplication application)
 		{
+		}
+
+		public override void FinishedLaunching(UIApplication application)
+		{
+
+
+			myClient = new Client.Builder ("kid_PeYFqjBcBJ", "3fee066a01784e2ab32a255151ff761b")
+				.setFilePath(NSFileManager.DefaultManager.GetUrls (NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomain.User) [0].ToString())
+				.setOfflinePlatform(new SQLitePlatformIOS())
+				.setLogger(delegate(string msg) { Console.WriteLine(msg);})
+				.build ();
 		}
 	}
 }

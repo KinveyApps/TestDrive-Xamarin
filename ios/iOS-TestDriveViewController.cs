@@ -39,13 +39,10 @@ namespace iOSTestDrive
 		{
 			base.ViewDidLoad ();
 
-			myClient = new Client.Builder ("kid_PeYFqjBcBJ", "3fee066a01784e2ab32a255151ff761b")
-				.setFilePath(NSFileManager.DefaultManager.GetUrls (NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomain.User) [0].ToString())
-				.setOfflinePlatform(new SQLitePlatformIOS())
-				.build();
+			myClient = ((AppDelegate)UIApplication.SharedApplication.Delegate).myClient;
 
-			if (!myClient.User ().isUserLoggedIn ()) {
-				User u = await myClient.User ().LoginAsync ();
+			if (!myClient.User ().isUserLoggedIn()) {
+				await myClient.User ().LoginAsync ();
 			}
 
 
