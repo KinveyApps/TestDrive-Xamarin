@@ -72,22 +72,11 @@ namespace AndroidTestDrive
 
 			kinveyClient = new Client.Builder(appKey, appSecret)
 				.setFilePath(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal))
-				//.setOfflinePlatform(new SQLitePlatformAndroid())
+				.setOfflinePlatform(new SQLitePlatformAndroid())
 				.setLogger(delegate(string msg) { Console.WriteLine(msg);})
-				//.setBaseURL("https://v3yk1n-kcs.kinvey.com")
 				.SetProjectId("517053089453")
 				.build();
 
-			//kinveyClient.SetClientAppVersion (1, 2, 3);
-			//kinveyClient.SetCustomRequestProperty ("region", "FR");
-
-//			JObject headers = new JObject ();
-//			headers ["hello"] = "hey";
-//			kinveyClient.SetCustomRequestProperties(headers);
-//
-//			var h = kinveyClient.GetCustomRequestProperties ();
-//			h["what"] = 1;
-//	
 
 			Logger.Log ("---------------------------------------------logger");
 
